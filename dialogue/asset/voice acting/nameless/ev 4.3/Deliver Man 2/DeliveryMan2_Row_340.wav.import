@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cec47bmoh53qn"
+path="res://.godot/imported/DeliveryMan2_Row_340.wav-a790f03400f45022cb254507637b47bc.sample"
+
+[deps]
+
+source_file="res://dialogue/asset/voice acting/nameless/ev 4.3/Deliver Man 2/DeliveryMan2_Row_340.wav"
+dest_files=["res://.godot/imported/DeliveryMan2_Row_340.wav-a790f03400f45022cb254507637b47bc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

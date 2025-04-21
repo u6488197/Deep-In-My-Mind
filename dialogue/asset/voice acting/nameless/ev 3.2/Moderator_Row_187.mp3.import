@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ch1rjlx20l558"
+path="res://.godot/imported/Moderator_Row_187.mp3-cbbd036e076269f45d33fd6ed6761891.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/voice acting/nameless/ev 3.2/Moderator_Row_187.mp3"
+dest_files=["res://.godot/imported/Moderator_Row_187.mp3-cbbd036e076269f45d33fd6ed6761891.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

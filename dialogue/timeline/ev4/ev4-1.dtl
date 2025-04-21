@@ -1,0 +1,109 @@
+[music fade="0.0" volume="0.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 4.1/music_charging_to_before_past.mp3" fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.1/ev4.1(1).png" fade="2.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 4.1/sfx_open_door_first.mp3" volume="0.0"]
+[wait time="2.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 4.1/sfx_close_door.mp3" volume="0.0"]
+join kokoro (normal2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.1/Kokoro_Row_293.mp3" volume="0.0"]
+kokoro: This phone must be able to give me definite answers about Kazumi.
+update kokoro (blank)
+update kokoro (blank)
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.1/ev4.1(2).png" fade="1.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 4.1/sfx_charging.mp3" volume="0.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.1/ev4.1(3).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (normal2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.1/Kokoro_Row_294.mp3" volume="0.0"]
+kokoro: Thank god! It’s still working.
+update kokoro (blank) 0
+update kokoro (blank) 0
+[wait time="0.5"]
+- App D
+	join kokoro (normal2.6) 0
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.1/Kokoro_Row_295.mp3" volume="0.0"]
+	kokoro: I’ll start with this application.
+	update kokoro (blank) 0
+	update kokoro (blank) 4
+	[background arg="res://dialogue/asset/background/timeline/ev4/ev4.1/ev4.1(4).png" fade="0.0"]
+	[wait time="1.5"]
+	join kokoro (scared2.7) 4
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.1/Kokoro_Row_297.mp3" volume="0.0"]
+	kokoro: Oh my goodness, such bad messages!
+	update kokoro 0
+	update kokoro 4
+	join kokoro (scared2.7) 4
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.1/Kokoro_Row_298.mp3" volume="0.0" bus="Master"]
+	kokoro: I’ve never imagined many people sending such negative messages to Kazumi.
+	leave --All--
+	[wait time="0.5"]
+	- Open SMS
+		[background arg="res://dialogue/asset/background/timeline/ev4/ev4.1/ev4.1(5).png" fade="2.0"]
+		[wait time="1.5"]
+		join kokoro (scared2.7) 4
+		[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.1/Kokoro_Row_300.mp3" volume="0.0" bus="Master"]
+		kokoro: Are there more of these messages in this application too?...
+		leave --All--
+		jump Continue
+	- Close the phone
+		leave --All--
+		jump Continue
+- SMS
+	join kokoro (scared2.7) 4
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.1/Kokoro_Row_295.mp3" volume="0.0" bus="Master"]
+	kokoro: I’ll start with this application.
+	update kokoro (blank) 4
+	update kokoro (blank)
+	[background arg="res://dialogue/asset/background/timeline/ev4/ev4.1/ev4.1(5).png" fade="2.0"]
+	[wait time="1.5"]
+	join kokoro (scared2.7) 4
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.1/Kokoro_Row_300.mp3" volume="0.0"]
+	kokoro: Are there more of these messages in this application too?...
+	leave --All--
+	[wait time="0.5"]
+	- Open App D
+		[background arg="res://dialogue/asset/background/timeline/ev4/ev4.1/ev4.1(4).png" fade="0.0"]
+		[wait time="1.5"]
+		[update_position position="4" vector="Vector2(10, 0)" time="0.0"]
+		join kokoro (scared2.7) 4
+		[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.1/Kokoro_Row_297.mp3" volume="0.0" bus="Master"]
+		kokoro: Oh my goodness, such bad messages!
+		update kokoro (blank) 4
+		update kokoro (blank) 4
+		join kokoro (scared2.7) 4
+		[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.1/Kokoro_Row_298.mp3" volume="0.0" bus="Master"]
+		kokoro: I’ve never imagined many people sending such negative messages to Kazumi.
+		leave --All--
+		jump Continue
+	- Close the phone
+		leave --All--
+		jump Continue
+label Continue
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.1/ev4.1(1).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (sad1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.1/Kokoro_Row_301.mp3" volume="0.0"]
+kokoro: I’ve never thought that Kazumi would have to encounter a situation like this.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (sad1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.1/Kokoro_Row_302.mp3" volume="0.0"]
+kokoro: I’m not surprised at all that her case was concluded to be suicide.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (sad1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.1/Kokoro_Row_303.mp3" volume="0.0"]
+kokoro: Eh! Or maybe this might have started when she worked individually.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (sad1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.1/Kokoro_Row_304.mp3" volume="0.0"]
+kokoro: I remember that there were both compliments and criticisms at that time.
+leave --All--
+[background scene="res://dialogue/scene/previous_year.tscn" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="1.0"]
+[wait time="1.0"]
+[clear time="1.0" step="false" text="false" background="false" style="false"]
+jump ev4-2/

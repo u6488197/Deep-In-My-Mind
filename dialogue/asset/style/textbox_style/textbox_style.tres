@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="DialogicStyle" load_steps=3 format=3 uid="uid://b8xcpsq8ekxx"]
+
+[ext_resource type="PackedScene" uid="uid://cqpb3ie51rwl5" path="res://dialogue/asset/style/CustomTextboxStyle/custom_textbox_style.tscn" id="1_v6a6v"]
+[ext_resource type="Script" path="res://addons/dialogic/Resources/dialogic_style.gd" id="10_myor1"]
+
+[resource]
+script = ExtResource("10_myor1")
+name = "textbox_style"
+base_scene = ExtResource("1_v6a6v")
+base_overrides = {
+"canvas_layer": "-1.0"
+}
+layers = Array[Resource("res://addons/dialogic/Resources/dialogic_style_layer.gd")]([])
+metadata/_latest_layer = -1

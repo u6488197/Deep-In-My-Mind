@@ -1,0 +1,58 @@
+[music fade="0.0" volume="0.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 6.3/music_kazumi_pov.mp3" fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.3/ev6.3(1).png" fade="2.0"]
+[wait time="2.0"]
+join kazumi (normal1.5) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.3/Kazumi_Row_642.mp3" volume="0.0"]
+kazumi: But I think that person may have stopped following me.
+update kazumi (blank)
+update kazumi (blank)
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.3/Akane_Row_643.mp3" volume="0.0"]
+akane: You’ve had it tougher than I have.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.3/Akane_Row_644.mp3" volume="0.0"]
+akane: At that time, I also wanted to contact you back, but my phone has been broken since the day that we had met at my condo.
+update kokoro (blank)
+update kokoro (blank)
+join kazumi (happy1.2) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.3/Kazumi_Row_645.mp3" volume="0.0"]
+kazumi: I’m alright now because I've seen you.
+update kazumi (blank)
+update kazumi (blank)
+join kokoro (happy2.8) 0
+akane: …
+update kokoro (blank)
+update kokoro (blank)
+join kazumi (happy1.2) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.3/Kazumi_Row_647.mp3" volume="0.0"]
+kazumi: Hey, Kokoro.
+update kazumi (blank)
+update kazumi (blank)
+join kazumi (happy1.2) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.3/Kazumi_Row_648.mp3" volume="0.0"]
+kazumi: Can we return to being good friends like before?
+update kazumi (blank)
+update kazumi (blank)
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.3/Akane_Row_649.mp3" volume="0.0"]
+akane: Of course! I want that too.
+update kokoro (blank)
+update kokoro (blank)
+The friendship of them has returned once again.
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.3/Akane_Row_651.mp3" volume="0.0"]
+akane: So, as a way to make up for making you worry, I’ll stay with you for three days. How does that sound?
+update kokoro (blank)
+update kokoro (blank)
+join kazumi (happy1.2) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.3/Kazumi_Row_652.mp3" volume="0.0"]
+kazumi: Really? Of course, I’m so happy!
+leave --All--
+[clear time="1.0" step="false" text="false" background="false" style="false"]
+[music fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="3.0"]
+[wait time="3.0"]
+jump ev6-4/

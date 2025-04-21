@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bmqmfjxwnuc1x"
+path="res://.godot/imported/music_talk.mp3-0bd48be15b720cf34d0f4fa8235318c5.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 2.2/music_talk.mp3"
+dest_files=["res://.godot/imported/music_talk.mp3-0bd48be15b720cf34d0f4fa8235318c5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

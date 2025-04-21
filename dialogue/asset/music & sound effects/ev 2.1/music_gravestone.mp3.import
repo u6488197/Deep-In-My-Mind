@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dn5d32s6ma256"
+path="res://.godot/imported/music_gravestone.mp3-f48b145f094421a7359db58424359289.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 2.1/music_gravestone.mp3"
+dest_files=["res://.godot/imported/music_gravestone.mp3-f48b145f094421a7359db58424359289.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

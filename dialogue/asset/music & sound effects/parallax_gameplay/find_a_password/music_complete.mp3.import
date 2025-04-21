@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d1dvn8owj8fow"
+path="res://.godot/imported/music_complete.mp3-a170b6a2f2029641267bcc2d46bbee35.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/parallax_gameplay/find_a_password/music_complete.mp3"
+dest_files=["res://.godot/imported/music_complete.mp3-a170b6a2f2029641267bcc2d46bbee35.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

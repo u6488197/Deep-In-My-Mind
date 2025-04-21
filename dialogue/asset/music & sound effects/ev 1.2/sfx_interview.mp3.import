@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dtwiagortepet"
+path="res://.godot/imported/sfx_interview.mp3-828d1123c03c467f2443db7367859977.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 1.2/sfx_interview.mp3"
+dest_files=["res://.godot/imported/sfx_interview.mp3-828d1123c03c467f2443db7367859977.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

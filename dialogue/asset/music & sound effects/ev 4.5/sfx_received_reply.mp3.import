@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cc8d44npavoxo"
+path="res://.godot/imported/sfx_received_reply.mp3-ef62c399a39801a55f9aa89e100c5c99.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 4.5/sfx_received_reply.mp3"
+dest_files=["res://.godot/imported/sfx_received_reply.mp3-ef62c399a39801a55f9aa89e100c5c99.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

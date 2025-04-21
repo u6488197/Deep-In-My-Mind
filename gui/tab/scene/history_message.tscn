@@ -1,0 +1,45 @@
+[gd_scene load_steps=6 format=3 uid="uid://bc64cpnyro3vl"]
+
+[ext_resource type="Script" path="res://gui/tab/script/history_message.gd" id="1_7mwmf"]
+[ext_resource type="FontFile" uid="uid://cdjs3xxyrqxfy" path="res://asset/font/HinaMincho-Regular.ttf" id="2_382km"]
+[ext_resource type="Texture2D" uid="uid://c505fk8ge83gs" path="res://gui/asset/elements/Pause/log-divider.png" id="4_0dnym"]
+
+[sub_resource type="Theme" id="Theme_f36bi"]
+Label/font_sizes/font_size = 20
+Label/fonts/font = ExtResource("2_382km")
+RichTextLabel/colors/default_color = Color(0, 0, 0, 1)
+RichTextLabel/fonts/bold_font = ExtResource("2_382km")
+RichTextLabel/fonts/normal_font = ExtResource("2_382km")
+
+[sub_resource type="LabelSettings" id="LabelSettings_v6r0v"]
+font = ExtResource("2_382km")
+font_size = 20
+
+[node name="HistoryMessage" type="VBoxContainer"]
+offset_right = 566.0
+offset_bottom = 109.0
+theme = SubResource("Theme_f36bi")
+script = ExtResource("1_7mwmf")
+
+[node name="Speaker" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_382km")
+text = "Narrator"
+label_settings = SubResource("LabelSettings_v6r0v")
+
+[node name="Message" type="RichTextLabel" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("2_382km")
+theme_override_font_sizes/normal_font_size = 17
+bbcode_enabled = true
+text = "This is a cool text event. Maybe it even has multiple lines? Who knows..."
+fit_content = true
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("4_0dnym")
+expand_mode = 1
+stretch_mode = 3

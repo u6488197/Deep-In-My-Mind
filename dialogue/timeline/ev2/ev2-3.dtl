@@ -1,0 +1,28 @@
+[music fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev2/ev2.3/two_characters.png" fade="0.0"]
+[clear time="0.1" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[music path="res://dialogue/asset/music & sound effects/ev 2.3/music_start_separation.mp3" fade="0.0" volume="0.0"]
+join kazumi (sad1.4) 1
+join kokoro (sad3.2) 3
+However, they haven’t seen each other much lately since their company kicked off a new music project.
+join kazumi (sad1.4) 1
+join kokoro (sad3.2) 3
+Kokoro started practicing dancing and singing for the new music project.
+join kazumi (sad1.4) 1
+join kokoro (sad3.2) 3
+As for Kazumi, she had to finish filming the movie before she could start the rehearsal schedule for the new music project.
+join kazumi (sad1.4) 1
+join kokoro (sad3.2) 3
+Sometimes, after finishing filming, Kazumi would head to the practice venue to rehearse for a new music project.
+join kazumi (sad1.4) 1
+join kokoro (sad3.2) 3
+But when she arrived at the practice venue, Kokoro wasn’t there.
+join kazumi (sad1.4) 1
+join kokoro (sad3.2) 3
+After that, their relationship started to drift apart.
+leave --All--
+[music fade="0.0" volume="0.0"]
+[clear time="0.1" step="false" text="false" background="false" style="false"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="3.0"]
+[wait time="3.0"]
+jump ev2-4/

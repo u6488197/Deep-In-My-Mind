@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b0g2pxjbr6u0a"
+path="res://.godot/imported/music_akane_dream.mp3-d8f51c312c6b54bb26e9924c2689fe82.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 4.4/music_akane_dream.mp3"
+dest_files=["res://.godot/imported/music_akane_dream.mp3-d8f51c312c6b54bb26e9924c2689fe82.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

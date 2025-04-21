@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://5l2frbgmw027"
+path="res://.godot/imported/Manami_Row_723.mp3-14a4db12f4373b777d1d9bf353abc121.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/voice acting/manami/Manami_Row_723.mp3"
+dest_files=["res://.godot/imported/Manami_Row_723.mp3-14a4db12f4373b777d1d9bf353abc121.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

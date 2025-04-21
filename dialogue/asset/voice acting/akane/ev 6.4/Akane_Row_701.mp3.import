@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://danm1p2unecvp"
+path="res://.godot/imported/Akane_Row_701.mp3-3169d09ff76a568d03b44bd6f23cc137.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/voice acting/akane/ev 6.4/Akane_Row_701.mp3"
+dest_files=["res://.godot/imported/Akane_Row_701.mp3-3169d09ff76a568d03b44bd6f23cc137.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

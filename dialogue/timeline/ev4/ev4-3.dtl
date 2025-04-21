@@ -1,0 +1,282 @@
+[music fade="0.0" volume="0.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 4.3/music_cough.mp3" fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.3/ev4.3(9)-1.png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.3/ev4.3(1).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (sad1.7) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_331.mp3" volume="0.0"]
+kokoro: I’ve been investigating Kazumi’s case for a while now, but I haven’t come across any evidences that could lead to identify the culprit.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (normal1.9) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_332.mp3" volume="0.0"]
+kokoro: Or maybe I’m just overthinking it, as Miss Ami told me.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (normal1.9) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_333.mp3" volume="0.0"]
+kokoro: Sigh! I’m so exhausted.
+update kokoro (blank)
+update kokoro (blank)
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.3/ev4.3(2).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (normal1.9) 0
+join kokoro (normal1.9) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_334.mp3" volume="0.0"]
+kokoro: Hmm? What's that?
+update kokoro (blank)
+update kokoro (blank)
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.3/ev4.3(3).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (normal1.9) 0
+join kokoro (normal1.9) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_335.mp3" volume="0.0"]
+kokoro: What kind of bottle is this?
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (normal1.9) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_336.mp3" volume="0.0"]
+kokoro: Cough syrup? Whose is it?
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (normal1.9) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_337.mp3" volume="0.0"]
+kokoro: I’m absolutely sure that it’s not mine.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (normal1.9) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_338.mp3" volume="0.0"]
+kokoro: I’ve tried it before, but I really dislike its bitter taste.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (normal1.9) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_339.mp3" volume="0.0"]
+kokoro: It could be Miss Ami's; she might have left it here by mistake. I’ve seen her use it before.
+update kokoro (blank)
+update kokoro (blank)
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="3.0"]
+[wait time="3.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 4.3/sfx_knock_door.mp3" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.3/ev4.3(4).png" fade="2.0"]
+[wait time="2.0"]
+[voice path="res://dialogue/asset/voice acting/nameless/ev 4.3/Deliver Man 2/DeliveryMan2_Row_340.wav" volume="0.0"]
+Miss Kokoro, are you around? There is a parcel for you.
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_341.mp3" volume="0.0"]
+kokoro: Yes, I am. But I didn’t order anything. Are you certain that it’s intended for me?
+update kokoro (blank) 0
+update kokoro (blank)
+[voice path="res://dialogue/asset/voice acting/nameless/ev 4.3/Deliver Man 2/DeliveryMan2_Row_342.wav" volume="0.0"]
+Indeed, I am. The sender mentioned it’s a doll
+[sound path="res://dialogue/asset/music & sound effects/ev 4.3/sfx_open_door.mp3" volume="0.0"]
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_343.mp3" volume="0.0"]
+kokoro: Um, alright then.
+update kokoro (blank)
+update kokoro (blank)
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.3/ev4.3(5).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_344.mp3" volume="0.0"]
+kokoro: Thank you.
+update kokoro (blank) 0
+update kokoro (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 4.3/sfx_close_door.mp3" volume="0.0"]
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_345.mp3" volume="0.0"]
+join kokoro (normal1.4) 0
+kokoro: Maybe it was sent from Miss Ami. But I’d better not open it right now, just in case.
+update kokoro (blank) 0
+update kokoro (blank) 0
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="3.0"]
+[wait time="3.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.3/ev4.3(6).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_346.mp3" volume="0.0"]
+kokoro: I’ll call and ask her later. The company is really busy these days, so she probably has a lot of work as well.
+update kokoro (blank)
+update kokoro (blank)
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[music path="res://dialogue/asset/music & sound effects/ev 4.3/music_lilly.mp3" fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.3/ev4.3(7).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (scared1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_347.mp3" volume="0.0"]
+kokoro: That’s a lily flower!
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (scared1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_348.mp3" volume="0.0"]
+kokoro: How can it be here?
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (scared1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_349.mp3" volume="0.0"]
+kokoro: It’s impossible for me to buy it. How strange!
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (scared1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_350.mp3" volume="0.0"]
+kokoro: Once, a fan gave it to me, and I almost had to be admitted to a hospital.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (scared1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_351.mp3" volume="0.0"]
+kokoro: I learned that I’m allergic to the lily pollen that day.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (scared1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_352.mp3" volume="0.0"]
+kokoro: I need to dispose of it carefully.
+update kokoro (blank)
+update kokoro (blank)
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.3/ev4.3(8).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_353.mp3" volume="0.0"]
+kokoro: Sigh, have I really been this forgetful?
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_354.mp3" volume="0.0"]
+kokoro: I can’t even remember why the things that I wouldn’t buy are in my room.
+update kokoro (blank)
+update kokoro (blank)
+[sound path="res://dialogue/asset/music & sound effects/ev 4.3/sfx_sound_in_front_of_door.mp3" volume="6.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 4.3/sfx_sound_in_front_of_door.mp3" volume="6.0" bus=""]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.3/ev4.3(6).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_355.mp3" volume="0.0"]
+kokoro: What’s that noise? It seems to be coming from the front door.
+update kokoro (blank)
+update kokoro (blank)
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.3/ev4.3(4).png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.3/ev4.3(9).png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.3/ev4.3(4).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_356.mp3" volume="0.0"]
+kokoro: I have to check what's happening outside of my room.
+update kokoro (blank)
+update kokoro (blank)
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[music path="res://dialogue/asset/music & sound effects/ev 4.3/music_peephole.mp3" fade="0.0" volume="0.0"]
+join kokoro (scared1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_357.mp3" volume="0.0"]
+kokoro: Who’s this guy? He doesn’t seem to be a delivery man, for sure.
+update kokoro (blank)
+update kokoro (blank)
+[sound path="res://dialogue/asset/music & sound effects/ev 4.3/sfx_stalker_knocks_door.mp3" volume="0.0"]
+[voice path="res://dialogue/asset/voice acting/nameless/ev 4.3/Strange Man(Stalker)/StrangeMan_Row_358.wav" volume="0.0"]
+Is this Miss Kokoro’s room?
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (scared1.6) 0
+[voice path="res://dialogue/asset/voice acting/nameless/ev 4.3/Strange Man(Stalker)/StrangeMan_Row_360.wav" volume="0.0"]
+I know you are in the room.
+update kokoro (blank)
+update kokoro (blank)
+[voice path="res://dialogue/asset/voice acting/nameless/ev 4.3/Strange Man(Stalker)/StrangeMan_Row_361.wav" volume="0.0"]
+At first, I thought you lived in the same condo as Kazumi.
+[voice path="res://dialogue/asset/voice acting/nameless/ev 4.3/Strange Man(Stalker)/StrangeMan_Row_362.wav" volume="0.0"]
+It’s very difficult to find out where you live.
+[voice path="res://dialogue/asset/voice acting/nameless/ev 4.3/Strange Man(Stalker)/StrangeMan_Row_363.wav" volume="0.0"]
+Do you like the gift I gave you?
+join kokoro (scared1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_364.mp3" volume="0.0"]
+kokoro: Does he mean the parcel that was informed to be a doll?
+update kokoro (blank)
+update kokoro (blank)
+[voice path="res://dialogue/asset/voice acting/nameless/ev 4.3/Strange Man(Stalker)/StrangeMan_Row_365.wav" volume="0.0"]
+During your time off, I’ve missed you a lot. I really want to see your pretty face. Can you come out to see me?
+join kokoro (shock1.6) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 1.1/woman-crying-291098.mp3" volume="6.0"]
+kokoro: !!!
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (shock1.6) 0
+Kokoro is extremely terrified by the mysterious man's words.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (shock1.6) 0
+She tries her best to hold it together and stay silent.
+update kokoro (blank)
+update kokoro (blank)
+That man waits outside Kokoro’s front door for a while.
+[voice path="res://dialogue/asset/voice acting/nameless/ev 4.3/Strange Man(Stalker)/StrangeMan_Row_370.wav" volume="0.0"]
+Ugh, how unfortunate. It seems you're not in the room.
+[voice path="res://dialogue/asset/voice acting/nameless/ev 4.3/Strange Man(Stalker)/StrangeMan_Row_371.wav" volume="0.0"]
+I’ll come back to you later.
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[sound path="res://dialogue/asset/music & sound effects/ev 4.3/walking-sound-effect-272246.mp3" volume="0.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 4.3/music_finish_talking_with_stalker.mp3" fade="0.0" volume="0.0"]
+join kokoro (shock1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_372.mp3" volume="0.0"]
+kokoro: Has he already left?
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (shock1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_373.mp3" volume="0.0"]
+kokoro: Am I being stalked by that man?
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (shock1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_374.mp3" volume="0.0"]
+kokoro: What should I do?
+update kokoro (blank) 0
+update kokoro (blank) 0
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.3/ev4.3(9)-1.png" fade="2.0"]
+[wait time="2.0"]
+After that day, these incidents started happening frequently.
+Kokoro eventually reported the situation to the condo manager and Miss Ami.
+Therefore, the mysterious man no longer approached Kokoro.
+However, he still seemed to be watching her from afar.
+That's keeping her anxious.
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.3/ev4.3(12).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_380.mp3" volume="0.0"]
+kokoro: There are many bad things that have been happening to me these days…
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_381.mp3" volume="0.0"]
+kokoro: However, I’m an idol, I should take care of myself.
+update kokoro (blank)
+update kokoro (blank)
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.3/ev4.3(13).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_382.mp3" volume="0.0"]
+kokoro: Huh! It’s…
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_383.mp3" volume="0.0"]
+kokoro: Whose is this perfume bottle? I’ve never bought this brand.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_384.mp3" volume="0.0"]
+kokoro: What on earth has been happening to me?
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_385.mp3" volume="0.0"]
+kokoro: Oh, no…no way. It’s not real, right?
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_386.mp3" volume="0.0"]
+kokoro: Or I may be the next chosen person, Kazumi.
+update kokoro (blank)
+update kokoro (blank)
+leave --All--
+[clear time="1.0" step="false" text="false" background="false" style="false"]
+jump ev4-4/

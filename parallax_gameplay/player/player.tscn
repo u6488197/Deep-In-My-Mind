@@ -1,0 +1,61 @@
+[gd_scene load_steps=7 format=3 uid="uid://dohmbwjlbirsv"]
+
+[ext_resource type="Script" path="res://parallax_gameplay/player/player.gd" id="1_es3kp"]
+[ext_resource type="Texture2D" uid="uid://bdp1exb6st5fd" path="res://parallax_gameplay/player/asset/sprite/1.png" id="2_cjydb"]
+[ext_resource type="Texture2D" uid="uid://bhlgn2l877o42" path="res://parallax_gameplay/player/asset/sprite/2.png" id="3_4hpo0"]
+[ext_resource type="Texture2D" uid="uid://t1peco2me8c0" path="res://parallax_gameplay/player/asset/sprite/3.png" id="4_0pl4a"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_i0hvq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_cjydb")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_4hpo0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_0pl4a")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_sd5x6"]
+radius = 104.0
+height = 384.0
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+position = Vector2(-8, 0)
+script = ExtResource("1_es3kp")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(160, 480)
+scale = Vector2(0.183205, 0.209322)
+sprite_frames = SubResource("SpriteFrames_i0hvq")
+animation = &"walk"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(164, 460)
+shape = SubResource("CapsuleShape2D_sd5x6")
+
+[node name="first_camera" type="Camera2D" parent="."]
+position = Vector2(624, 360)
+limit_left = 0
+limit_top = 0
+limit_right = 5120
+limit_bottom = 656
+rotation_smoothing_enabled = true
+
+[node name="second_camera" type="Camera2D" parent="."]
+position = Vector2(649, 360)
+limit_left = 0
+limit_top = 0
+limit_right = 3839
+limit_bottom = 0

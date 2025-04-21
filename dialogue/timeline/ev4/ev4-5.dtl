@@ -1,0 +1,87 @@
+[music path="res://dialogue/asset/music & sound effects/ev 4.5/music_past.mp3" fade="0.0" volume="0.0" loop="false"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.5/ev4.5(1).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (sad3.2) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.5/Kokoro_Row_433.mp3" volume="0.0"]
+kokoro: Since the day that the first movie that Kazumi starred in was released, I’ve not talked to her at all.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (sad3.2) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.5/Kokoro_Row_434.mp3" volume="0.0"]
+kokoro: I feel awful about what I have done, especially since it’s not Kazumi’s fault at all.
+update kokoro (blank)
+update kokoro (blank)
+[sound path="res://dialogue/asset/music & sound effects/ev 4.5/sfx_texting.mp3" volume="0.0"]
+join kokoro (sad3.2) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.5/Kokoro_Row_435.mp3" volume="0.0"]
+kokoro: I should apologize to her.
+update kokoro (blank)
+update kokoro (blank)
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.5/ev4.5(2).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (sad3.2) 0
+join kokoro (sad3.2) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.5/Kokoro_Row_438.mp3" volume="0.0"]
+kokoro: I hope you will forgive me.
+update kokoro (blank)
+update kokoro (blank)
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.5/ev4.5(3).png" fade="2.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 4.5/sfx_received_reply.mp3" volume="0.0"]
+[wait time="2.0"]
+join kokoro (sad3.2) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.5/Kokoro_Row_440.mp3" volume="0.0"]
+kokoro: Although I’m the one truly at fault, you still forgive and apologize for the things you didn’t do.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad3.2) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.5/Kokoro_Row_441.mp3" volume="0.0"]
+kokoro: I’m very lucky to have you as a friend.
+update kokoro (blank) 1
+update kokoro (blank) 1
+[music fade="0.0" volume="0.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 4.5/music_on_the_stage.mp3" fade="0.0" volume="0.0"]
+Kokoro and Kazumi talked things out and cleared up their misunderstanding. Therefore, their relationship was back to good state again.
+[background scene="res://dialogue/scene/anniversary.tscn" fade="3.0"]
+[wait time="3.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="1.0"]
+[wait time="1.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.5/ev4.5(4).png" fade="2.0"]
+[wait time="2.0"]
+Afterward, Kokoro and Kazumi's first anniversary as idols had arrived.
+On that day, they performed a concert to celebrate their first anniversary as idols.
+[update_position action="set_absolute" position="1" vector="Vector2(300, 45)" time="0.0"]
+[update_position action="set_absolute" position="3" vector="Vector2(460, 60)" time="0.0"]
+A lot of fans had been eagerly waiting for this day to see their incredible performance on such a special occasion.
+[music fade="0.0" volume="0.0"]
+join kokoro (happy-full) 1
+join kazumi (happy-full) 3
+[music path="res://dialogue/asset/music & sound effects/ev 4.5/crowd-cheering-314920.mp3" fade="0.0" volume="-3.0" loop="false"]
+As the concert started, Kokoro and Kazumi reminisced about the time they first hit the stage as idols.
+update kokoro (blank) 1
+update kazumi (blank) 3
+join kokoro (happy-full) 1
+join kazumi (happy-full) 3
+Their hearts were full of emotion and determination, and tears of joy mixed with their smiles.
+update kokoro (blank) 1
+update kazumi (blank) 3
+join kokoro (happy-full) 1
+join kazumi (happy-full) 3
+[voice path="res://dialogue/asset/voice acting/nameless/ev 4.5/Moderator_Row_449.wav" volume="0.0"]
+Next up is a special performance by Kokoro, to thank everyone who has supported both Kokoro and Kazumi.
+leave --All--
+[update_position action="reset_all" time="0.0"]
+[music fade="0.0" volume="0.0"]
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[wait time="1.0"]
+- Happy Good Morning
+	[music fade="0.0" volume="0.0"]
+	[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+	do SceneManager.add_node("res://rhythm_game/song#1/scene/main_song#1.tscn")
+	[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+	[end_timeline]
+- Emotional Piano
+	[music fade="0.0" volume="0.0"]
+	[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+	do SceneManager.add_node("res://rhythm_game/song#2/scene/main#2.tscn")
+	[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+	[end_timeline]

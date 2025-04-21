@@ -1,0 +1,45 @@
+[gd_scene load_steps=6 format=3 uid="uid://bp43is23kj1p"]
+
+[ext_resource type="Script" path="res://find_a_password/script/drawer.gd" id="1_xf0c8"]
+[ext_resource type="Texture2D" uid="uid://ck7tlvai36w68" path="res://find_a_password/asset/drawer.png" id="2_7072e"]
+[ext_resource type="Texture2D" uid="uid://bbejl2rbd8yso" path="res://find_a_password/asset/planner.png" id="3_3gphn"]
+[ext_resource type="Texture2D" uid="uid://b60kl1laaf0c5" path="res://find_a_password/asset/phone.png" id="4_u7dd6"]
+[ext_resource type="AudioStream" uid="uid://cjtr774r2pea3" path="res://find_a_password/asset/sound_effects/sfx_planner.mp3" id="5_to13y"]
+
+[node name="Drawer" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_xf0c8")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+texture = ExtResource("2_7072e")
+
+[node name="planner" type="TextureButton" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 360.0
+offset_top = 264.0
+offset_right = 674.0
+offset_bottom = 464.0
+texture_normal = ExtResource("3_3gphn")
+ignore_texture_size = true
+
+[node name="planner_click" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_to13y")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 2
+
+[node name="phone" type="TextureButton" parent="CanvasLayer"]
+unique_name_in_owner = true
+offset_left = 704.0
+offset_top = 152.0
+offset_right = 912.0
+offset_bottom = 560.0
+texture_normal = ExtResource("4_u7dd6")
+ignore_texture_size = true
+stretch_mode = 0
+
+[connection signal="pressed" from="planner" to="." method="_on_planner_pressed"]
+[connection signal="pressed" from="CanvasLayer/phone" to="." method="_on_phone_pressed"]

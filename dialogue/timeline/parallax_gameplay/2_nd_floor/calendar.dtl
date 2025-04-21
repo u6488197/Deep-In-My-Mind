@@ -1,0 +1,11 @@
+join kokoro (normal2.6) 4
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_273-285_Phone in Locker/Kokoro_Row_279.mp3" volume="0.0"]
+kokoro (normal2.6): This is a calendar from four years ago.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (normal2.6) 4
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_273-285_Phone in Locker/Kokoro_Row_280.mp3" volume="0.0"]
+kokoro: Hmm... The circle part... Does it have a specific significance?
+leave --All--
+[signal arg="calendar"]
+[end_timeline]

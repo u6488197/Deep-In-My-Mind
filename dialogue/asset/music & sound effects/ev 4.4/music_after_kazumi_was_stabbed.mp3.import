@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b7dag5o3ok2ve"
+path="res://.godot/imported/music_after_kazumi_was_stabbed.mp3-fdc0cb7fff6bbdc6d656e34cb4aa54b4.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 4.4/music_after_kazumi_was_stabbed.mp3"
+dest_files=["res://.godot/imported/music_after_kazumi_was_stabbed.mp3-fdc0cb7fff6bbdc6d656e34cb4aa54b4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

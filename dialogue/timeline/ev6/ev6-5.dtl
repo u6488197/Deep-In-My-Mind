@@ -1,0 +1,23 @@
+[music path="res://dialogue/asset/music & sound effects/ev 6.5/music_kokoro_family.mp3" fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.5/ev6.5(1).png" fade="2.0"]
+[wait time="2.0"]
+Kokoro’s family parted ways when she was still a little girl, so she lived with her mother, just the two of them.
+Afterward, her mother married a middle-aged man.
+That day marked the beginning of the terrible story that happened to Kokoro.
+[voice path="res://dialogue/asset/voice acting/nameless/ev 6.5/Kokoro_s Mother_Row_708.mp3" volume="0.0"]
+Sweetheart, Kokoro, you can start calling him 'Dad' from today.
+That man would often hurt Kokoro and verbally abused her with harsh words whenever her mother was away.
+After that, he would threaten her to keep her from telling her mother about what had happened.
+Sometimes, when Kokoro's mother noticed the wounds and bruises from the abuse on Kokoro's body, Kokoro had to lie to her out of fear of his threats.
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 6.5/Kokoro_Row_712.mp3" volume="0.0"]
+I just fell down today, but I’m not hurt anymore.
+This happened over and over again, and his actions towards Kokoro became more severe.
+Until a serious accident occurred with Kokoro, and her mother returned home just in time to witness it.
+She was promptly treated.
+But unfortunately, the prolonged abuse toward Kokoro negatively impacted her mental health, leading to depression.
+leave --All--
+[clear time="1.0" step="false" text="false" background="false" style="false"]
+[music fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[wait time="2.0"]
+jump ev7-unclear/

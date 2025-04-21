@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://byuai4c0a6q5g"]
+
+[ext_resource type="PackedScene" uid="uid://bk3nn0ja0bl3k" path="res://find_a_password/scene/planner_july.tscn" id="1_iy56k"]
+
+[node name="PlannerScene" type="CanvasLayer"]
+
+[node name="Planner" parent="." instance=ExtResource("1_iy56k")]

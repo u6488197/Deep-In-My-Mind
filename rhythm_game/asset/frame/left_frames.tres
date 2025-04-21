@@ -1,0 +1,18 @@
+[gd_resource type="SpriteFrames" load_steps=3 format=3 uid="uid://blcabwoncd28f"]
+
+[ext_resource type="Texture2D" uid="uid://7fkwwm2yq7ge" path="res://rhythm_game/asset/sprite/left.png" id="1_hnlvf"]
+[ext_resource type="Texture2D" uid="uid://c3ou2rwtr840a" path="res://rhythm_game/asset/sprite/color_left.png" id="2_ymymf"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_hnlvf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_ymymf")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

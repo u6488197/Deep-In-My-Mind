@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bq2yeljx7ayc2"
+path="res://.godot/imported/music_manager_calling.mp3-1df4eade4d7f35354b082f61071f6776.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 1.1/music_manager_calling.mp3"
+dest_files=["res://.godot/imported/music_manager_calling.mp3-1df4eade4d7f35354b082f61071f6776.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

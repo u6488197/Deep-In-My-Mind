@@ -1,0 +1,233 @@
+[music fade="0.0" volume="0.0"]
+[background scene="res://dialogue/scene/pov.tscn" fade="3.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 6.1/music_kazumi.mp3" fade="0.0" volume="-6.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[wait time="2.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 6.1/sfx_call.mp3" fade="0.0" volume="0.0" loop="false"]
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.1/ev6.1(1).png" fade="2.0"]
+[wait time="3.0"]
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[music path="res://dialogue/asset/music & sound effects/ev 6.1/music_kazumi.mp3" fade="0.0" volume="-6.0"]
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.1/ev6.1(2).png" fade="2.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 2.1/sfx_hang_up.mp3" volume="0.0" bus=""]
+[wait time="2.0"]
+join kazumi (sad1.4) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_575.mp3" volume="0.0"]
+kazumi: It’s been days now, why hasn’t she answered my calls? I’m really worried about her.
+update kazumi (blank) 0
+update kazumi (blank) 0
+join kazumi (sad1.4) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_576.mp3" volume="0.0"]
+kazumi: I really want to see you.
+update kazumi (blank) 0
+update kazumi (blank) 0
+Kazumi couldn't visit Kokoro right now because she was dealing with mysterious parcels being sent to her and being stalked by a stranger.
+As a result, she had to move back to her hometown to avoid these incidents.
+join kazumi (sad1.4) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_578.mp3" volume="0.0"]
+kazumi: Sigh, I guess I’ll just have to wait for her to call back.
+update kazumi (blank) 0
+update kazumi (blank) 0
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.1/ev6.1(2) 1.png" fade="2.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 6.1/sfx_ringtone_kazumi.mp3" fade="0.0" volume="4.0"]
+[wait time="2.0"]
+join kazumi (sad1.4) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_579.mp3" volume="0.0"]
+kazumi: Eh, who’s calling me? This is so scary! Should I pick up?
+update kazumi (blank) 0
+update kazumi (blank) 0
+join kazumi (sad1.4) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_580.mp3" volume="0.0"]
+kazumi: I better answer it, just in case it’s an emergency.
+update kazumi (blank)
+update kazumi (blank)
+[sound path="res://dialogue/asset/music & sound effects/ev 2.1/sfx_hang_up.mp3" volume="0.0"]
+[wait time="0.5"]
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[music path="res://dialogue/asset/music & sound effects/ev 6.1/music_kazumi.mp3" fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.1/ev6.1(3).png" fade="2.0"]
+[wait time="2.0"]
+join kazumi (sad1.4) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_581.mp3" volume="0.0"]
+kazumi: Hello?
+update kazumi (blank)
+update kazumi (blank)
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.1/Akane_Row_582.mp3" volume="0.0"]
+kokoro: Hi, Kazumi. It’s me, Kokoro.
+update kokoro (blank)
+update kokoro (blank)
+join kazumi (sad1.4) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_583.mp3" volume="0.0"]
+kazumi: Kokoro, is that you?
+update kazumi (blank)
+update kazumi (blank)
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.1/Akane_Row_584.mp3" volume="0.0"]
+akane: Yes, I am.
+update kokoro (blank)
+update kokoro (blank)
+join kazumi (happy1.2) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_585.mp3" volume="0.0"]
+kazumi: Where have you been? I’ve been so worried about you.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kazumi (happy1.2) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_586.mp3" volume="0.0"]
+kazumi: Why are you calling me using this number?
+update kazumi (blank)
+update kazumi (blank)
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.1/Akane_Row_587.mp3" volume="0.0"]
+akane: Sorry for worrying you. My phone is broken right now, so I used the public phone to call you instead.
+update kokoro (blank)
+update kokoro (blank)
+join kazumi (happy1.2) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_588.mp3" volume="0.0"]
+kazumi: I’m really glad you called me.
+update kazumi (blank)
+update kazumi (blank)
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.1/Akane_Row_589.mp3" volume="0.0"]
+akane: I feel really guilty. I want to see you. Can we meet?
+update kokoro (blank)
+update kokoro (blank)
+join kazumi (happy1.2) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_590.mp3" volume="0.0"]
+kazumi: Sure! But I’m at home right now.
+update kazumi (blank) 0
+update kazumi (blank) 0
+join kazumi (happy1.2) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_591.mp3" volume="0.0"]
+kazumi: Let’s meet at my condo the day after tomorrow. Is that okay with you?
+update kazumi (blank)
+update kazumi (blank)
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.1/Akane_Row_592.mp3" volume="0.0"]
+akane: Of course! See you there.
+update kokoro (blank)
+update kokoro (blank)
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.1/ev6.1(4).png" fade="2.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 2.1/sfx_hang_up.mp3" volume="0.0"]
+[wait time="2.0"]
+join kazumi (happy1.2) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_593.mp3" volume="0.0"]
+kazumi: I don’t know if I’m just imagining things.
+update kazumi (blank) 0
+update kazumi (blank) 0
+join kazumi (happy1.2) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_594.mp3" volume="0.0"]
+kazumi: But I think her voice sounds a bit off. Maybe Kokoro isn’t feeling well?
+update kazumi (blank) 0
+update kazumi (blank) 0
+join kazumi (happy1.2) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_595.mp3" volume="0.0"]
+kazumi: Or it’s just me overthinking.
+update kazumi (blank)
+update kazumi (blank)
+After hanging up with Kokoro, Kazumi quickly packed her things and headed straight to her condo.
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.1/ev6.1(5).png" fade="2.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 6.1/sfx_ring_door.mp3" volume="0.0"]
+[wait time="2.0"]
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.1/Akane_Row_597.mp3" volume="0.0"]
+akane: Kazumi, I’m here.
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (happy1.2) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_598.mp3" volume="0.0"]
+kazumi: I’m coming.
+update kazumi (blank) 1
+update kazumi (blank) 1
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.1/ev6.1(5).png" fade="2.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 6.1/sfx_open.mp3" volume="0.0"]
+[wait time="2.0"]
+As soon as the door opened, Kazumi rushed towards Kokoro and hugged her.
+[update_position position="3" vector="Vector2(0, -10)" time="0.0"]
+join kazumi (happy1.2) 1
+join kokoro (happy2.8) 3
+However, Kokoro's expression showed no sign of joy.
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (happy1.2) 1
+join kokoro (happy2.8) 3
+But when Kazumi stepped back, Kokoro smiled at her like usual.
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (sad1.4) 1
+join kokoro (happy2.8) 3
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_602.mp3" volume="0.0"]
+kazumi: I’m sorry about what happened that day.
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (sad1.4) 1
+join kokoro (happy2.8) 3
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.1/Akane_Row_603.mp3" volume="0.0"]
+akane: I should be the one to apologize.
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (sad1.4) 1
+join kokoro (happy2.8) 3
+Kazumi paused briefly when she noticed that Kokoro's voice, both just now and during the earlier phone call, sounded different from what it used to.
+But she pushed aside her doubts, overcome with the longing for her best friend.
+[sound path="res://dialogue/asset/music & sound effects/ev 6.1/sfx_walk.mp3" volume="0.0"]
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (sad1.4) 1
+join kokoro (happy2.8) 3
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.1/Akane_Row_605.mp3" volume="0.0"]
+akane: Are you okay?
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (happy1.2) 1
+join kokoro (happy2.8) 3
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_606.mp3" volume="0.0"]
+kazumi: Y-- Yeah, let’s go inside, shall we?
+leave --All--
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.3/ev6.3(1).png" fade="2.0"]
+update kazumi (blank) 0
+update kazumi (blank) 0
+[wait time="2.0"]
+join kazumi (happy1.2) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_607.mp3" volume="0.0"]
+kazumi: How have you been? Everything good?
+update kazumi (blank)
+update kazumi (blank)
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.1/Akane_Row_608.mp3" volume="0.0"]
+akane: During that time, I often received strange parcels. But recently, they’ve become less frequent, and I’ve stopped paying attention to them.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.1/Akane_Row_609.mp3" volume="0.0"]
+akane: How about you, Kazumi?
+update kokoro (blank)
+update kokoro (blank)
+join kazumi (sad1.4) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_610.mp3" volume="0.0"]
+kazumi: I'm so sorry this happened to you.
+update kazumi (blank) 0
+update kazumi (blank) 0
+join kazumi (sad1.4) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_611.mp3" volume="0.0"]
+update akane (blank)
+kazumi: As for me…
+[update_position action="reset_all" time="0.0"]
+leave --All--
+[music fade="0.0" volume="0.0"]
+[clear time="1.0" step="false" text="false" background="false" style="false"]
+jump ev6-2/

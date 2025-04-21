@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bgkb3qc4sctn4"
+path="res://.godot/imported/StrangeMan_Row_362.wav-c3be0135e0ded404d7f00cdeaaa9f039.sample"
+
+[deps]
+
+source_file="res://dialogue/asset/voice acting/nameless/ev 4.3/Strange Man(Stalker)/StrangeMan_Row_362.wav"
+dest_files=["res://.godot/imported/StrangeMan_Row_362.wav-c3be0135e0ded404d7f00cdeaaa9f039.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

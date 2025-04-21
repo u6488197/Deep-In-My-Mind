@@ -1,0 +1,229 @@
+[music path="res://dialogue/asset/music & sound effects/ev 4.6/music_interview.mp3" fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.6/ev4.6(1).png" fade="2.0"]
+[update_position action="set_absolute" position="1" vector="Vector2(180, -5)" time="0.0"]
+[update_position action="set_absolute" position="3" vector="Vector2(480, -5)" time="0.0"]
+[wait time="2.0"]
+At the end of the concert, Kokoro and Kazumi had to do an interview with various well-known media platforms.
+join kazumi (happy2.3) 1
+join kokoro (happy2.9) 3
+During the interview, journalists were having a blast interviewing them.
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (happy2.3) 1
+join kokoro (happy2.9) 3
+Until…
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (happy2.3) 1
+join kokoro (happy2.9) 3
+[voice path="res://dialogue/asset/voice acting/nameless/ev 4.6/ReporterChannelA_Row_470.mp3" volume="0.0"]
+Miss Kazumi, will you have more acting projects?
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (happy2.3) 1
+join kokoro (happy2.9) 3
+[voice path="res://dialogue/asset/voice acting/nameless/ev 4.6/ReporterChannelB_Row_471.mp3" volume="0.0"]
+Is the rumor true that the company will have a solo project by Miss Kazumi?
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (happy2.3) 1
+join kokoro (happy2.9) 3
+Most of the journalists were all about Kazumi's work.
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (happy2.3) 1
+join kokoro (sad3.2) 3
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_473.mp3" volume="0.0"]
+kokoro: Excuse me, I need a moment.
+update kokoro (blank)
+update kokoro (blank)
+[sound path="res://dialogue/asset/music & sound effects/ev 4.6/sfx_walk_out.mp3" volume="0.0"]
+join kazumi (normal2.5) 1
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 4.6/Kazumi_Row_474.mp3" volume="0.0"]
+kazumi: Kokoro, are you alright?  Let’s get back to the interview.
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (normal2.5) 1
+join kokoro (sad3.2) 3
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_475.mp3" volume="0.0"]
+kokoro: I’m alright.
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (normal2.5) 1
+join kokoro (sad3.2) 3
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 4.6/Kazumi_Row_476.mp3" volume="0.0"]
+kazumi: Are you sure?
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (normal2.5) 1
+join kokoro (sad3.2) 3
+Kokoro thought over Kazumi’s question.
+update kazumi (blank) 1
+update kokoro (blank) 3
+join kazumi (normal2.5) 1
+join kokoro (sad3.2) 3
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_478.mp3" volume="0.0"]
+How do I feel?  I’m just tired from work and stressed about the negative responses on social media.
+update kazumi (blank) 1
+update kokoro (blank) 3
+join kazumi (normal2.5) 1
+join kokoro (sad3.2) 3
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_479.mp3" volume="0.0"]
+Or,...maybe I’m just scared Kazumi might leave me behind.
+update kazumi (blank) 1
+update kokoro (blank) 3
+join kazumi (normal2.5) 1
+join kokoro (sad3.2) 3
+Kokoro nodded in response.
+update kazumi (blank) 1
+update kokoro (blank) 3
+join kazumi (happy2.3) 1
+join kokoro (happy2.9) 3
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_481.mp3" volume="0.0"]
+kokoro: I’m sorry for running out like this.
+update kazumi (blank) 1
+update kokoro (blank) 3
+join kazumi (happy2.3) 1
+join kokoro (happy2.9) 3
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 4.6/Kazumi_Row_482.mp3" volume="0.0"]
+kazumi: No worries. Are you feel better now?
+update kazumi (blank) 1
+update kokoro (blank) 3
+join kazumi (happy2.3) 1
+join kokoro (happy2.9) 3
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_483.mp3" volume="0.0"]
+kokoro: Yep, I am.
+update kazumi (blank) 1
+update kokoro (blank) 3
+join kazumi (happy2.3) 1
+join kokoro (happy2.9) 3
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 4.6/Kazumi_Row_484.mp3" volume="0.0"]
+kazumi: Well, let’s go back to the interview together.
+update kazumi (blank) 1
+update kokoro (blank) 3
+join kazumi (happy2.3) 1
+join kokoro (happy2.9) 3
+Kazumi took Kokoro’s hand and led her back to resume the interview.
+update kazumi (blank) 1
+update kokoro (blank) 3
+join kazumi (happy2.3) 1
+join kokoro (happy2.9) 3
+As they returned to the interview, Kokoro and Kazumi quickly apologized to the journalists for the disruption.
+update kazumi (blank) 1
+update kokoro (blank) 3
+join kazumi (happy2.3) 1
+join kokoro (happy2.9) 3
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 4.6/Kazumi_Row_487.mp3" volume="0.0"]
+kazumi: We’re ready to continue the interview.
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (happy2.3) 1
+join kokoro (happy2.9) 3
+The interview went smoothly until the end.
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (happy2.3) 1
+join kokoro (happy2.9) 3
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 4.6/Kazumi_Row_489.mp3" volume="0.0"]
+kazumi: The event is over. Are you going back to your condo now?
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (happy2.3) 1
+join kokoro (happy2.9) 3
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_490.mp3" volume="0.0"]
+kokoro: Yeah. I’m very tired.
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (happy2.3) 1
+join kokoro (happy2.9) 3
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_491.mp3" volume="0.0"]
+kokoro: How about you, Kazumi?
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (happy2.3) 1
+join kokoro (happy2.9) 3
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 4.6/Kazumi_Row_492.mp3" volume="0.0"]
+kazumi: So do I.
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (happy2.3) 1
+join kokoro (happy2.9) 3
+[sound path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_493.mp3" volume="0.0"]
+kokoro: Okay, see you…
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (normal2.5) 1
+join kokoro (normal3.1) 3
+[voice path="res://dialogue/asset/voice acting/nameless/ev 4.6/ReporterChannelC_Row_494.mp3" volume="0.0"]
+Miss Kazumi, can we continue the interview?
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (normal2.5) 1
+join kokoro (normal3.1) 3
+[voice path="res://dialogue/asset/voice acting/nameless/ev 4.6/ReporterChannelD_Row_495.mp3" volume="0.0"]
+We also would like to interview you.
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (normal2.5) 1
+join kokoro (normal3.1) 3
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 4.6/Kazumi_Row_496.mp3" volume="0.0"]
+kazumi: Of course!
+update kazumi (blank) 1
+update kazumi (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+join kazumi (normal2.5) 1
+join kokoro (sad3.2) 3
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_497.mp3" volume="0.0"]
+kokoro: I have to go now. See you later.
+update kokoro (blank)
+update kokoro (blank)
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 4.6/Kazumi_Row_498.mp3" volume="0.0"]
+join kazumi (normal2.5) 1
+kazumi: Wait! Kokoro!
+leave --All--
+[background scene="res://dialogue/scene/pov.tscn" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="1.0"]
+[wait time="1.0"]
+[background scene="res://dialogue/scene/one_week.tscn" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="1.0"]
+[wait time="1.0"]
+[update_position action="reset_all" time="0.0"]
+[clear time="1.0" step="false" text="false" background="false" style="false"]
+jump ev4-7/

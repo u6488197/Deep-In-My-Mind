@@ -1,0 +1,23 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://6yj8cinh2e2a"]
+
+[ext_resource type="Texture2D" uid="uid://vjskji0p4lsh" path="res://asset/main_menu_button/grabber_normal.png" id="1_e1xel"]
+[ext_resource type="FontFile" uid="uid://cdjs3xxyrqxfy" path="res://asset/font/HinaMincho-Regular.ttf" id="1_i1hfg"]
+[ext_resource type="Texture2D" uid="uid://u3da4ty2xkks" path="res://asset/main_menu_button/grabber_hover.png" id="2_8kig5"]
+[ext_resource type="Texture2D" uid="uid://duj4g4mr8enly" path="res://asset/main_menu_button/1.PNG" id="3_xvmje"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bdm4x"]
+texture = ExtResource("3_xvmje")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_n0ant"]
+texture = ExtResource("3_xvmje")
+
+[resource]
+HSlider/icons/grabber = ExtResource("1_e1xel")
+HSlider/icons/grabber_disabled = ExtResource("1_e1xel")
+HSlider/icons/grabber_highlight = ExtResource("2_8kig5")
+HSlider/styles/grabber_area = SubResource("StyleBoxTexture_bdm4x")
+HSlider/styles/grabber_area_highlight = SubResource("StyleBoxTexture_n0ant")
+Label/colors/font_color = Color(1, 1, 1, 1)
+Label/constants/outline_size = 0
+Label/font_sizes/font_size = 20
+Label/fonts/font = ExtResource("1_i1hfg")

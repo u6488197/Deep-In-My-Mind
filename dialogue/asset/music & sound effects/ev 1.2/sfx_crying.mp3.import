@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dajkebg3kcw5l"
+path="res://.godot/imported/sfx_crying.mp3-499dd3683913baa608ffbb12f6107e6b.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 1.2/sfx_crying.mp3"
+dest_files=["res://.godot/imported/sfx_crying.mp3-499dd3683913baa608ffbb12f6107e6b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

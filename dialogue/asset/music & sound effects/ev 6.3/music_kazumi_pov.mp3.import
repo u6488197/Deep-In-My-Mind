@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d3xdxvv3ohunu"
+path="res://.godot/imported/music_kazumi_pov.mp3-032be72635ae0ede9d7d29d29cd289ad.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 6.3/music_kazumi_pov.mp3"
+dest_files=["res://.godot/imported/music_kazumi_pov.mp3-032be72635ae0ede9d7d29d29cd289ad.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

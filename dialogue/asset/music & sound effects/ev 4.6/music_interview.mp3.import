@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bmypq10sjtmp2"
+path="res://.godot/imported/music_interview.mp3-93a77c6cda92ba6e597b91dae383fc3f.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 4.6/music_interview.mp3"
+dest_files=["res://.godot/imported/music_interview.mp3-93a77c6cda92ba6e597b91dae383fc3f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

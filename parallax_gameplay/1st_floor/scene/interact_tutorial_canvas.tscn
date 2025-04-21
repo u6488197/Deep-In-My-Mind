@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://4t0s1ivfg44f"]
+
+[ext_resource type="Script" path="res://parallax_gameplay/1st_floor/script/interact_tutorial_canvas.gd" id="1_282xg"]
+[ext_resource type="FontFile" uid="uid://q1ds557eeavh" path="res://parallax_gameplay/asset/font/FUTURA HEAVY FONT.TTF" id="2_gixck"]
+[ext_resource type="Texture2D" uid="uid://bh05qquplymg" path="res://parallax_gameplay/asset/tutorial_icon/icons8-left-click-100.png" id="2_tfe0j"]
+
+[node name="Interact_Tutorial_Canvas" type="CanvasLayer"]
+script = ExtResource("1_282xg")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+offset_top = 504.0
+offset_right = 1280.0
+offset_bottom = 704.0
+color = Color(1, 1, 1, 0.439216)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 435.0
+offset_top = 574.0
+offset_right = 1072.0
+offset_bottom = 632.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_gixck")
+theme_override_font_sizes/font_size = 40
+text = "interact with object, and dialogue"
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(313, 600)
+scale = Vector2(0.934822, 1.00482)
+texture = ExtResource("2_tfe0j")
+
+[connection signal="ready" from="." to="." method="_on_ready"]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bb0cvv6f7kg7t"
+path="res://.godot/imported/music_phone_dropped.mp3-6abaa8bc834518951fe2a186f1f7616a.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 1.1/music_phone_dropped.mp3"
+dest_files=["res://.godot/imported/music_phone_dropped.mp3-6abaa8bc834518951fe2a186f1f7616a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

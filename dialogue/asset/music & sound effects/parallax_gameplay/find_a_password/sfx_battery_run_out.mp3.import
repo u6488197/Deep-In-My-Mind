@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cpnc8bguu4iun"
+path="res://.godot/imported/sfx_battery_run_out.mp3-934d3679cd5ffd437ba5ba9ade31f968.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/parallax_gameplay/find_a_password/sfx_battery_run_out.mp3"
+dest_files=["res://.godot/imported/sfx_battery_run_out.mp3-934d3679cd5ffd437ba5ba9ade31f968.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

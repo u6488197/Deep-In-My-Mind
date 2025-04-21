@@ -1,0 +1,49 @@
+[gd_scene load_steps=6 format=3 uid="uid://blpwqv0jn1746"]
+
+[ext_resource type="SpriteFrames" uid="uid://1ryfgnvobr8c" path="res://rhythm_game/asset/frame/up_frames.tres" id="1_on7cv"]
+[ext_resource type="Script" path="res://rhythm_game/script/arrow_button.gd" id="2_l24s4"]
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(43, 23)
+
+[sub_resource type="RectangleShape2D" id="2"]
+size = Vector2(11, 53)
+
+[sub_resource type="RectangleShape2D" id="3"]
+size = Vector2(8, 56)
+
+[node name="ArrowButton" type="AnimatedSprite2D"]
+sprite_frames = ExtResource("1_on7cv")
+script = ExtResource("2_l24s4")
+
+[node name="PerfectArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PerfectArea"]
+position = Vector2(0, 3)
+shape = SubResource("1")
+
+[node name="GoodArea" type="Area2D" parent="."]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GoodArea"]
+position = Vector2(-1.5, 1.5)
+shape = SubResource("2")
+
+[node name="OkayArea" type="Area2D" parent="."]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="OkayArea"]
+position = Vector2(0, 2)
+shape = SubResource("3")
+
+[node name="PushTimer" type="Timer" parent="."]
+wait_time = 0.05
+one_shot = true
+
+[connection signal="area_entered" from="PerfectArea" to="." method="_on_PerfectArea_area_entered"]
+[connection signal="area_exited" from="PerfectArea" to="." method="_on_PerfectArea_area_exited"]
+[connection signal="area_entered" from="GoodArea" to="." method="_on_GoodArea_area_entered"]
+[connection signal="area_exited" from="GoodArea" to="." method="_on_GoodArea_area_exited"]
+[connection signal="area_entered" from="OkayArea" to="." method="_on_OkayArea_area_entered"]
+[connection signal="area_exited" from="OkayArea" to="." method="_on_OkayArea_area_exited"]
+[connection signal="timeout" from="PushTimer" to="." method="_on_PushTimer_timeout"]

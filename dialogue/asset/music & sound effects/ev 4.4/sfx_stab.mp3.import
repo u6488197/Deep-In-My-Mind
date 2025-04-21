@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://nsyvlobw0gvn"
+path="res://.godot/imported/sfx_stab.mp3-882f7d5da3e6a654d39219833cee3bd8.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 4.4/sfx_stab.mp3"
+dest_files=["res://.godot/imported/sfx_stab.mp3-882f7d5da3e6a654d39219833cee3bd8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

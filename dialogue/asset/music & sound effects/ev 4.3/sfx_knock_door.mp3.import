@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bl8fmxtko535j"
+path="res://.godot/imported/sfx_knock_door.mp3-c56b866602a9a45dd4f875144eeee571.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 4.3/sfx_knock_door.mp3"
+dest_files=["res://.godot/imported/sfx_knock_door.mp3-c56b866602a9a45dd4f875144eeee571.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

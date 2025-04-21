@@ -1,0 +1,111 @@
+[music path="res://dialogue/asset/music & sound effects/ev 1.1/music_dream.mp3" fade="0.0" volume="-3.0"]
+[background arg="res://dialogue/asset/background/timeline/ev1/ev1.1/ev1.1(1).png" fade="0.0" transition="Simple Fade"]
+[wait time="0.5"]
+[sound path="res://dialogue/asset/music & sound effects/ev 1.1/sfx_crowd.mp3" volume="-3.0"]
+join kazumi (happy2.1) 2
+update kazumi (blank)
+join kazumi (happy2.1) 2
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 1.1/Kokoro_Row_4.mp3" volume="0.0"]
+kokoro (blank): Oh, that’s girl! In the end, we study in the same class.
+join kazumi (happy2.1) 2
+update kazumi (blank) 2
+join kazumi (happy2.1) 2
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 1.1/Kokoro_Row_5.mp3" volume="0.0"]
+kokoro (blank): I really want to be friends with her.
+join kazumi (happy2.1) 2
+update kazumi (blank) 2
+join kazumi (happy2.1) 2
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 1.1/Kazumi_Row_6.mp3" volume="0.0"]
+kazumi (happy2.1): Hi, what’s your name?
+update kazumi (blank) 2
+join kazumi (happy2.1) 2
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 1.1/Kazumi_Row_7.mp3" volume="0.0"]
+kazumi (happy2.1): I am Kazumi.
+update kazumi (blank) 2
+update kazumi (blank) 2
+join kazumi (happy2.1) 2
+[sound path="res://dialogue/asset/voice acting/kokoro/ev 1.1/Kokoro_Row_8.mp3" volume="0.0"]
+kokoro (blank): That’s the first memory of Kazumi that I have when I first met her.
+leave kazumi
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev1/ev1.1/ev1.1(2).png" fade="2.0"]
+[wait time="2.0"]
+join kazumi (normal1.8) 2
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 1.1/Kazumi_Row_9.mp3" volume="0.0"]
+kazumi (normal1.8): Kokoro, why are you looking at me like that?
+update kazumi (blank) 2
+update kazumi (blank) 2
+join kazumi (normal1.8) 2
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 1.1/Kazumi_Row_10.mp3" volume="0.0"]
+kazumi (normal1.8): What's up?  We're about to go on stage in a few minutes.
+leave kazumi
+[clear time="1.0" step="false" text="false" background="false" style="false"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="3.0"]
+[wait time="3.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 1.1/music_manager_calling.mp3" fade="0.0" volume="0.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 1.1/sfx_ringtone.mp3" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev1/ev1.1/ev1.1(4).png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev1/ev1.1/ev1.1(3)KKRbedroom.png" fade="2.0"]
+[wait time="2.0"]
+[clear time="1.0" step="false" text="false" music="false" background="false" style="false"]
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 1.1/Kokoro_Row_11.mp3" volume="0.0"]
+kokoro (normal1.4): Hello, Miss Ami.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join ami (sad) 0
+[voice path="res://dialogue/asset/voice acting/manager/ev 1.1/Manager_Row_12.mp3" volume="0.0"]
+ami (sad): Kokoro, how are you doing? I’ve been trying to call you for many days.
+update ami (blank) 0
+update ami (blank) 0
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 1.1/Kokoro_Row_13.mp3" volume="0.0"]
+kokoro (normal1.4): I’m so sorry, Miss Ami. Is there something wrong?
+update kokoro (blank) 0
+update kokoro (blank) 0
+join ami (sad) 0
+[voice path="res://dialogue/asset/voice acting/manager/ev 1.1/Manager_Row_14.mp3" volume="0.0"]
+ami (sad): Kokoro, I have bad news to tell you. You must stay strong.
+update ami (blank) 0
+update ami (blank) 0
+join ami (sad) 0
+[voice path="res://dialogue/asset/voice acting/manager/ev 1.1/Manager_Row_15.mp3" volume="0.0"]
+ami (sad): Kazumi was found as the body in her condo room.
+update ami (blank) 0
+leave --All--
+[music fade="0.0" volume="0.0"]
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[music path="res://dialogue/asset/music & sound effects/ev 1.1/music_phone_dropped.mp3" fade="0.0" volume="0.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 1.1/sfx_phone_dropped.mp3" volume="0.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 1.1/woman-crying-291098.mp3" volume="6.0"]
+update ami (blank) 0
+update ami (blank) 0
+leave --All--
+[background arg="res://dialogue/asset/background/timeline/ev1/ev1.1/ev1.1(5).png" fade="2.0"]
+[wait time="2.0"]
+Miss Ami called Kokoro with concern, but Kokoro was crying throughout the phone.
+Memories of the time that Kokoro spent with her best friend, Kazumi, kept running through her mind.
+[sound path="res://dialogue/asset/music & sound effects/ev 2.1/sfx_hang_up.mp3" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev1/ev1.1/ev1.1(6).png" fade="2.0"]
+[wait time="2.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 1.1/woman-crying-291098.mp3" volume="3.0"]
+join kokoro (shock1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 1.1/Kokoro_Row_18.mp3" volume="0.0"]
+kokoro (shock1.6): It’s not real, right?
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (shock1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 1.1/Kokoro_Row_19.mp3" volume="0.0"]
+kokoro (shock1.6): What am I dreaming?
+update kokoro (blank)
+leave --All--
+[music fade="0.0" volume="0.0"]
+[clear time="1.0" step="false" text="false" background="false" style="false"]
+[background arg="res://dialogue/asset/background/timeline/ev1/ev1.1/ev1.1(3)KKRbedroom.png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[music fade="0.0" volume="0.0"]
+[clear time="1.0" step="false" text="false" background="false" style="false"]
+jump ev1-2/

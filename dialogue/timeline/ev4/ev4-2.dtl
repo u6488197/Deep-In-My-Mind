@@ -1,0 +1,85 @@
+[music path="res://dialogue/asset/music & sound effects/ev 4.2/music_praise_comments.mp3" fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.2/ev4.2(1).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (happy2.9) 4
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.2/Kokoro_Row_313.mp3" volume="0.0"]
+kokoro: Wow! Everyone gives Kazumi a lot of compliments.
+update kokoro (blank) 4
+update kokoro (blank) 4
+join kokoro (happy2.9) 4
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.2/Kokoro_Row_314.mp3" volume="0.0"]
+kokoro: I agree with them because she performed a great job both as an idol and in acting.
+update kokoro (blank) 4
+update kokoro (blank) 4
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.2/ev4.2(2).png" fade="2.0"]
+[wait time="2.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 4.2/sfx_sigh.mp3" volume="0.0"]
+[music fade="0.0" volume="0.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 4.2/music_kokoro_sees_negative_comments.mp3" fade="0.0" volume="0.0"]
+join kokoro (sad3.2) 4
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.2/Kokoro_Row_316.mp3" volume="0.0"]
+kokoro: Why are there fake information messages talking about Kazumi and me?
+update kokoro (blank) 4
+update kokoro (blank) 4
+join kokoro (sad3.2) 4
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.2/Kokoro_Row_317.mp3" volume="0.0"]
+kokoro: Furthermore, someone slanders me just for wanting Kazumi to work alone.
+update kokoro (blank) 4
+update kokoro (blank) 4
+join kokoro (sad3.2) 4
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.2/Kokoro_Row_318.mp3" volume="0.0"]
+kokoro: Just ignore them… I shouldn’t pay attention to these things. I should congratulate Kazumi right now.
+update kokoro (blank) 4
+update kokoro (blank) 4
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.2/ev4.2(3).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (normal3.1) 4
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.2/Kokoro_Row_320.mp3" volume="0.0"]
+kokoro: Should I send it?
+update kokoro (blank) 4
+leave --All--
+[sound path="res://dialogue/asset/music & sound effects/ev 4.2/sfx_texting.mp3" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.2/ev4.2(4).png" fade="3.0"]
+[wait time="3.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 4.2/sfx_texting.mp3" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.2/ev4.2(5).png" fade="3.0"]
+[wait time="3.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 4.2/sfx_receive_messages.mp3" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.2/ev4.2(6).png" fade="3.0"]
+[wait time="3.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.2/ev4.2(7).png" fade="2.0"]
+[wait time="2.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 4.2/sfx_sigh.mp3" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="3.0"]
+[wait time="3.0"]
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[music path="res://dialogue/asset/music & sound effects/ev 4.2/music_present.mp3" fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.2/ev4.2(8).png" fade="1.0"]
+[wait time="1.0"]
+join kokoro (sad2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.2/Kokoro_Row_324.mp3" volume="0.0"]
+kokoro: If my assumption were true, I shouldn’t have been slighted over trivial matters.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.2/Kokoro_Row_325.mp3" volume="0.0"]
+kokoro: I would have stayed with her, and we could have dealt with what happened together.
+update kokoro (blank) 0
+join kokoro (sad2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.2/Kokoro_Row_326.mp3" volume="0.0"]
+kokoro: So, she wouldn’t have ended up like this.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.2/Kokoro_Row_327.mp3" volume="0.0"]
+kokoro: Anyway, I can’t conclude from these messages whether she committed suicide and I find it hard to believe she made such a decision.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad2.6) 0
+[sound path="res://dialogue/asset/voice acting/kokoro/ev 4.2/Kokoro_Row_328.mp3" volume="0.0"]
+kokoro: I must find out the truth.
+leave --All--
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="3.0"]
+[wait time="3.0"]
+[clear time="1.0" step="false" text="false" background="false" style="false"]
+jump ev4-3/

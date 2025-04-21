@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bs805tcjux5s8"
+path="res://.godot/imported/sfx_sound_in_front_of_door.mp3-e5184a7d6cc5d6218c08aaa32094421b.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 4.3/sfx_sound_in_front_of_door.mp3"
+dest_files=["res://.godot/imported/sfx_sound_in_front_of_door.mp3-e5184a7d6cc5d6218c08aaa32094421b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

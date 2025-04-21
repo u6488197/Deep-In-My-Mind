@@ -1,0 +1,139 @@
+[music path="res://dialogue/asset/music & sound effects/ev3.2/music_past_picture.mp3" fade="0.0" volume="0.0"]
+join kokoro (normal2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.2 (2nd Floor - Photo)/Kokoro_Row_171.mp3" volume="0.0"]
+kokoro: Eh! It’s…
+update kokoro (blank)
+update kokoro (blank)
+[background arg="res://dialogue/asset/background/timeline/ev3.2/Picfriend(ob-c6)(ev3.2).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (normal2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.2 (2nd Floor - Photo)/Kokoro_Row_172.mp3" volume="0.0"]
+kokoro: The photo of Kazumi and I taken after performing our first concert.
+update kokoro (blank)
+update kokoro (blank)
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="3.0"]
+[wait time="3.0"]
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[music path="res://dialogue/asset/music & sound effects/ev3.2/music_past.mp3" fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev3.2/Backstage.png" fade="2.0"]
+[wait time="2.0"]
+join kazumi (normal1.1) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 3.2/Kazumi_Row_173.mp3" volume="0.0"]
+kazumi: Kokoro, why are you looking at me like that?
+update kokoro (blank)
+update kokoro (blank)
+join kazumi (normal1.1) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 3.2/Kazumi_Row_174.mp3" volume="0.0"]
+kazumi: Are you okay? We're going on stage in just a few minutes.
+update kazumi (blank)
+update kazumi (blank)
+join kokoro (happy1.1) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.2 (2nd Floor - Photo)/Kokoro_Row_175.mp3" volume="0.0"]
+kokoro: Sorry. I was just lost in thought for a bit.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kazumi (normal1.1) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 3.2/Kazumi_Row_176.mp3" volume="0.0"]
+kazumi: Are you nervous?
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kazumi (happy1.1) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 3.2/Kazumi_Row_177.mp3" volume="0.0"]
+kazumi: No need to worry. I'm sure our debut concert is gonna be amazing.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kazumi (happy1.1) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 3.2/Kazumi_Row_178.mp3" volume="0.0"]
+kazumi: We've been through so much together over the years to get to this day.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kazumi (happy1.1) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 3.2/Kazumi_Row_179.mp3" volume="0.0"]
+kazumi: Just think of today as a new chapter for us. Let's do our best!
+update kazumi (blank)
+update kazumi (blank)
+join kokoro (happy1.1) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.2 (2nd Floor - Photo)/Kokoro_Row_180.mp3" volume="0.0"]
+kokoro: Got it!
+update kokoro (blank)
+update kokoro (blank)
+[voice path="res://dialogue/asset/voice acting/nameless/ev 3.2/Staff_Row_181.mp3" volume="0.0"]
+Both of you can go up now.
+update kokoro (blank)
+update kokoro (blank)
+join kazumi (happy1.1) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 3.2/Kazumi_Row_182.mp3" volume="0.0"]
+kazumi: Whoa, it's showtime. Let's go!
+update kazumi (blank)
+update kazumi (blank)
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[music path="res://dialogue/asset/music & sound effects/ev3.2/music_hold_hand.mp3" fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev3.2/Stage(c6)(ev3.2).png" fade="2.0"]
+[wait time="2.0"]
+join kazumi (happy1.1) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 3.2/Kazumi_Row_183.mp3" volume="0.0"]
+kazumi: Hold my hand. It may help you relax.
+update kazumi (blank)
+update kazumi (blank)
+join kokoro (happy1.1) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.2 (2nd Floor - Photo)/Kokoro_Row_184.mp3" volume="0.0"]
+kokoro: Thank you. You keep doing your best, too.
+update kokoro (blank)
+update kokoro (blank)
+join kazumi (happy1.1) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 3.2/Kazumi_Row_185.mp3" volume="0.0"]
+kazumi: Hehe. I’m going all in.
+update kazumi (blank)
+update kazumi (blank)
+[sound path="res://dialogue/asset/music & sound effects/ev3.2/sfx_heart_beats.mp3" volume="0.0"]
+Kokoro and Kazumi walked onto the stage, holding each other's hands in excitement.
+[music fade="0.0" volume="0.0"]
+[sound path="res://dialogue/asset/voice acting/nameless/ev 3.2/Moderator_Row_187.mp3" volume="0.0"]
+Please welcome our new duo, Kokoro and Kazumi!
+[update_position action="set_absolute" position="1" vector="Vector2(300, 45)" time="0.0"]
+[update_position action="set_absolute" position="3" vector="Vector2(460, 60)" time="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev3.2/Stage(ev3.2).png" fade="2.0"]
+[wait time="2.0"]
+[music path="res://dialogue/asset/music & sound effects/ev3.2/music_on_the_stage.mp3" fade="0.0" volume="0.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev3.2/sfx_crowd.mp3" volume="0.0"]
+update kazumi (happy-full) 3
+update kokoro (happy-full) 1
+Throughout the years, they both had been waiting for this day.
+The day they would perform on stage as new idols.
+Both of them showcased the skills they had practiced together for over the years to the best of their ability until the end of their performance.
+Even though their performance was over, the audience continued to cheer them on.
+Inside, their hearts were still racing, just like at the start of the show.
+They both felt that today was the best day of their lives.
+update kazumi (blank)
+update kokoro (blank) 0
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="3.0"]
+[wait time="3.0"]
+[clear time="1.0" step="false" text="false" portraits="false" music="false" positions="false" style="false"]
+[update_position action="reset_all" time="0.0"]
+join kokoro (happy2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.2 (2nd Floor - Photo)/Kokoro_Row_195.mp3" volume="0.0"]
+kokoro: After that day, we've worked on various other things together.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (happy2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.2 (2nd Floor - Photo)/Kokoro_Row_196.mp3" volume="0.0"]
+kokoro: Although not everything went smoothly, we worked together to overcome those challenges.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (happy2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.2 (2nd Floor - Photo)/Kokoro_Row_197.mp3" volume="0.0"]
+kokoro: Those experiences made me even closer to Kazumi.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (happy2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.2 (2nd Floor - Photo)/Kokoro_Row_198.mp3" volume="0.0"]
+kokoro: I remember we had a very busy schedule during that time, but whenever we had free time, Kazumi would quickly invite me to her favorite restaurant.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (happy2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.2 (2nd Floor - Photo)/Kokoro_Row_199.mp3" volume="0.0"]
+kokoro: I really miss those moments. I was the happiest I've ever been in my life back then.
+leave --All--
+[music fade="0.0" volume="0.0"]
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[end_timeline]

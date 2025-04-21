@@ -1,0 +1,109 @@
+[music path="res://dialogue/asset/music & sound effects/ev 7/music_note.mp3" fade="0.0" volume="0.0"]
+[style name="diary"]
+[background scene="res://dialogue/scene/diary.tscn" fade="2.0"]
+[wait time="2.0"]
+join kokoro (mam) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 7/sfx_note.mp3" volume="0.0"]
+[signal arg="first"]
+[voice path="res://dialogue/asset/voice acting/manami/Manami_Row_718.mp3" volume="0.0"]
+Hello, my name is Manami, which means 'love' or 'beauty.' I am 8 years old. I have two friends named Kokoro and Akane. But Akane doesn’t seem to like me because she doesn’t let me come out to play. So, I always go out to play at night. She often tells me that I am as weak as Kokoro, but I do not agree with her.
+update kokoro (blank) 0
+update kokoro (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 7/sfx_note.mp3" volume="0.0"]
+[signal arg="second"]
+join kokoro (mam) 0
+[voice path="res://dialogue/asset/voice acting/manami/Manami_Row_719.mp3" volume="0.0"]
+Today, Kokoro's mom brought a stranger to our house. Kokoro said he was very kind, and her mom told her to call him 'Dad.'
+update kokoro (blank) 0
+update kokoro (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 7/sfx_note.mp3" volume="0.0"]
+[signal arg="third"]
+join kokoro (mam) 0
+[voice path="res://dialogue/asset/voice acting/manami/Manami_Row_720.mp3" volume="0.0"]
+Since that man moved into our house, he has often hurt Kokoro whenever her mom is not home. I am very angry. Akane told me that Kokoro was hit with a hanger.
+update kokoro (blank) 0
+update kokoro (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 7/sfx_note.mp3" volume="0.0"]
+[signal arg="fourth"]
+join kokoro (mam) 0
+[voice path="res://dialogue/asset/voice acting/manami/Manami_Row_721.mp3" volume="0.0"]
+I have not written in my diary for a while, since the day Kokoro's mom told the police about that cruel man. After he hit Kokoro and made her fall down the stairs. Her mom told us it was lucky she arrived in time, because we almost couldn’t wake up. At that moment, I felt shocked and hurt all over, and I couldn’t even open my eyes.
+update kokoro (blank) 0
+update kokoro (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 7/sfx_note.mp3" volume="0.0"]
+[signal arg="fifth"]
+join kokoro (mam) 0
+[voice path="res://dialogue/asset/voice acting/manami/Manami_Row_722.mp3" volume="0.0"]
+Today, I want to write about how much Kokoro has changed. She used to smile at her mom, but after that cruel thing happened, she always looks sad and cries quietly. When her mom asks her about it, she doesn’t tell her. I heard her mom is taking her to the doctor tomorrow. I did not know Kokoro had a fever. Why does she need to see the doctor?
+update kokoro (blank) 0
+update kokoro (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 7/sfx_note.mp3" volume="0.0"]
+[signal arg="sixth"]
+join kokoro (mam) 0
+[voice path="res://dialogue/asset/voice acting/manami/Manami_Row_723.mp3" volume="0.0"]
+Hello I am Manami. Kokoro and I are both 15 now. This year, Kokoro has really gotten into stage performances, like dancing and singing. She has taken the initiative to participate in singing and dance contests, and she’s already won a bunch of awards. Her hard work has even caught the attention of idol contest organizers.
+update kokoro (blank) 0
+update kokoro (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 7/sfx_note.mp3" volume="0.0"]
+[signal arg="seventh"]
+join kokoro (mam) 0
+[voice path="res://dialogue/asset/voice acting/manami/Manami_Row_724.mp3" volume="0.0"]
+Hello I am Manami. I am not sure why, but today, I felt like I needed to talk to a doctor about Kokoro by myself. Maybe it’s because I wanted to share the things that make Kokoro happy. So, I asked Kokoro if it was okay for me to see the doctor. When I introduced myself, the doctor seemed surprised. I told her about the three of us, since she wanted to understand us better. Then, she explained that Kokoro has multiple personality disorder.
+update kokoro (blank) 0
+update kokoro (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 7/sfx_note.mp3" volume="0.0" bus=""]
+[signal arg="eighth"]
+join kokoro (mam) 0
+join kokoro (mam) 0
+[voice path="res://dialogue/asset/voice acting/manami/Manami_Row_725.mp3" volume="0.0"]
+Hello I am Manami. I’ve just been able to come out and write in my diary. Do you know how long happiness can stay with us? Today, an unimaginable loss has hit Kokoro. Her mom, who has been unwell for years because of all the hard work she did since we were little, has passed away. It has been a few days now, and the pain feels unbearable. \:(
+update kokoro (blank) 0
+update kokoro (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 7/sfx_note.mp3" volume="0.0" bus=""]
+[signal arg="ninth"]
+join kokoro (mam) 0
+[voice path="res://dialogue/asset/voice acting/manami/Manami_Row_726.mp3" volume="0.0"]
+Hello I am Manami. I secretly went to see a doctor today, and it feels like the right moment to note that it is already 2020. Kokoro has not spoken with us since 2017. I have heard that she has a new friend named Kazumi, who is very kind to her. Most importantly, they share the same dream of becoming idols.
+update kokoro (blank) 0
+update kokoro (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 7/sfx_note.mp3" volume="0.0" bus=""]
+[signal arg="tenth"]
+join kokoro (mam) 0
+[voice path="res://dialogue/asset/voice acting/manami/Manami_Row_727.mp3" volume="0.0"]
+Hello I am Manami. Akane has been coming out more often these days because there is a lot of online cruelty directed at Kokoro. Akane says the reason for her presence is that Kazumi has taken away Kokoro’s happiness. But I do not agree with her. Kokoro seems genuinely happy and comfortable when she is with Kazumi. I often remind Akane that she needs to let Kokoro handle this situation on her own. But I wonder if Akane truly understands what I am saying.
+update kokoro (blank) 0
+update kokoro (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 7/sfx_note.mp3" volume="0.0"]
+[signal arg="eleventh"]
+join kokoro (mam) 0
+[voice path="res://dialogue/asset/voice acting/manami/Manami_Row_728.mp3" volume="0.0"]
+Hello I am Manami. The situation has gotten worse lately because Akane has been coming out more often to 'protect' Kokoro. She’s been trying to track Kazumi, also sending her rude messages and threatening letters. Even worse, I saw her send a doll similar to the one Kokoro once received from a malicious fan. Akane mentioned that her goal was to make Kazumi feel as terrified as Kokoro once did. I’m so worried---how can I help Kokoro’s friend?
+update kokoro (blank) 0
+update kokoro (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 7/sfx_note.mp3" volume="0.0"]
+[signal arg="twelfth"]
+join kokoro (mam) 0
+[voice path="res://dialogue/asset/voice acting/manami/Manami_Row_729.mp3" volume="0.0"]
+What should I do? Akane said she would kill Kazumi.
+update kokoro (blank) 0
+update kokoro (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 7/sfx_note.mp3" volume="0.0"]
+[signal arg="thirteenth"]
+join kokoro (mam) 0
+[voice path="res://dialogue/asset/voice acting/manami/Manami_Row_730.mp3" volume="0.0"]
+Will Kokoro be sad if she finds out Akane killed Kazumi?… I am so sorry that I couldn’t protect your friend or stop this from happening.
+update kokoro (blank) 0
+update kokoro (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 7/sfx_note.mp3" volume="0.0" bus=""]
+[signal arg="fourteenth"]
+join kokoro (mam) 0
+[voice path="res://dialogue/asset/voice acting/manami/Manami_Row_731.mp3" volume="0.0"]
+This may be the last note from me. Akane's desire to protect us has been achieved.
+leave --All--
+[background arg="res://dialogue/asset/background/timeline/ev7/ev7 (True Ending)/ev7(true_ending).png" fade="0.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[wait time="2.0"]
+[clear time="1.0" step="false"]
+[music fade="0.0" volume="0.0"]
+[signal arg="GAME_END"]
+[end_timeline]

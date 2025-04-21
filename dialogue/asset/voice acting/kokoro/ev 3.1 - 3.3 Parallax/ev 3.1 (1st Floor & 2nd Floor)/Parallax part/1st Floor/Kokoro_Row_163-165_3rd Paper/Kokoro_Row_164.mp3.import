@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cj15r0x8imcmh"
+path="res://.godot/imported/Kokoro_Row_164.mp3-ef6a85e8004a393a68291d753a84f9d6.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/Parallax part/1st Floor/Kokoro_Row_163-165_3rd Paper/Kokoro_Row_164.mp3"
+dest_files=["res://.godot/imported/Kokoro_Row_164.mp3-ef6a85e8004a393a68291d753a84f9d6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

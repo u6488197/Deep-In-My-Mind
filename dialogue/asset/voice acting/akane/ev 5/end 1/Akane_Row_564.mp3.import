@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c4sofsis0puna"
+path="res://.godot/imported/Akane_Row_564.mp3-0304abea6d260c1a6b213a8c60950858.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/voice acting/akane/ev 5/end 1/Akane_Row_564.mp3"
+dest_files=["res://.godot/imported/Akane_Row_564.mp3-0304abea6d260c1a6b213a8c60950858.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

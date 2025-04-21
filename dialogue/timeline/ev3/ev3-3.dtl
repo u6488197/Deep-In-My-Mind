@@ -1,0 +1,137 @@
+[music path="res://dialogue/asset/music & sound effects/ev3.3/music_past.mp3" fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="3.0"]
+[wait time="3.0"]
+[background arg="res://dialogue/asset/background/timeline/ev3.3/Box.png" fade="0.0"]
+join kokoro (normal2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_214.mp3" volume="0.0"]
+kokoro: What is this?
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (normal2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_215.mp3" volume="0.0"]
+kokoro: Kazumi... Have you also been through something like this?
+update kokoro (blank)
+update kokoro (blank)
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="3.0"]
+[wait time="3.0"]
+[background arg="res://dialogue/asset/background/timeline/ev3.3/old_bedroom.png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (sad1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_216.mp3" volume="0.0"]
+kokoro: Back then, I used to receive negative comments from people on social media.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (sad1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_217.mp3" volume="0.0"]
+kokoro: Why do I have to encounter this kind of situation?
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (sad1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_218.mp3" volume="0.0"]
+kokoro: With those messages directed to me on social media... and those negative messages in the letters...
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (sad1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_219.mp3" volume="0.0"]
+kokoro: What have I done to them?
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (sad1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_220.mp3" volume="0.0"]
+kokoro: I'm too scared to take a look, but it might be a food delivery man.
+update kokoro (blank) 0
+update kokoro (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev3.3/sfx_open_door.mp3" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev3.3/DoorKKR.png" fade="2.0"]
+[wait time="2.0"]
+[voice path="res://dialogue/asset/voice acting/nameless/ev 3.3/DeliveryMan1_Row_221.wav" volume="0.0"]
+Miss Kokoro, are you there?
+[voice path="res://dialogue/asset/voice acting/nameless/ev 3.3/DeliveryMan1_Row_222.wav" volume="0.0"]
+There's a parcel for you.
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_223.mp3" volume="0.0"]
+kokoro: Yes, I am.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_224.mp3" volume="0.0"]
+kokoro: Who is the sender?
+update kokoro (blank) 0
+update kokoro (blank) 0
+[voice path="res://dialogue/asset/voice acting/nameless/ev 3.3/DeliveryMan1_Row_225.wav" volume="0.0"]
+The sender asked not to disclose their name. They want to surprise you.
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_226.mp3" volume="0.0"]
+kokoro: I see.
+update kokoro (blank) 0
+update kokoro (blank) 0
+[voice path="res://dialogue/asset/voice acting/nameless/ev 3.3/DeliveryMan1_Row_227.wav" volume="0.0"]
+Anyway, could you please sign for the parcel here?
+Kokoro signed her name for the parcel and received it.
+[sound path="res://dialogue/asset/music & sound effects/parallax_gameplay/box/sfx_close_door.mp3" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev3.3/1(ev3.3).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_229.mp3" volume="0.0"]
+kokoro: Who sent this to me?
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_230.mp3" volume="0.0"]
+kokoro: Though I'm scared, I have to check it.
+update kokoro (blank)
+update kokoro (blank)
+[wait time="1.0"]
+[music fade="0.0" volume="0.0"]
+[music path="res://dialogue/asset/music & sound effects/ev3.3/music_open_parcel.mp3" fade="0.0" volume="0.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev3.3/sfx_open_box.mp3" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev3.3/DollKKR.png" fade="2.0"]
+[wait time="2.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 4.4/sfx_scream_dream.mp3" volume="2.0"]
+join kokoro (scared1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_231.mp3" volume="0.0"]
+kokoro: Ah!! What is it?
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (scared1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_232.mp3" volume="0.0"]
+kokoro: This is the worst. Who have I made angry and hateful?
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (shock1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_233.mp3" volume="0.0"]
+kokoro: This is too much. I need to tell Miss Ami.
+update kokoro (blank) 0
+[background arg="res://dialogue/asset/background/timeline/ev3.3/KokoroRoom.png" fade="2.0"]
+Afterward, Kokoro told Miss Ami about this.
+[wait time="2.0"]
+In the end, she moved to her current condo.
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="3.0"]
+[wait time="3.0"]
+[clear time="1.0" step="false" text="false" portraits="false" music="false" positions="false" style="false"]
+join kokoro (sad2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_237.mp3" volume="0.0"]
+kokoro: I never thought that Kazumi would encounter something like this.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_238.mp3" volume="0.0"]
+kokoro: I guess from her personality that she probably hasn't told Miss Ami about this.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_239.mp3" volume="0.0"]
+kokoro: She shouldn't have to experince something like this.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_240.mp3" volume="0.0"]
+kokoro: But this is clearer evidence that Kazumi has experienced bad situations similar to mine.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_241.mp3" volume="0.0"]
+kokoro: Could the person who sent these to Kazumi be the culprit?
+update kokoro (blank)
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+return

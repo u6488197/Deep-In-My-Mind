@@ -1,0 +1,118 @@
+[music fade="0.0" volume="0.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 6.2/music_kazumi_pov.mp3" fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.2/Updated_ev6.2(1).png" fade="2.0"]
+[wait time="2.0"]
+join kazumi (normal) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.2/Kazumi_Row_616.mp3" volume="0.0"]
+kazumi: Since I visited Kokoro at her condo that day and she told me to leave, I haven't been able to contact her.
+update kazumi (blank) 0
+update kazumi (blank) 0
+join kazumi (normal) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.2/Kazumi_Row_617.mp3" volume="0.0"]
+kazumi: I’m very worried about her because I feel like someone’s been following me lately.
+update kazumi (blank)
+update kazumi (blank)
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.2/Updated_ev6.2(2).png" fade="2.0"]
+[wait time="2.0"]
+join kazumi (normal) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.2/Kazumi_Row_618.mp3" volume="0.0"]
+kazumi: I want to see her so bad, but I’m afraid my gut feeling is right, I might end up putting her in danger too.
+update kazumi (blank)
+update kazumi (blank)
+[background scene="res://dialogue/scene/several_days.tscn" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="1.0"]
+[wait time="1.0"]
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.2/ev6.2(3).png" fade="2.0"]
+[wait time="2.0"]
+Kazumi had been receiving multiple letters filled with curses and insults from an unknown sender.
+update kazumi (blank) 0
+update kazumi (blank) 0
+join kazumi (normal) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.2/Kazumi_Row_621.mp3" volume="0.0"]
+kazumi: After reading through each letter and judging by the handwriting, I’m pretty sure they’re all from the same person.
+update kazumi (blank) 0
+update kazumi (blank) 0
+join kazumi (scared1.8) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.2/Kazumi_Row_622.mp3" volume="0.0"]
+kazumi: Why does this person hate me so much?
+update kazumi (blank) 0
+update kazumi (blank) 0
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.2/ev6.2(4).png" fade="2.0"]
+[wait time="2.0"]
+join kazumi (scared1.8) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.2/Kazumi_Row_623.mp3" volume="0.0"]
+kazumi: I should keep these letters, along with the doll I received previously.
+update kazumi (blank) 0
+update kazumi (blank) 0
+join kazumi (normal) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.2/Kazumi_Row_624.mp3" volume="0.0"]
+kazumi: I’ll gather everything as evidence and hand them over to Miss Ami so she can take legal action.
+update kazumi (blank) 0
+update kazumi (blank) 0
+join kazumi (normal) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.2/Kazumi_Row_625.mp3" volume="0.0"]
+kazumi: Whatever, I’ll scroll through social media for a bit. It might help ease my anxiety.
+update kazumi (blank) 4
+update kazumi (blank) 4
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.2/ev6.2(5).png" fade="2.0"]
+[wait time="2.0"]
+join kazumi (scared1.8) 4
+join kazumi (scared1.8) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.2/Kazumi_Row_628.mp3" volume="0.0"]
+kazumi: Everyone is accusing me of things that aren’t true.
+update kazumi (blank) 4
+update kazumi (blank) 4
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.2/ev6.2(5).png" fade="2.0"]
+join kazumi (scared1.8) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.2/Kazumi_Row_629.mp3" volume="0.0"]
+kazumi: Why do they have to go this far?
+update kazumi (blank) 4
+update kazumi (blank) 4
+join kazumi (scared1.8) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.2/Kazumi_Row_630.mp3" volume="0.0"]
+kazumi: I’ve been going through a lot lately.
+update kazumi (blank) 4
+update kazumi (blank) 4
+join kazumi (normal) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.2/Kazumi_Row_631.mp3" volume="0.0"]
+kazumi: Besides the stress of these strange parcels and fake rumors
+update kazumi (blank) 4
+update kazumi (blank) 4
+join kazumi (normal) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.2/Kazumi_Row_632.mp3" volume="0.0"]
+kazumi: I’m also feeling unsafe wherever I go.
+update kazumi (blank) 4
+update kazumi (blank) 4
+join kazumi (normal) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.2/Kazumi_Row_633.mp3" volume="0.0"]
+kazumi: I think I should quietly head back to my hometown.
+update kazumi (blank) 4
+update kazumi (blank) 4
+join kazumi (normal) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.2/Kazumi_Row_634.mp3" volume="0.0"]
+kazumi: Maybe that’ll help me feel a little more at ease.
+update kazumi (blank) 4
+update kazumi (blank) 4
+Kazumi decided to message Kokoro again, even though she knew Kokoro probably wouldn’t respond.
+update kazumi (blank) 4
+update kazumi (blank) 4
+join kazumi (normal) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.2/Kazumi_Row_637.mp3" volume="0.0"]
+kazumi: Whenever I have problems, she always says she’s there for me, giving me hugs and cheering me up.
+update kazumi (blank) 4
+update kazumi (blank) 4
+join kazumi (normal) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.2/Kazumi_Row_638.mp3" volume="0.0"]
+kazumi: But when she’s not around, I feel so lonely and empty.
+update kazumi (blank) 4
+update kazumi (blank) 4
+join kazumi (normal) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.2/Kazumi_Row_639.mp3" volume="0.0"]
+kazumi: I miss the times we had together.
+leave --All--
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="3.0"]
+[wait time="3.0"]
+[music fade="0.0" volume="0.0"]
+[clear time="1.0" step="false" text="false" background="false" style="false"]
+jump ev6-3/

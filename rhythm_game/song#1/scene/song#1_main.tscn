@@ -1,0 +1,79 @@
+[gd_scene load_steps=7 format=3 uid="uid://8qxasqeopg4m"]
+
+[ext_resource type="Script" path="res://rhythm_game/song#1/script/song#1_main.gd" id="1_ktirs"]
+[ext_resource type="Texture2D" uid="uid://ojwpm3ebhs1k" path="res://rhythm_game/asset/background/stage.png" id="2_08ody"]
+[ext_resource type="FontFile" uid="uid://cdjs3xxyrqxfy" path="res://asset/font/HinaMincho-Regular.ttf" id="3_g5q6f"]
+[ext_resource type="Texture2D" uid="uid://mpvq885qnmbo" path="res://rhythm_game/asset/background/control_white.png" id="4_7rbtq"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vndvb"]
+bg_color = Color(0.341176, 0.254902, 0.286275, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+shadow_size = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0q7mw"]
+bg_color = Color(0.341176, 0.254902, 0.286275, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[node name="Song#1Main" type="Node2D"]
+script = ExtResource("1_ktirs")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_08ody")
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 456.0
+offset_top = 314.0
+offset_right = 846.0
+offset_bottom = 391.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_g5q6f")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_vndvb")
+theme_override_styles/hover = SubResource("StyleBoxFlat_0q7mw")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_vndvb")
+text = "Play"
+
+[node name="Combo" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 454.0
+offset_top = 503.0
+offset_right = 849.0
+offset_bottom = 572.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 8
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_g5q6f")
+theme_override_font_sizes/font_size = 45
+text = "How to play: arrows"
+horizontal_alignment = 1
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+offset_left = 564.0
+offset_top = 564.0
+offset_right = 708.0
+offset_bottom = 674.0
+texture = ExtResource("4_7rbtq")
+expand_mode = 1
+stretch_mode = 5
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

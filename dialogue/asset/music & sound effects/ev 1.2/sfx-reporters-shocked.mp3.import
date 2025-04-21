@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ddk4k0s035nvg"
+path="res://.godot/imported/sfx-reporters-shocked.mp3-2a83fd60258b34be515f256bacbdd63d.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 1.2/sfx-reporters-shocked.mp3"
+dest_files=["res://.godot/imported/sfx-reporters-shocked.mp3-2a83fd60258b34be515f256bacbdd63d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d1q2nu0hbbeyt"
+path="res://.godot/imported/Kokoro_Row_169-2.mp3-fe1f540866c214a043b670d07ddb6f2c.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/Parallax part/2nd Floor/Kokoro_Row_167_169_Hanging Sign/Kokoro_Row_169-2.mp3"
+dest_files=["res://.godot/imported/Kokoro_Row_169-2.mp3-fe1f540866c214a043b670d07ddb6f2c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

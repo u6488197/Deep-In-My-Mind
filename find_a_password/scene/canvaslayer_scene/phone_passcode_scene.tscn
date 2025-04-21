@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cfqry4p2diwr8"]
+
+[ext_resource type="PackedScene" uid="uid://cj0o8gxhkhdfm" path="res://find_a_password/scene/control.tscn" id="1_1tj2h"]
+
+[node name="PhonePasscodeScene" type="CanvasLayer"]
+layer = 2
+
+[node name="passcode" parent="." instance=ExtResource("1_1tj2h")]

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c78ef73vdvgnf"
+path="res://.godot/imported/DeliveryMan1_Row_222.wav-c539c28b000e75a15f3abe61f70d9323.sample"
+
+[deps]
+
+source_file="res://dialogue/asset/voice acting/nameless/ev 3.3/DeliveryMan1_Row_222.wav"
+dest_files=["res://.godot/imported/DeliveryMan1_Row_222.wav-c539c28b000e75a15f3abe61f70d9323.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

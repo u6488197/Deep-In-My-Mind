@@ -1,0 +1,41 @@
+[gd_resource type="Resource" script_class="DialogicStyle" load_steps=13 format=3 uid="uid://vjves7xhp88v"]
+
+[ext_resource type="PackedScene" uid="uid://c1k5m0w3r40xf" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn" id="1_h3cpj"]
+[ext_resource type="Script" path="res://addons/dialogic/Resources/dialogic_style_layer.gd" id="2_sxohn"]
+[ext_resource type="PackedScene" uid="uid://bu7xtftn04eju" path="res://dialogue/asset/style/input_catcher/InputCatcher/custom_full_advance_input_layer.tscn" id="4_7wjl0"]
+[ext_resource type="PackedScene" uid="uid://dpqb6piwsmra" path="res://dialogue/asset/style/portrait/5Portraits/custom_vn_portrait_layer.tscn" id="6_jc7o4"]
+[ext_resource type="PackedScene" uid="uid://cd00c7rh3xa7m" path="res://dialogue/asset/style/choice/choice_layer.tscn" id="7_uxksr"]
+[ext_resource type="PackedScene" uid="uid://cxqsri8w6rqu7" path="res://dialogue/asset/style/textbox_style/textbox_layer.tscn" id="9_4vj6d"]
+[ext_resource type="Script" path="res://addons/dialogic/Resources/dialogic_style.gd" id="10_plgvq"]
+
+[sub_resource type="Resource" id="Resource_y4ng8"]
+script = ExtResource("2_sxohn")
+scene = ExtResource("1_h3cpj")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_jafij"]
+script = ExtResource("2_sxohn")
+scene = ExtResource("6_jc7o4")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_mt4vf"]
+script = ExtResource("2_sxohn")
+scene = ExtResource("4_7wjl0")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_rgti8"]
+script = ExtResource("2_sxohn")
+scene = ExtResource("7_uxksr")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_ws5l5"]
+script = ExtResource("2_sxohn")
+scene = ExtResource("9_4vj6d")
+overrides = {}
+
+[resource]
+script = ExtResource("10_plgvq")
+name = "temp"
+base_overrides = {}
+layers = Array[ExtResource("2_sxohn")]([SubResource("Resource_y4ng8"), SubResource("Resource_jafij"), SubResource("Resource_mt4vf"), SubResource("Resource_rgti8"), SubResource("Resource_ws5l5")])
+metadata/_latest_layer = 2

@@ -1,0 +1,96 @@
+[gd_scene load_steps=6 format=3 uid="uid://cd00c7rh3xa7m"]
+
+[ext_resource type="Script" path="res://dialogue/asset/style/choice/choice_layer.gd" id="1_koilq"]
+[ext_resource type="Theme" uid="uid://bd64i3dx4elpc" path="res://gui/asset/style/main_menu_button.tres" id="2_wy4w5"]
+[ext_resource type="Script" path="res://addons/dialogic/Modules/Choice/node_choice_button.gd" id="3_137ki"]
+[ext_resource type="Script" path="res://addons/dialogic/Modules/Choice/node_button_sound.gd" id="4_d6avm"]
+
+[sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_dhcts"]
+random_pitch = 1.06
+random_volume_offset_db = 1.11
+streams_count = 1
+stream_0/weight = 1.0
+
+[node name="ChoiceLayer" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_koilq")
+
+[node name="Paralax" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Choices" type="VBoxContainer" parent="Paralax"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -115.0
+offset_top = -358.0
+offset_right = 115.0
+offset_bottom = 254.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme = ExtResource("2_wy4w5")
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="Choice1" type="Button" parent="Paralax/Choices"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+action_mode = 0
+text = "Option 1"
+script = ExtResource("3_137ki")
+
+[node name="Choice2" type="Button" parent="Paralax/Choices"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+action_mode = 0
+text = "Option 2"
+script = ExtResource("3_137ki")
+
+[node name="Choice3" type="Button" parent="Paralax/Choices"]
+layout_mode = 2
+action_mode = 0
+text = "Option 3"
+script = ExtResource("3_137ki")
+
+[node name="Choice4" type="Button" parent="Paralax/Choices"]
+layout_mode = 2
+size_flags_vertical = 4
+action_mode = 0
+text = "Option 4          
+(Has two lines)"
+script = ExtResource("3_137ki")
+
+[node name="Choice5" type="Button" parent="Paralax/Choices"]
+layout_mode = 2
+action_mode = 0
+text = "Option 5"
+script = ExtResource("3_137ki")
+
+[node name="Choice6" type="Button" parent="Paralax/Choices"]
+visible = false
+layout_mode = 2
+action_mode = 0
+text = "Option 6"
+script = ExtResource("3_137ki")
+
+[node name="ButtonSound" type="AudioStreamPlayer" parent="Paralax/Choices"]
+volume_db = -21.478
+script = ExtResource("4_d6avm")
+sound_hover = SubResource("AudioStreamRandomizer_dhcts")

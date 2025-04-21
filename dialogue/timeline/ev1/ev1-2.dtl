@@ -1,0 +1,58 @@
+[music fade="0.0" volume="0.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 1.2/music_grave.mp3" fade="0.0" volume="0.0"]
+[voice path="res://dialogue/asset/music & sound effects/ev 1.1/walking-through-grass-80308.mp3" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev1/ev1.2/ev1.2(1).png" fade="2.0"]
+[wait time="2.0"]
+join ami (sad) 1
+join kokoro (sad1.7) 3
+[voice path="res://dialogue/asset/voice acting/manager/ev 1.2/Manager_Row_22.mp3" volume="0.0"]
+ami: I'm so sorry, Kokoro.
+leave --All--
+update kokoro (blank) 0
+update kokoro (blank) 0
+update ami (blank) 1
+update ami (blank) 1
+join kokoro (sad1.7) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 1.1/woman-crying-291098.mp3" volume="-3.0"]
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 1.2/Kokoro_Row_23.mp3" volume="0.0"]
+kokoro: Thank you, Miss Ami.
+update ami (blank) 1
+leave --All--
+update ami (blank) 1
+update kokoro (blank) 3
+update kokoro (blank) 3
+[background arg="res://dialogue/asset/background/timeline/ev1/ev1.2/ev1.2(2).png" fade="2.0"]
+[wait time="2.0"]
+Why do you leave me alone?
+[background arg="res://dialogue/asset/background/timeline/ev1/ev1.2/ev1.2(3).png" fade="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev1/ev1.2/ev1.2(3).png" fade="2.0"]
+[update_position action="set_absolute" position="1" vector="Vector2(300, 45)" time="0.0"]
+[update_position action="set_absolute" position="3" vector="Vector2(460, 60)" time="0.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="3.0"]
+[wait time="3.0"]
+[background arg="res://dialogue/asset/background/timeline/ev1/ev1.2/ev1.2(4).png" fade="0.0"]
+join kokoro (happy-full) 1
+join kazumi (happy-full) 3
+[wait time="3.0"]
+[update_position action="reset_all" time="0.0"]
+update kokoro (blank) 3
+update kokoro (blank) 3
+update kazumi (blank) 1
+update kazumi (blank) 1
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="3.0"]
+[wait time="3.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 1.2/sfx_interview.mp3" volume="-6.0"]
+[background arg="res://dialogue/asset/background/timeline/ev1/ev1.2/ev1.2(5).png" fade="2.0"]
+[wait time="2.0"]
+join ami (sad) 1
+join kokoro (sad1.7) 3
+[voice path="res://dialogue/asset/voice acting/manager/ev 1.2/Manager_Row_25.mp3" volume="0.0"]
+ami: We’ve decided to temporarily suspend idol Kokoro to prioritize her mental health.
+[sound path="res://dialogue/asset/music & sound effects/ev 1.2/sfx_reporters_shocked.mp3" volume="0.0"]
+leave --All--
+[music fade="0.0" volume="0.0"]
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="3.0"]
+[wait time="3.0"]
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+jump ev2-1/

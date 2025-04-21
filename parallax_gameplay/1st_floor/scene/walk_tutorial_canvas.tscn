@@ -1,0 +1,64 @@
+[gd_scene load_steps=5 format=3 uid="uid://t7swpyct5xfb"]
+
+[ext_resource type="Script" path="res://parallax_gameplay/1st_floor/script/tutorial_canvas.gd" id="1_l32hp"]
+[ext_resource type="Texture2D" uid="uid://bhsvpuo6w0i8j" path="res://parallax_gameplay/asset/tutorial_icon/a-button-icon.png" id="2_d71c1"]
+[ext_resource type="FontFile" uid="uid://q1ds557eeavh" path="res://parallax_gameplay/asset/font/FUTURA HEAVY FONT.TTF" id="2_fpanp"]
+[ext_resource type="Texture2D" uid="uid://cxjvvl4ei83c0" path="res://parallax_gameplay/asset/tutorial_icon/d-button-icon.png" id="4_7xoke"]
+
+[node name="Walk_Tutorial_Canvas" type="CanvasLayer"]
+script = ExtResource("1_l32hp")
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="."]
+unique_name_in_owner = true
+offset_top = 532.0
+offset_right = 1279.0
+offset_bottom = 702.0
+theme_override_constants/separation = 100
+alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer3"]
+layout_mode = 2
+theme_override_constants/separation = 50
+
+[node name="A_button_Icon" type="TextureRect" parent="HBoxContainer3/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+texture = ExtResource("2_d71c1")
+stretch_mode = 5
+
+[node name="Label1" type="Label" parent="HBoxContainer3/HBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_fpanp")
+theme_override_font_sizes/font_size = 40
+text = "walk left"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer3"]
+layout_mode = 2
+theme_override_constants/separation = 50
+
+[node name="D_button_Icon" type="TextureRect" parent="HBoxContainer3/HBoxContainer2"]
+layout_mode = 2
+texture = ExtResource("4_7xoke")
+stretch_mode = 5
+
+[node name="Label2" type="Label" parent="HBoxContainer3/HBoxContainer2"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_fpanp")
+theme_override_font_sizes/font_size = 40
+text = "walk right"
+
+[node name="Label" type="Label" parent="."]
+unique_name_in_owner = true
+offset_left = 15.0
+offset_top = 513.0
+offset_right = 1279.0
+offset_bottom = 536.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_fpanp")
+theme_override_font_sizes/font_size = 25
+text = "During the gameplays, saving and loading will be unavailable."
+horizontal_alignment = 1
+
+[connection signal="ready" from="." to="." method="_on_ready"]

@@ -1,0 +1,115 @@
+[gd_scene load_steps=13 format=3 uid="uid://s7eb02n1kyo6"]
+
+[ext_resource type="Texture2D" uid="uid://ojwpm3ebhs1k" path="res://rhythm_game/asset/background/stage.png" id="1_gmkef"]
+[ext_resource type="Script" path="res://rhythm_game/song#1/script/song#1_game.gd" id="2_64gst"]
+[ext_resource type="PackedScene" uid="uid://blpwqv0jn1746" path="res://rhythm_game/scene/arrow_button.tscn" id="2_o6nyn"]
+[ext_resource type="SpriteFrames" uid="uid://duu12ywuc6oum" path="res://rhythm_game/asset/frame/right_frames.tres" id="3_be47v"]
+[ext_resource type="SpriteFrames" uid="uid://blcabwoncd28f" path="res://rhythm_game/asset/frame/left_frames.tres" id="4_28one"]
+[ext_resource type="SpriteFrames" uid="uid://bfrfebnsbsmrg" path="res://rhythm_game/asset/frame/down_frames.tres" id="5_yag14"]
+[ext_resource type="PackedScene" uid="uid://cch8cgt1mbrsj" path="res://rhythm_game/scene/conductor.tscn" id="7_1af1y"]
+[ext_resource type="AudioStream" uid="uid://b7cv854ajxhvr" path="res://rhythm_game/asset/music/song#1-trim.mp3" id="7_y7h2o"]
+[ext_resource type="FontFile" uid="uid://cdjs3xxyrqxfy" path="res://asset/font/HinaMincho-Regular.ttf" id="9_3x616"]
+[ext_resource type="Texture2D" uid="uid://cb6okhlbl6db5" path="res://asset/pop-up/textbox.PNG" id="10_n7q2f"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_pb35b"]
+texture = ExtResource("10_n7q2f")
+
+[sub_resource type="Theme" id="Theme_rtig0"]
+Label/font_sizes/font_size = 55
+Label/fonts/font = ExtResource("9_3x616")
+
+[node name="Song#1Game" type="Node2D"]
+script = ExtResource("2_64gst")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_gmkef")
+
+[node name="LeftButton" parent="." instance=ExtResource("2_o6nyn")]
+position = Vector2(400, 650)
+sprite_frames = ExtResource("4_28one")
+input = "left"
+
+[node name="UpButton" parent="." instance=ExtResource("2_o6nyn")]
+position = Vector2(550, 650)
+input = "up"
+
+[node name="DownButton" parent="." instance=ExtResource("2_o6nyn")]
+position = Vector2(700, 650)
+sprite_frames = ExtResource("5_yag14")
+input = "down"
+
+[node name="RightButton" parent="." instance=ExtResource("2_o6nyn")]
+position = Vector2(850, 650)
+sprite_frames = ExtResource("3_be47v")
+input = "right"
+
+[node name="Conductor" parent="." instance=ExtResource("7_1af1y")]
+stream = ExtResource("7_y7h2o")
+
+[node name="Combo" type="Label" parent="."]
+offset_left = 42.0
+offset_top = 19.0
+offset_right = 134.0
+offset_bottom = 68.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("9_3x616")
+theme_override_font_sizes/font_size = 35
+
+[node name="Label" type="Label" parent="."]
+visible = false
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 44.0
+offset_bottom = 18.0
+text = "0"
+
+[node name="Panel" type="TextureRect" parent="."]
+unique_name_in_owner = true
+visible = false
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 1281.0
+offset_bottom = 721.0
+texture = ExtResource("1_gmkef")
+
+[node name="Panel" type="Panel" parent="Panel"]
+offset_left = 297.0
+offset_top = 127.0
+offset_right = 986.0
+offset_bottom = 567.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_pb35b")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel/Panel"]
+layout_mode = 0
+offset_top = 8.0
+offset_right = 693.0
+offset_bottom = 444.0
+theme = SubResource("Theme_rtig0")
+alignment = 1
+
+[node name="Label" type="Label" parent="Panel/Panel/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+text = "Congratulations!"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel/Panel/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 30
+alignment = 1
+
+[node name="Score" type="Label" parent="Panel/Panel/VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+text = "123456"
+
+[node name="Grade" type="Label" parent="Panel/Panel/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+text = "Excellent!!"
+horizontal_alignment = 1

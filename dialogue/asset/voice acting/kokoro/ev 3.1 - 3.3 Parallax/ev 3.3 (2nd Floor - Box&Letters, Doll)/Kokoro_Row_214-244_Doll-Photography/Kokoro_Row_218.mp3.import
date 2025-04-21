@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://j166vktnvvdg"
+path="res://.godot/imported/Kokoro_Row_218.mp3-2dc3f6cea0b6bcdc4e3a089ab2ab44a9.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_214-244_Doll-Photography/Kokoro_Row_218.mp3"
+dest_files=["res://.godot/imported/Kokoro_Row_218.mp3-2dc3f6cea0b6bcdc4e3a089ab2ab44a9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

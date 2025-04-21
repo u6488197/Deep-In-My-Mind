@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b08k3vk2suqcg"]
+
+[ext_resource type="PackedScene" uid="uid://cfxiybbxcwjg2" path="res://find_a_password/scene/phone_first_click.tscn" id="1_tsbtv"]
+
+[node name="PhoneFirstClickMain" type="CanvasLayer"]
+layer = 0
+
+[node name="PhoneFirstClick" parent="." instance=ExtResource("1_tsbtv")]

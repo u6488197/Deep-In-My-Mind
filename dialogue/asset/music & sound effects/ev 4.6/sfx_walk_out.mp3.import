@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bf8325cpui1at"
+path="res://.godot/imported/sfx_walk_out.mp3-a840de81f889d8cc60176f17ef18bb8d.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 4.6/sfx_walk_out.mp3"
+dest_files=["res://.godot/imported/sfx_walk_out.mp3-a840de81f889d8cc60176f17ef18bb8d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

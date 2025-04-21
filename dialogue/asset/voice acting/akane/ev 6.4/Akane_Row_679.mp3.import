@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://3esstaedh50v"
+path="res://.godot/imported/Akane_Row_679.mp3-f6532e79aa1d4cb7a3da244e4943ec0b.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/voice acting/akane/ev 6.4/Akane_Row_679.mp3"
+dest_files=["res://.godot/imported/Akane_Row_679.mp3-f6532e79aa1d4cb7a3da244e4943ec0b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

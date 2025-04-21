@@ -1,0 +1,42 @@
+[gd_scene load_steps=4 format=3 uid="uid://cuwp4hbu5hkfs"]
+
+[ext_resource type="Script" path="res://parallax_gameplay/2nd_floor/script/letter.gd" id="1_bl8tq"]
+[ext_resource type="Texture2D" uid="uid://dxwwoy8b8h588" path="res://dialogue/asset/background/timeline/ev3.3/open_letter.png" id="1_f5xf1"]
+[ext_resource type="FontFile" uid="uid://c17wfd7aul8gd" path="res://dialogue/asset/font/Ethan.ttf" id="2_nyncy"]
+
+[node name="letter" type="Node"]
+script = ExtResource("1_bl8tq")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = -1
+anchor_left = -0.001
+anchor_top = 0.035
+anchor_right = 0.999
+anchor_bottom = 1.001
+offset_left = 0.28
+offset_top = -24.2
+offset_right = 0.279907
+offset_bottom = 0.279968
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_f5xf1")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -158.0
+offset_top = -194.0
+offset_right = 158.0
+offset_bottom = 102.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("2_nyncy")
+theme_override_font_sizes/normal_font_size = 25
+bbcode_enabled = true
+text = " I really hate you! You are very disgusting! Even your dancing, singing, or acting are totally terrible! The only reason you are famous is because of your beauty privilege! Just keep in your mind that I will do everything to bring you down!"
+fit_content = true
+autowrap_mode = 2

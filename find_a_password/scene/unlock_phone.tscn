@@ -1,0 +1,50 @@
+[gd_scene load_steps=4 format=3 uid="uid://825n60kry1i4"]
+
+[ext_resource type="Script" path="res://find_a_password/script/unlock_phone.gd" id="1_nko1j"]
+[ext_resource type="Texture2D" uid="uid://j267jdm2gro2" path="res://dialogue/asset/background/timeline/ev3.3/puzzle5.png" id="2_71i3w"]
+[ext_resource type="FontFile" uid="uid://cdjs3xxyrqxfy" path="res://asset/font/HinaMincho-Regular.ttf" id="3_r25ae"]
+
+[node name="UnlockPhone" type="Control"]
+layout_direction = 1
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_nko1j")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_71i3w")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 504.0
+offset_top = 88.0
+offset_right = 592.0
+offset_bottom = 120.0
+alignment = 1
+
+[node name="time" type="RichTextLabel" parent="HBoxContainer"]
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_r25ae")
+theme_override_font_sizes/normal_font_size = 10
+bbcode_enabled = true
+fit_content = true
+autowrap_mode = 0
+
+[node name="date" type="RichTextLabel" parent="HBoxContainer"]
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_r25ae")
+theme_override_font_sizes/normal_font_size = 10
+bbcode_enabled = true
+fit_content = true
+autowrap_mode = 0

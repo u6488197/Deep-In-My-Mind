@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cl2mh4ocqbkg6"
+path="res://.godot/imported/sfx_pencil_writing.mp3-914a39246ba1c15e7859797fb7c1d667.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 7/sfx_pencil_writing.mp3"
+dest_files=["res://.godot/imported/sfx_pencil_writing.mp3-914a39246ba1c15e7859797fb7c1d667.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=20.0
+beat_count=0
+bar_beats=4

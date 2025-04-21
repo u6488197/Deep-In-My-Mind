@@ -1,0 +1,157 @@
+[music fade="0.0" volume="0.0"]
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[background arg="res://dialogue/asset/background/timeline/ev2/ev2.1/ev2.1(1).png" fade="2.0"]
+[wait time="2.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 2.1/sfx_calling.mp3" fade="0.0" volume="0.0" loop="false"]
+[wait time="1.0"]
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[music fade="0.0" volume="0.0"]
+join ami (normal) 0
+[voice path="res://dialogue/asset/voice acting/manager/ev 2.1/Manager_Row_28.mp3" volume="0.0"]
+ami: Kokoro, how are you doing?
+update ami (blank) 0
+update ami (blank) 0
+[background arg="res://dialogue/asset/background/timeline/ev2/ev2.1/ev2.1(1).png" fade="0.0"]
+join kokoro (sad1.7) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 2.1/Kokoro_Row_29.mp3" volume="0.0"]
+kokoro: I’m okay, but I can’t say I’m completely fine since I’ve just lost a friend I loved.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join ami (sad) 0
+[voice path="res://dialogue/asset/voice acting/manager/ev 2.1/Manager_Row_30.mp3" volume="0.0"]
+ami: I understand. I'm also deeply saddened by her loss.
+update kokoro (blank) 0
+update kokoro (blank) 0
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+join ami (sad) 0
+[voice path="res://dialogue/asset/voice acting/manager/ev 2.1/Manager_Row_31.mp3" volume="0.0"]
+ami: Anyway, I have some updates on Kazumi’s case to share with you today.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join ami (sad) 0
+[voice path="res://dialogue/asset/voice acting/manager/ev 2.1/Manager_Row_32.mp3" volume="0.0"]
+ami: The police have already concluded that it was a suicide.
+update ami (blank) 0
+update ami (blank) 0
+join kokoro (sad1.7) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 2.1/Kokoro_Row_33.mp3" volume="0.0"]
+kokoro: It’s impossible! Kazumi wouldn't do that.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join ami (normal) 0
+[voice path="res://dialogue/asset/voice acting/manager/ev 2.1/Manager_Row_34.mp3" volume="0.0"]
+ami: The police said there were no signs of anyone else at the scene, other than Kazumi.
+update ami (blank) 0
+update ami (blank) 0
+update ami (normal) 0
+[voice path="res://dialogue/asset/voice acting/manager/ev 2.1/Manager_Row_35.mp3" volume="0.0"]
+ami: Moreover, some of your irrational fans have recently shown dissatisfaction toward Kazumi.
+update ami (blank) 0
+update ami (blank) 0
+Kokoro’s voice is trembling as she spoke through the call.
+join kokoro (sad1.7) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 2.1/Kokoro_Row_37.mp3" volume="0.0"]
+kokoro: Are you saying I'm the cause of Kazumi's death?
+update kokoro (blank) 0
+update kokoro (blank) 0
+join ami (normal) 0
+[voice path="res://dialogue/asset/voice acting/manager/ev 2.1/Manager_Row_38.mp3" volume="0.0"]
+ami: It’s not like that. I just think that what Kazumi has been going through recently makes it clear that she might have been under under a lot of pressure, which led her to take her own life.
+update ami (blank) 0
+update ami (blank) 0
+join ami (normal) 0
+[voice path="res://dialogue/asset/voice acting/manager/ev 2.1/Manager_Row_39.mp3" volume="0.0"]
+ami: So, I’m not surprised by how the case turned out.
+update ami (blank) 0
+update ami (blank) 0
+join kokoro (sad1.7) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 2.1/Kokoro_Row_40.mp3" volume="0.0"]
+kokoro: I don’t believe that Kazumi would do something like that.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad1.7) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 2.1/Kokoro_Row_41.mp3" volume="0.0"]
+kokoro: I’ve decided to find out the truth about this on my own.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join ami (normal) 0
+[voice path="res://dialogue/asset/voice acting/manager/ev 2.1/Manager_Row_42.mp3" volume="0.0"]
+ami: You shouldn’t waste your time on this.
+update ami (normal) 0
+update ami (normal) 0
+join ami (normal) 0
+[voice path="res://dialogue/asset/voice acting/manager/ev 2.1/Manager_Row_43.mp3" volume="0.0"]
+ami: I’m sure the police wouldn’t make a mistake in such an important case.
+update ami (blank) 0
+update ami (blank) 0
+join kokoro (sad1.7) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 2.1/Kokoro_Row_44.mp3" volume="0.0"]
+kokoro: Thank you for worrying about me, Miss Ami.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad1.7) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 2.1/Kokoro_Row_45.mp3" volume="0.0"]
+kokoro: Isn’t it true that in many cases involving the deaths of idols, the police often conclude they were suicides?
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad1.7) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 2.1/Kokoro_Row_46.mp3" volume="0.0"]
+kokoro: In the latest case of Miwa Senior, her family demanded the police investigate the case further.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad1.7) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 2.1/Kokoro_Row_47.mp3" volume="0.0"]
+kokoro: Eventually, it was revealed that she had been murdered by a stalker, who staged it to look like she had taken her own life.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad1.7) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 2.1/Kokoro_Row_48.mp3" volume="0.0"]
+kokoro: To be honest, I don’t trust the police. So, I want to do it by myself.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad1.7) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 2.1/Kokoro_Row_49.mp3" volume="0.0"]
+kokoro: If my suspicion turn out to be true, I’ll bring justice to Kazumi.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join ami (normal) 0
+[voice path="res://dialogue/asset/voice acting/manager/ev 2.1/Manager_Row_50.mp3" volume="0.0"]
+ami: I guess I really can’t stop you.
+update ami (normal) 0
+update ami (normal) 0
+join ami (normal) 0
+[voice path="res://dialogue/asset/voice acting/manager/ev 2.1/Manager_Row_51.mp3" volume="0.0"]
+ami: Anyway, if you come across anything suspicious, make sure to contact me first.
+update ami (normal) 0
+update ami (normal) 0
+join ami (normal) 0
+[voice path="res://dialogue/asset/voice acting/manager/ev 2.1/Manager_Row_52.mp3" volume="0.0"]
+ami: I mean… I just don’t want things to escalate in case it’s a misunderstanding.
+update ami (normal) 0
+update ami (normal) 0
+join kokoro (sad1.7) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 2.1/Kokoro_Row_53.mp3" volume="0.0"]
+kokoro: I understand, Miss Ami.
+update kokoro (blank) 0
+update kokoro (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 2.1/sfx_hang_up.mp3" volume="0.0"]
+join kokoro (sad1.7) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 2.1/Kokoro_Row_54.mp3" volume="0.0"]
+kokoro: This might have started when she was working alone.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad1.7) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 2.1/Kokoro_Row_55.mp3" volume="0.0"]
+kokoro: I remember there were both praises and criticisms about us back then. How did you feel during that time, Kazumi?
+leave --All--
+update kokoro (blank) 0
+update kokoro (blank) 0
+update ami (blank) 0
+update ami (blank) 0
+[background scene="res://dialogue/scene/previous_year.tscn" fade="3.0"]
+[wait time="3.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="3.0"]
+[wait time="3.0"]
+[music fade="0.0" volume="0.0"]
+[clear time="1.0" step="false" text="false" background="false" style="false"]
+jump ev2-2/

@@ -1,0 +1,119 @@
+[gd_scene load_steps=13 format=3 uid="uid://707ba81q8xng"]
+
+[ext_resource type="Script" path="res://rhythm_game/song#2/script/song#2_game.gd" id="1_mkroe"]
+[ext_resource type="Texture2D" uid="uid://ojwpm3ebhs1k" path="res://rhythm_game/asset/background/stage.png" id="2_wtw4w"]
+[ext_resource type="PackedScene" uid="uid://blpwqv0jn1746" path="res://rhythm_game/scene/arrow_button.tscn" id="3_4yd54"]
+[ext_resource type="SpriteFrames" uid="uid://blcabwoncd28f" path="res://rhythm_game/asset/frame/left_frames.tres" id="4_shi8o"]
+[ext_resource type="SpriteFrames" uid="uid://bfrfebnsbsmrg" path="res://rhythm_game/asset/frame/down_frames.tres" id="5_4pbdy"]
+[ext_resource type="SpriteFrames" uid="uid://duu12ywuc6oum" path="res://rhythm_game/asset/frame/right_frames.tres" id="6_rr76k"]
+[ext_resource type="PackedScene" uid="uid://cch8cgt1mbrsj" path="res://rhythm_game/scene/conductor.tscn" id="7_q1qle"]
+[ext_resource type="AudioStream" uid="uid://clgs1d45fnuce" path="res://rhythm_game/asset/music/song#2-trim.mp3" id="8_0c2rg"]
+[ext_resource type="FontFile" uid="uid://cdjs3xxyrqxfy" path="res://asset/font/HinaMincho-Regular.ttf" id="9_0mq71"]
+[ext_resource type="Texture2D" uid="uid://cb6okhlbl6db5" path="res://asset/pop-up/textbox.PNG" id="10_ho5mv"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_k8pgm"]
+texture = ExtResource("10_ho5mv")
+
+[sub_resource type="Theme" id="Theme_om8e3"]
+Label/font_sizes/font_size = 55
+Label/fonts/font = ExtResource("9_0mq71")
+
+[node name="Song#2Game" type="Node2D"]
+script = ExtResource("1_mkroe")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_wtw4w")
+metadata/_edit_lock_ = true
+
+[node name="LeftButton" parent="." instance=ExtResource("3_4yd54")]
+position = Vector2(400, 650)
+sprite_frames = ExtResource("4_shi8o")
+input = "left"
+
+[node name="UpButton" parent="." instance=ExtResource("3_4yd54")]
+position = Vector2(550, 650)
+input = "up"
+
+[node name="DownButton" parent="." instance=ExtResource("3_4yd54")]
+position = Vector2(700, 650)
+sprite_frames = ExtResource("5_4pbdy")
+input = "down"
+
+[node name="RightButton" parent="." instance=ExtResource("3_4yd54")]
+position = Vector2(850, 650)
+sprite_frames = ExtResource("6_rr76k")
+input = "right"
+
+[node name="Conductor" parent="." instance=ExtResource("7_q1qle")]
+stream = ExtResource("8_0c2rg")
+
+[node name="Combo" type="Label" parent="."]
+offset_left = 57.0
+offset_top = 40.0
+offset_right = 193.0
+offset_bottom = 103.0
+size_flags_horizontal = 4
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("9_0mq71")
+theme_override_font_sizes/font_size = 35
+horizontal_alignment = 1
+
+[node name="Label" type="Label" parent="."]
+visible = false
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 44.0
+offset_bottom = 18.0
+text = "0"
+
+[node name="Panel" type="TextureRect" parent="."]
+unique_name_in_owner = true
+visible = false
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 1281.0
+offset_bottom = 721.0
+texture = ExtResource("2_wtw4w")
+
+[node name="Panel" type="Panel" parent="Panel"]
+layout_mode = 0
+offset_left = 297.0
+offset_top = 127.0
+offset_right = 986.0
+offset_bottom = 567.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_k8pgm")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel/Panel"]
+layout_mode = 0
+offset_top = 8.0
+offset_right = 693.0
+offset_bottom = 444.0
+theme = SubResource("Theme_om8e3")
+alignment = 1
+
+[node name="Label" type="Label" parent="Panel/Panel/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+text = "Congratulations!"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel/Panel/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 30
+alignment = 1
+
+[node name="Score" type="Label" parent="Panel/Panel/VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+text = "123456"
+
+[node name="Grade" type="Label" parent="Panel/Panel/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+text = "Excellent!!"
+horizontal_alignment = 1

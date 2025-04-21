@@ -1,0 +1,9 @@
+[music path="res://dialogue/asset/music & sound effects/parallax_gameplay/music_box/music_music_box.mp3" fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/parallax_gameplay/1st_floor/music_box.png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (happy2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/Parallax part/1st Floor/Kokoro_Row_149-150_Music box/Kokoro_Row_149.mp3" volume="0.0"]
+kokoro: Happy Birthday, Kazumi! Wish you the best ever!
+leave --All--
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[end_timeline]

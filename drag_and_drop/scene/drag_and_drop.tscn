@@ -1,0 +1,186 @@
+[gd_scene load_steps=20 format=3 uid="uid://hxpqy3a1moor"]
+
+[ext_resource type="Script" path="res://drag_and_drop/script/drag_and_drop.gd" id="1_rulbl"]
+[ext_resource type="Script" path="res://addons/dialogic/Modules/Background/node_background_holder.gd" id="2_mx8ao"]
+[ext_resource type="Texture2D" uid="uid://x5o71klhds5n" path="res://drag_and_drop/asset/Puzzle.png" id="3_twvxf"]
+[ext_resource type="Texture2D" uid="uid://c1klci46jfc1e" path="res://drag_and_drop/asset/drop_zone/drop_paper1.png" id="4_48irp"]
+[ext_resource type="Script" path="res://drag_and_drop/script/slot.gd" id="5_3y2qf"]
+[ext_resource type="Texture2D" uid="uid://ds66htejpd6fm" path="res://drag_and_drop/asset/drop_zone/drop_paper2.png" id="6_3qmr8"]
+[ext_resource type="Texture2D" uid="uid://bj5td00sco3h6" path="res://drag_and_drop/asset/drop_zone/drop_paper5.png" id="7_hfsrd"]
+[ext_resource type="Texture2D" uid="uid://dvpc3coiqroxl" path="res://drag_and_drop/asset/drop_zone/drop_paper4.png" id="8_nyysm"]
+[ext_resource type="Texture2D" uid="uid://c68wabns58jym" path="res://drag_and_drop/asset/drop_zone/drop_paper3.png" id="9_svjw3"]
+[ext_resource type="Texture2D" uid="uid://bgiyah8t6g4hl" path="res://drag_and_drop/asset/paper/Paper_1.png" id="10_ldbmu"]
+[ext_resource type="Script" path="res://drag_and_drop/script/paper.gd" id="11_qwwpv"]
+[ext_resource type="Texture2D" uid="uid://bbtc3dlgpw8lg" path="res://drag_and_drop/asset/paper/Paper_2.png" id="12_bhdlu"]
+[ext_resource type="Texture2D" uid="uid://dhvaby214jd7f" path="res://drag_and_drop/asset/paper/Paper_3.png" id="13_04q01"]
+[ext_resource type="Texture2D" uid="uid://dyqeba7wwbsy3" path="res://drag_and_drop/asset/paper/Paper_4.png" id="14_k8jh0"]
+[ext_resource type="Texture2D" uid="uid://mc5xabqolt0x" path="res://drag_and_drop/asset/paper/Paper_5.png" id="15_ibqu8"]
+[ext_resource type="Texture2D" uid="uid://o8leyy8fmvnj" path="res://parallax_gameplay/asset/interaction_icon/goBack.png" id="17_is1ss"]
+[ext_resource type="Texture2D" uid="uid://bhnkyyihgs4f1" path="res://parallax_gameplay/asset/interaction_icon/Clicked_goBack.png" id="18_57015"]
+[ext_resource type="AudioStream" uid="uid://d07dl32utatuk" path="res://drag_and_drop/asset/sound effects/sfx_drop.mp3" id="19_806on"]
+[ext_resource type="AudioStream" uid="uid://k3xrit1atnf8" path="res://drag_and_drop/asset/music/music_drag_and_drop.mp3" id="19_fgmvj"]
+
+[node name="Control" type="Control"]
+layout_direction = 1
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_rulbl")
+
+[node name="DialogicNode_BackgroundHolder" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1281.0
+offset_bottom = 716.0
+script = ExtResource("2_mx8ao")
+metadata/_edit_lock_ = true
+
+[node name="TextureRect" type="TextureRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 720.0
+texture = ExtResource("3_twvxf")
+metadata/_edit_lock_ = true
+
+[node name="drop_zone1" type="TextureRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 641.0
+offset_top = 241.0
+offset_right = 821.0
+offset_bottom = 498.0
+texture = ExtResource("4_48irp")
+script = ExtResource("5_3y2qf")
+
+[node name="drop_zone2" type="TextureRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 641.0
+offset_top = 316.0
+offset_right = 901.0
+offset_bottom = 499.0
+texture = ExtResource("6_3qmr8")
+script = ExtResource("5_3y2qf")
+type = 1
+
+[node name="drop_zone5" type="TextureRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 768.0
+offset_top = 240.0
+offset_right = 981.0
+offset_bottom = 501.0
+texture = ExtResource("7_hfsrd")
+script = ExtResource("5_3y2qf")
+type = 4
+
+[node name="drop_zone4" type="TextureRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 948.0
+offset_top = 239.0
+offset_right = 1162.0
+offset_bottom = 444.0
+texture = ExtResource("8_nyysm")
+script = ExtResource("5_3y2qf")
+type = 3
+
+[node name="drop_zone3" type="TextureRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 902.0
+offset_top = 344.0
+offset_right = 1162.0
+offset_bottom = 501.0
+texture = ExtResource("9_svjw3")
+script = ExtResource("5_3y2qf")
+type = 2
+
+[node name="paper1" type="TextureRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 128.0
+offset_top = 295.0
+offset_right = 308.0
+offset_bottom = 552.0
+texture = ExtResource("10_ldbmu")
+script = ExtResource("11_qwwpv")
+type = 0
+metadata/_edit_lock_ = true
+
+[node name="paper2" type="TextureRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 168.0
+offset_top = 446.0
+offset_right = 428.0
+offset_bottom = 629.0
+texture = ExtResource("12_bhdlu")
+script = ExtResource("11_qwwpv")
+metadata/_edit_lock_ = true
+
+[node name="paper3" type="TextureRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 120.0
+offset_top = 111.0
+offset_right = 380.0
+offset_bottom = 268.0
+texture = ExtResource("13_04q01")
+script = ExtResource("11_qwwpv")
+type = 2
+metadata/_edit_lock_ = true
+
+[node name="paper4" type="TextureRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 358.0
+offset_top = 384.0
+offset_right = 571.0
+offset_bottom = 584.0
+texture = ExtResource("14_k8jh0")
+script = ExtResource("11_qwwpv")
+type = 3
+metadata/_edit_lock_ = true
+
+[node name="paper5" type="TextureRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 413.0
+offset_top = 99.0
+offset_right = 624.0
+offset_bottom = 360.0
+texture = ExtResource("15_ibqu8")
+script = ExtResource("11_qwwpv")
+type = 4
+metadata/_edit_lock_ = true
+
+[node name="goBack" type="TextureButton" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.012875
+anchor_top = 0.0252778
+anchor_right = 0.062875
+anchor_bottom = 0.104278
+offset_left = -0.480003
+offset_top = -0.200001
+offset_right = 1983.52
+offset_bottom = 2110.92
+scale = Vector2(0.0313196, 0.0262728)
+texture_normal = ExtResource("17_is1ss")
+texture_pressed = ExtResource("18_57015")
+texture_hover = ExtResource("18_57015")
+metadata/_edit_use_anchors_ = true
+
+[node name="drop" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
+stream = ExtResource("19_806on")
+volume_db = 10.0
+
+[node name="music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("19_fgmvj")
+autoplay = true

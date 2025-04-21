@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c8kjjo15s0i1n"
+path="res://.godot/imported/ReporterChannelA_Row_470.mp3-56cff179e1235e1788318089348a3219.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/voice acting/nameless/ev 4.6/ReporterChannelA_Row_470.mp3"
+dest_files=["res://.godot/imported/ReporterChannelA_Row_470.mp3-56cff179e1235e1788318089348a3219.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

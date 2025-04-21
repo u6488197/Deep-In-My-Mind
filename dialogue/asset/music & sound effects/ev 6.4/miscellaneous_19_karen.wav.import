@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cn421gvvkdxhq"
+path="res://.godot/imported/miscellaneous_19_karen.wav-fc4aa4968f37f9f3477380646e2c1aad.sample"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 6.4/miscellaneous_19_karen.wav"
+dest_files=["res://.godot/imported/miscellaneous_19_karen.wav-fc4aa4968f37f9f3477380646e2c1aad.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

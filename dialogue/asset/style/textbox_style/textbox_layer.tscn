@@ -1,0 +1,261 @@
+[gd_scene load_steps=21 format=3 uid="uid://cxqsri8w6rqu7"]
+
+[ext_resource type="Script" path="res://dialogue/asset/style/textbox_style/textbox_layer.gd" id="1_3dvam"]
+[ext_resource type="Texture2D" uid="uid://ccvbrdxc8qxbx" path="res://asset/dialogue/short.PNG" id="2_rjy58"]
+[ext_resource type="FontFile" uid="uid://cdjs3xxyrqxfy" path="res://asset/font/HinaMincho-Regular.ttf" id="3_k526l"]
+[ext_resource type="Script" path="res://addons/dialogic/Modules/Text/node_name_label.gd" id="5_4pck0"]
+[ext_resource type="Script" path="res://addons/dialogic/Modules/Text/node_dialog_text.gd" id="6_uya8g"]
+[ext_resource type="Script" path="res://addons/dialogic/Modules/Text/node_type_sound.gd" id="7_4tvk1"]
+[ext_resource type="Texture2D" uid="uid://b4i8isr808pyy" path="res://asset/dialogue/Button2.PNG" id="7_n16di"]
+[ext_resource type="Script" path="res://addons/dialogic/Modules/Text/node_next_indicator.gd" id="8_b8lwo"]
+[ext_resource type="Script" path="res://dialogue/asset/style/textbox_style/autoadvance_indicator.gd" id="8_vskwc"]
+[ext_resource type="Texture2D" uid="uid://hhmvasc4r7on" path="res://asset/dialogue/name.png" id="9_aiv33"]
+
+[sub_resource type="Gradient" id="Gradient_8ky5l"]
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_ah123"]
+gradient = SubResource("Gradient_8ky5l")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_pq0ub"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_m3ekt"]
+content_margin_left = 150.0
+content_margin_right = 150.0
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8u2mn"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3vgyk"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ts754"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_tj26q"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5tiav"]
+
+[sub_resource type="Theme" id="Theme_ef4wf"]
+Button/colors/font_color = Color(0.875, 0.875, 0.875, 1)
+Button/colors/font_hover_color = Color(0.396888, 0.39689, 0.39689, 1)
+Button/colors/font_hover_pressed_color = Color(0.396078, 0.396078, 0.396078, 1)
+Button/colors/font_pressed_color = Color(0.396078, 0.396078, 0.396078, 1)
+Button/fonts/font = ExtResource("3_k526l")
+Button/styles/disabled = SubResource("StyleBoxEmpty_8u2mn")
+Button/styles/focus = SubResource("StyleBoxEmpty_3vgyk")
+Button/styles/hover = SubResource("StyleBoxEmpty_ts754")
+Button/styles/normal = SubResource("StyleBoxEmpty_tj26q")
+Button/styles/pressed = SubResource("StyleBoxEmpty_5tiav")
+
+[node name="TextboxLayer" type="Control"]
+z_as_relative = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_3dvam")
+metadata/_edit_lock_ = true
+
+[node name="TextboxBG" type="TextureRect" parent="."]
+layout_mode = 2
+offset_left = 143.0
+offset_top = 500.0
+offset_right = 1143.0
+offset_bottom = 691.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+texture = ExtResource("2_rjy58")
+expand_mode = 1
+metadata/_edit_lock_ = true
+
+[node name="DialogicNode_DialogText" type="RichTextLabel" parent="TextboxBG" node_paths=PackedStringArray("textbox_root")]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 44.0
+offset_top = 40.0
+offset_right = -43.0
+offset_bottom = -50.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/normal_font = ExtResource("3_k526l")
+theme_override_font_sizes/normal_font_size = 25
+bbcode_enabled = true
+text = "You've created a new Ren'Py game."
+script = ExtResource("6_uya8g")
+textbox_root = NodePath("..")
+hide_when_empty = true
+
+[node name="DialogicNode_TypeSounds" type="AudioStreamPlayer" parent="TextboxBG/DialogicNode_DialogText"]
+script = ExtResource("7_4tvk1")
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="TextboxBG/DialogicNode_DialogText"]
+layout_mode = 0
+offset_left = 62.0
+offset_top = 50.0
+offset_right = 820.0
+offset_bottom = 114.0
+nine_patch_stretch = true
+stretch_margin_left = 10
+stretch_margin_top = 10
+stretch_margin_right = 10
+stretch_margin_bottom = 10
+texture_progress = SubResource("GradientTexture2D_ah123")
+
+[node name="Panel" type="Panel" parent="TextboxBG"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.887
+anchor_top = 0.639
+anchor_right = 0.887
+anchor_bottom = 0.639
+offset_left = 40.0
+offset_top = 28.951
+offset_right = 75.0
+offset_bottom = 53.951
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_pq0ub")
+
+[node name="DialogicNode_NextIndicator" type="Control" parent="TextboxBG/Panel"]
+layout_mode = 2
+anchors_preset = 0
+offset_left = 27.0
+offset_top = 18.0
+offset_right = 53.0
+offset_bottom = 55.0
+script = ExtResource("8_b8lwo")
+animation = 2
+texture = ExtResource("7_n16di")
+
+[node name="AutoAdvanceProgressbar" type="ProgressBar" parent="TextboxBG"]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0.188235)
+custom_minimum_size = Vector2(0, 10)
+layout_mode = 0
+offset_left = 13.0
+offset_top = 9.0
+offset_right = 990.0
+offset_bottom = 37.0
+size_flags_vertical = 8
+mouse_filter = 2
+max_value = 1.0
+step = 0.001
+value = 0.5
+show_percentage = false
+script = ExtResource("8_vskwc")
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.084
+anchor_top = -0.126
+anchor_right = 0.084
+anchor_bottom = -0.103
+offset_left = -82.52
+offset_top = 558.72
+offset_right = 363.48
+offset_bottom = 606.16
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_m3ekt")
+
+[node name="Name_TextBox" type="TextureRect" parent="PanelContainer"]
+layout_mode = 2
+texture = ExtResource("9_aiv33")
+expand_mode = 3
+stretch_mode = 5
+
+[node name="DialogicNode_NameLabel" type="Label" parent="PanelContainer" node_paths=PackedStringArray("name_label_root")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_k526l")
+theme_override_font_sizes/font_size = 30
+text = "Narrator"
+horizontal_alignment = 1
+script = ExtResource("5_4pck0")
+name_label_root = NodePath("..")
+
+[node name="Buttons" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.145
+anchor_top = 0.943
+anchor_right = 0.873
+anchor_bottom = 0.943
+offset_left = -0.599991
+offset_top = -30.96
+offset_right = 0.559937
+offset_bottom = 8.03998
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme = SubResource("Theme_ef4wf")
+theme_override_constants/separation = 18
+alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="History" type="Button" parent="Buttons"]
+layout_mode = 2
+size_flags_vertical = 4
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 20
+text = "History"
+
+[node name="Auto" type="Button" parent="Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 4
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 20
+toggle_mode = true
+text = "Auto"
+
+[node name="Save" type="Button" parent="Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 4
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 20
+text = "Save"
+
+[node name="QSave" type="Button" parent="Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 4
+tooltip_text = "Saves to the last used slot"
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 20
+text = "Q.Save"
+
+[node name="QLoad" type="Button" parent="Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 4
+tooltip_text = "Loads from the last saved to slot"
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 20
+text = "Q.Load"
+
+[node name="Options" type="Button" parent="Buttons"]
+layout_mode = 2
+size_flags_vertical = 4
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 20
+text = "Settings"
+
+[connection signal="pressed" from="Buttons/History" to="." method="_on_history_pressed"]
+[connection signal="toggled" from="Buttons/Auto" to="." method="_on_auto_toggled"]
+[connection signal="pressed" from="Buttons/Save" to="." method="_on_save_pressed"]
+[connection signal="pressed" from="Buttons/QSave" to="." method="_on_q_save_pressed"]
+[connection signal="pressed" from="Buttons/QLoad" to="." method="_on_q_load_pressed"]
+[connection signal="pressed" from="Buttons/Options" to="." method="_on_options_pressed"]

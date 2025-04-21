@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cm5684qv52wlh"
+path="res://.godot/imported/sfx_open_door.mp3-7548b1c316e93b7d0259795e8cb11f32.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/parallax_gameplay/box/sfx_open_door.mp3"
+dest_files=["res://.godot/imported/sfx_open_door.mp3-7548b1c316e93b7d0259795e8cb11f32.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

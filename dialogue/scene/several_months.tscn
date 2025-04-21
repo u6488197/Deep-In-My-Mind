@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://cp0peh3asey4t"]
+
+[ext_resource type="Script" path="res://dialogue/script/narration.gd" id="1_sjl3y"]
+[ext_resource type="FontFile" uid="uid://cdjs3xxyrqxfy" path="res://asset/font/HinaMincho-Regular.ttf" id="2_ouxni"]
+
+[node name="BG" type="Node"]
+script = ExtResource("1_sjl3y")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1292.0
+offset_bottom = 724.0
+color = Color(0, 0, 0, 1)
+
+[node name="POV" type="RichTextLabel" parent="."]
+unique_name_in_owner = true
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.006
+offset_top = 264.0
+offset_bottom = -0.320007
+theme_override_colors/default_color = Color(1, 1, 1, 0.4)
+theme_override_fonts/normal_font = ExtResource("2_ouxni")
+theme_override_font_sizes/normal_font_size = 70
+bbcode_enabled = true
+text = "[center] Several months ago..."

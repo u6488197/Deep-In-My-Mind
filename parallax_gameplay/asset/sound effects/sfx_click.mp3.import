@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bw4lve7nduqpv"
+path="res://.godot/imported/sfx_click.mp3-ba26e4e0d5c79628f439bfbe42af77af.mp3str"
+
+[deps]
+
+source_file="res://parallax_gameplay/asset/sound effects/sfx_click.mp3"
+dest_files=["res://.godot/imported/sfx_click.mp3-ba26e4e0d5c79628f439bfbe42af77af.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

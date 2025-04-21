@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://jfftmbletbut"
+path="res://.godot/imported/Kazumi_Row_602.mp3-c81130131be6ada105cc3d32433ff7e2.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_602.mp3"
+dest_files=["res://.godot/imported/Kazumi_Row_602.mp3-c81130131be6ada105cc3d32433ff7e2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://k7fmqqqj63y2"]
+
+[ext_resource type="Script" path="res://globals/script/global_paper_counter.gd" id="1_dh7tj"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_dh7tj")

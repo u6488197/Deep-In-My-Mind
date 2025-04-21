@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://8qp0ye42n7y6"
+path="res://.godot/imported/Kokoro_Row_184.mp3-e0e9bcef4c6534500d843bdf371a492e.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.2 (2nd Floor - Photo)/Kokoro_Row_184.mp3"
+dest_files=["res://.godot/imported/Kokoro_Row_184.mp3-e0e9bcef4c6534500d843bdf371a492e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

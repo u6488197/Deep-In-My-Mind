@@ -1,0 +1,269 @@
+[gd_scene load_steps=20 format=3 uid="uid://igjadxahdxrs"]
+
+[ext_resource type="Script" path="res://dialogue/asset/style/textbox_style/textbox_layer.gd" id="1_ejr05"]
+[ext_resource type="Script" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/autoadvance_indicator.gd" id="3_bgjg7"]
+[ext_resource type="FontFile" uid="uid://copglktb2iddf" path="res://gui/asset/font/ldfcomicsans-font/Ldfcomicsanslight-6dZo.ttf" id="6_7t0bm"]
+[ext_resource type="Script" path="res://addons/dialogic/Modules/Text/node_dialog_text.gd" id="7_i62t5"]
+[ext_resource type="AudioStream" uid="uid://cl2mh4ocqbkg6" path="res://dialogue/asset/music & sound effects/ev 7/sfx_pencil_writing.mp3" id="8_6pewb"]
+[ext_resource type="Texture2D" uid="uid://w2hk5veqgve7" path="res://asset/dialogue/diary.png" id="8_ntxbb"]
+[ext_resource type="Script" path="res://addons/dialogic/Modules/Text/node_type_sound.gd" id="8_pnsiy"]
+[ext_resource type="Script" path="res://addons/dialogic/Modules/Text/node_next_indicator.gd" id="9_4jad4"]
+[ext_resource type="Script" path="res://dialogue/asset/style/textbox_style/autoadvance_indicator.gd" id="9_binbs"]
+[ext_resource type="FontFile" uid="uid://cdjs3xxyrqxfy" path="res://asset/font/HinaMincho-Regular.ttf" id="11_pg7qp"]
+[ext_resource type="Script" path="res://addons/dialogic/Modules/Character/node_portrait_container.gd" id="11_sg8is"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_pq0ub"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_f48p5"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8u2mn"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3vgyk"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ts754"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_tj26q"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5tiav"]
+
+[sub_resource type="Theme" id="Theme_ef4wf"]
+Button/colors/font_hover_color = Color(0.396078, 0.396078, 0.396078, 1)
+Button/colors/font_hover_pressed_color = Color(0.396078, 0.396078, 0.396078, 1)
+Button/colors/font_pressed_color = Color(0.396078, 0.396078, 0.396078, 1)
+Button/font_sizes/font_size = 20
+Button/fonts/font = ExtResource("11_pg7qp")
+Button/styles/disabled = SubResource("StyleBoxEmpty_8u2mn")
+Button/styles/focus = SubResource("StyleBoxEmpty_3vgyk")
+Button/styles/hover = SubResource("StyleBoxEmpty_ts754")
+Button/styles/normal = SubResource("StyleBoxEmpty_tj26q")
+Button/styles/pressed = SubResource("StyleBoxEmpty_5tiav")
+
+[node name="TextboxLayer" type="Control"]
+z_as_relative = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 766.0
+offset_top = 92.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_ejr05")
+
+[node name="TextboxBG" type="TextureRect" parent="."]
+layout_mode = 2
+anchor_top = 0.131
+anchor_bottom = 0.131
+offset_left = -103.0
+offset_top = -0.268005
+offset_right = 181.0
+offset_bottom = 419.732
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+expand_mode = 1
+metadata/_edit_lock_ = true
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="TextboxBG"]
+modulate = Color(0, 0, 0, 1)
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.848
+anchor_right = 0.981
+anchor_bottom = 0.953
+offset_left = 12.0
+offset_top = 0.0319977
+offset_right = -6.10352e-05
+offset_bottom = -0.0230103
+mouse_filter = 2
+max_value = 1.0
+step = 0.001
+value = 1.0
+nine_patch_stretch = true
+stretch_margin_left = 10
+stretch_margin_top = 10
+stretch_margin_right = 10
+stretch_margin_bottom = 10
+script = ExtResource("3_bgjg7")
+
+[node name="DialogicNode_DialogText" type="RichTextLabel" parent="TextboxBG" node_paths=PackedStringArray("textbox_root")]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.349
+anchor_top = 0.045
+anchor_right = 1.064
+anchor_bottom = 1.0
+offset_left = -60.116
+offset_top = 0.0999985
+offset_right = 25.824
+offset_bottom = -5.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("6_7t0bm")
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/bold_font_size = 37
+theme_override_font_sizes/italics_font_size = 38
+theme_override_font_sizes/bold_italics_font_size = 38
+theme_override_font_sizes/mono_font_size = 38
+bbcode_enabled = true
+text = "You've created a new Ren'Py game."
+fit_content = true
+autowrap_mode = 2
+script = ExtResource("7_i62t5")
+alignment = 1
+textbox_root = NodePath("..")
+hide_when_empty = true
+
+[node name="DialogicNode_TypeSounds" type="AudioStreamPlayer" parent="TextboxBG/DialogicNode_DialogText"]
+stream = ExtResource("8_6pewb")
+volume_db = 12.0
+autoplay = true
+bus = &"SFX"
+script = ExtResource("8_pnsiy")
+
+[node name="Panel" type="Panel" parent="TextboxBG"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.887
+anchor_top = 0.639
+anchor_right = 0.887
+anchor_bottom = 0.639
+offset_left = -3.32001
+offset_top = 32.62
+offset_right = 8.67999
+offset_bottom = 53.62
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_pq0ub")
+
+[node name="DialogicNode_NextIndicator" type="Control" parent="TextboxBG/Panel"]
+layout_mode = 2
+anchors_preset = 0
+offset_left = 81.0
+offset_top = 138.0
+offset_right = 122.0
+offset_bottom = 167.0
+script = ExtResource("9_4jad4")
+animation = 2
+texture = ExtResource("8_ntxbb")
+
+[node name="AutoAdvanceProgressbar" type="ProgressBar" parent="TextboxBG"]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0.188235)
+custom_minimum_size = Vector2(0, 10)
+layout_mode = 0
+offset_left = 1.0
+offset_top = 438.0
+offset_right = 281.0
+offset_bottom = 455.0
+size_flags_vertical = 8
+mouse_filter = 2
+max_value = 1.0
+step = 0.001
+value = 0.5
+show_percentage = false
+script = ExtResource("9_binbs")
+
+[node name="TextBoxPortrait" type="TextureRect" parent="."]
+layout_mode = 2
+anchor_left = 0.035
+anchor_top = 0.679
+anchor_right = 0.035
+anchor_bottom = 0.679
+offset_left = -0.32
+offset_top = 0.00799561
+offset_right = 217.68
+offset_bottom = 179.008
+texture = SubResource("CompressedTexture2D_f48p5")
+expand_mode = 1
+
+[node name="DialogicNode_PortraitContainer" type="Control" parent="TextBoxPortrait"]
+anchors_preset = 0
+offset_left = -706.0
+offset_top = -97.0
+offset_right = -434.0
+offset_bottom = 196.0
+script = ExtResource("11_sg8is")
+
+[node name="Buttons" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -1.486
+anchor_top = 0.881
+anchor_right = 1.0
+anchor_bottom = 0.943
+offset_left = -0.196045
+offset_top = 12.732
+offset_right = -5.0
+offset_bottom = 37.796
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme = SubResource("Theme_ef4wf")
+theme_override_constants/separation = 18
+alignment = 1
+
+[node name="History" type="Button" parent="Buttons"]
+layout_mode = 2
+size_flags_vertical = 4
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 20
+text = "History"
+
+[node name="Auto" type="Button" parent="Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 4
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 20
+toggle_mode = true
+text = "Auto"
+
+[node name="Save" type="Button" parent="Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 4
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 20
+text = "Save"
+
+[node name="QSave" type="Button" parent="Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 4
+tooltip_text = "Saves to the last used slot"
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 20
+text = "Q.Save"
+
+[node name="QLoad" type="Button" parent="Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 4
+tooltip_text = "Loads from the last saved to slot"
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 20
+text = "Q.Load"
+
+[node name="Options" type="Button" parent="Buttons"]
+layout_mode = 2
+size_flags_vertical = 4
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 20
+text = "Settings"
+
+[connection signal="pressed" from="Buttons/History" to="." method="_on_history_pressed"]
+[connection signal="toggled" from="Buttons/Auto" to="." method="_on_auto_toggled"]
+[connection signal="pressed" from="Buttons/Save" to="." method="_on_save_pressed"]
+[connection signal="pressed" from="Buttons/QSave" to="." method="_on_q_save_pressed"]
+[connection signal="pressed" from="Buttons/QLoad" to="." method="_on_q_load_pressed"]
+[connection signal="pressed" from="Buttons/Options" to="." method="_on_options_pressed"]

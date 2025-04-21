@@ -1,0 +1,33 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://cy4hpf0tscux1"
+path="res://.godot/imported/FUTURA LIGHT BT.TTF-44e6bc2f762930f3edfff35f2be02786.fontdata"
+
+[deps]
+
+source_file="res://parallax_gameplay/asset/font/FUTURA LIGHT BT.TTF"
+dest_files=["res://.godot/imported/FUTURA LIGHT BT.TTF-44e6bc2f762930f3edfff35f2be02786.fontdata"]
+
+[params]
+
+Rendering=null
+antialiasing=1
+generate_mipmaps=false
+multichannel_signed_distance_field=false
+msdf_pixel_range=8
+msdf_size=48
+allow_system_fallback=true
+force_autohinter=false
+hinting=1
+subpixel_positioning=1
+oversampling=0.0
+Fallbacks=null
+fallbacks=[]
+Compress=null
+compress=true
+preload=[]
+language_support={}
+script_support={}
+opentype_features={}

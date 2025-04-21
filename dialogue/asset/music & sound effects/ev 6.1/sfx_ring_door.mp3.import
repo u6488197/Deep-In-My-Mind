@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://blx801cpfcx8l"
+path="res://.godot/imported/sfx_ring_door.mp3-95674686acbe839ae9f2cb9e1e17cfc1.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 6.1/sfx_ring_door.mp3"
+dest_files=["res://.godot/imported/sfx_ring_door.mp3-95674686acbe839ae9f2cb9e1e17cfc1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

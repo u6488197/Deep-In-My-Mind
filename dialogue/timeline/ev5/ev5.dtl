@@ -1,0 +1,179 @@
+[music fade="0.0" volume="0.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 5/music_present_akane.mp3" fade="0.0" volume="0.0"]
+[background scene="res://dialogue/scene/present.tscn" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev5/ev5(1).png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev5/ev5(2).png" fade="2.0"]
+[wait time="2.0"]
+[voice path="res://dialogue/asset/voice acting/akane/ev 5/Akane_Row_540.mp3" volume="0.0"]
+Are you not happy?
+join kokoro (scared2.1) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 5/Kokoro_Row_541.mp3" volume="0.0"]
+kokoro: Whose sound is that?
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (scared2.2) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 5/Kokoro_Row_542.mp3" volume="0.0"]
+kokoro: Who are you?
+update kokoro (blank)
+update kokoro (blank)
+[voice path="res://dialogue/asset/voice acting/akane/ev 5/Akane_Row_543.mp3" volume="0.0"]
+I’m Akane. I’m a person who comes to protect you.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (scared2.2) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 5/Kokoro_Row_544.mp3" volume="0.0"]
+kokoro: What do you mean?
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (scared2.2) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 5/Akane_Row_545.mp3" volume="0.0"]
+I know that everything you've been through has made you very scared.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (scared2.2) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 5/Akane_Row_546.mp3" volume="0.0"]
+The departure of your closest friend and the obsessive behavior of a fan who keeps following you.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (scared2.2) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 5/Akane_Row_547.mp3" volume="0.0"]
+I can protect you from those things.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (scared2.2) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 5/Akane_Row_548.mp3" volume="0.0"]
+You just need to accept and trust me.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (scared2.2) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 5/Akane_Row_549.mp3" volume="0.0"]
+Let me protect you, Kokoro.
+update kokoro (blank)
+update kokoro (blank)
+[music fade="0.0" volume="0.0"]
+[wait time="1.0"]
+- Accept
+	[music path="res://dialogue/asset/music & sound effects/ev 5/end 2/music_accept.mp3" fade="0.0" volume="0.0"]
+	[background arg="res://dialogue/asset/background/timeline/ev6/end1/End1/ev6(end1)(1).png" fade="1.0"]
+	[wait time="1.0"]
+	join kokoro (shock2.3) 0
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 5/end 2/Kokoro_Row_552.mp3" volume="0.0"]
+	kokoro: I accept you.
+	update kokoro (blank)
+	update kokoro (blank)
+	join kokoro (shock2.3) 0
+	[voice path="res://dialogue/asset/voice acting/akane/ev 5/end 2/Akane_Row_553.mp3" volume="0.0"]
+	Perfect! I know that you would trust me.
+	update kokoro (blank)
+	update kokoro (blank)
+	join kokoro (shock2.3) 0
+	[voice path="res://dialogue/asset/voice acting/akane/ev 5/end 2/Akane_Row_554.mp3" volume="0.0"]
+	Thank you for trusting me, Kokoro.
+	update kokoro (blank)
+	update kokoro (blank)
+	[background arg="res://dialogue/asset/background/timeline/ev6/end1/End1/ev6(end1)(2).png" fade="1.0"]
+	[wait time="1.0"]
+	join akane (hate) 0
+	[voice path="res://dialogue/asset/voice acting/akane/ev 5/end 2/Akane_Row_555.mp3" volume="0.0"]
+	I promise I will protect you the best I can.
+	update kokoro (blank)
+	update kokoro (blank)
+	update akane (blank)
+	update akane (blank)
+	[background arg="res://dialogue/asset/background/timeline/ev6/end1/End1/ev6(end1)(2).png" fade="2.0"]
+	[sound path="res://dialogue/asset/music & sound effects/ev 4.3/sfx_sound_in_front_of_door.mp3" volume="0.0"]
+	[sound path="res://dialogue/asset/music & sound effects/ev 4.7/sfx_open.mp3" volume="0.0"]
+	[wait time="2.0"]
+	[background arg="res://dialogue/asset/background/timeline/ev6/end2/ev6(end2)(4).png" fade="1.0"]
+	[wait time="1.0"]
+	[sound path="res://dialogue/asset/music & sound effects/ev 5/end 2/knife-stab-sound-effect-36354.mp3" volume="0.0"]
+	[background arg="res://dialogue/asset/background/timeline/ev6/end2/ev6(end2)(2).png" fade="2.0"]
+	[sound path="res://dialogue/asset/music & sound effects/ev 5/end 2/sfx_open.mp3" volume="0.0"]
+	[wait time="2.0"]
+	join akane (happy2.8) 0
+	[voice path="res://dialogue/asset/voice acting/akane/ev 5/end 2/Akane_Row_556.mp3" volume="0.0"]
+	I’ve seen this guy often come and watch you from a far.
+	update akane (blank) 0
+	update akane (blank) 0
+	join akane (happy2.8) 0
+	[voice path="res://dialogue/asset/voice acting/akane/ev 5/end 2/Akane_Row_557.mp3" volume="0.0"]
+	Are you scared of this guy, Kokoro?
+	update akane (blank) 0
+	update akane (blank) 0
+	join akane (happy2.8) 0
+	[voice path="res://dialogue/asset/voice acting/akane/ev 5/end 2/Akane_Row_558.mp3" volume="0.0"]
+	I’ve already dealt with him for you.
+	update akane (blank) 0
+	update akane (blank) 0
+	join akane (happy2.8) 0
+	[voice path="res://dialogue/asset/voice acting/akane/ev 5/end 2/Akane_Row_559.mp3" volume="0.0"]
+	Do you see now I can absolutely protect you?
+	update akane (blank) 0
+	update akane (blank) 0
+	leave --All--
+	[wait time="1.0"]
+	[clear time="1.0" step="false" text="false" background="false" style="false"]
+	jump ev7/
+- Not accept
+	[music path="res://dialogue/asset/music & sound effects/ev 5/end 1/music_reject.mp3" fade="0.0" volume="0.0"]
+	[background arg="res://dialogue/asset/background/timeline/ev6/end1/End1/ev6(end1)(1).png" fade="2.0"]
+	[wait time="2.0"]
+	join kokoro (shock2.5) 0
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 5/end 1/Kokoro_Row_562.mp3" volume="0.0"]
+	kokoro: No, I'll never trust you.
+	update akane (blank) 0
+	update akane (blank) 0
+	join kokoro (shock2.5) 0
+	…
+	update akane (blank) 0
+	update akane (blank) 0
+	join kokoro (shock2.5) 0
+	[voice path="res://dialogue/asset/voice acting/akane/ev 5/end 1/Akane_Row_564.mp3" volume="0.0"]
+	So this is what it feels like to be mistrusted, huh?
+	update kokoro (blank) 0
+	update kokoro (blank) 0
+	join akane (happy2.8) 0
+	[voice path="res://dialogue/asset/voice acting/akane/ev 5/end 1/Akane_Row_565.mp3" volume="0.0"]
+	Well, well, poor Kokoro.
+	update akane (blank) 0
+	update akane (blank) 0
+	join akane (angry) 0
+	[voice path="res://dialogue/asset/voice acting/akane/ev 5/end 1/Akane_Row_566.mp3" volume="0.0"]
+	Deep down, aren’t you jealous of your friend who is always admired and complimented?
+	update akane (blank) 0
+	update akane (blank) 0
+	join akane (angry) 0
+	[voice path="res://dialogue/asset/voice acting/akane/ev 5/end 1/Akane_Row_567.mp3" volume="0.0"]
+	Even though she passed away, don’t you feel any sadness at all?
+	update akane (blank) 0
+	update akane (blank) 0
+	join kokoro (crying2.2) 0
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 5/end 1/Kokoro_Row_568.mp3" volume="0.0"]
+	kokoro: No, I’ve never thought like that.
+	update akane (blank) 0
+	update akane (blank) 0
+	join kokoro (angry) 0
+	[voice path="res://dialogue/asset/voice acting/akane/ev 5/end 1/Akane_Row_569.mp3" volume="0.0"]
+	It’s the truth that you can’t deny because you’ve always felt that way. So, I came out to help you that day.
+	update kokoro (blank) 0
+	update kokoro (blank) 0
+	join kokoro (crying2.2) 0
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 5/end 1/Kokoro_Row_570.mp3" volume="0.0"]
+	kokoro: What do you mean?
+	update kokoro (blank) 0
+	update kokoro (blank) 0
+	join kokoro (hate) 0
+	[voice path="res://dialogue/asset/voice acting/akane/ev 5/end 1/Akane_Row_571.mp3" volume="0.0"]
+	It seems like you need to have your memories reviewed a bit, huh?
+	leave --All--
+	[background arg="res://dialogue/asset/background/timeline/ev6/end1/End1/ev6(end1)(2).png" fade="2.0"]
+	[wait time="2.0"]
+	[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+	[wait time="2.0"]
+	[clear time="1.0" step="false" text="false" background="false" style="false"]
+	[music fade="0.0" volume="0.0"]
+	jump ev6-1/

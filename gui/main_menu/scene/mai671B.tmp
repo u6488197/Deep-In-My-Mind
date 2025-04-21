@@ -1,0 +1,1839 @@
+[gd_scene load_steps=67 format=3 uid="uid://bh6bho0uxfrwf"]
+
+[ext_resource type="Script" path="res://gui/main_menu/script/main_menu.gd" id="1_43egg"]
+[ext_resource type="Texture2D" uid="uid://demj2giuetggl" path="res://gui/asset/backgrounds/Plain Main Menu Page.png" id="2_xysoq"]
+[ext_resource type="Script" path="res://gui/main_menu/script/overlay_ui.gd" id="3_cyksu"]
+[ext_resource type="Texture2D" uid="uid://dssndx174q4ep" path="res://gui/asset/element/main menu/StartButton#1.png" id="5_ijps3"]
+[ext_resource type="Texture2D" uid="uid://b38ue34xjf654" path="res://gui/asset/element/main menu/ClickedStart#1.png" id="6_ino7g"]
+[ext_resource type="Script" path="res://gui/tab/script/overlay_tab_button.gd" id="6_rv1r2"]
+[ext_resource type="Texture2D" uid="uid://vsr2tff4rdap" path="res://gui/asset/element/main menu/LoadButton#3.png" id="7_08psn"]
+[ext_resource type="Texture2D" uid="uid://cdwkfycrjenpi" path="res://gui/asset/element/main menu/ContinueButton#1.png" id="7_14lsr"]
+[ext_resource type="Theme" uid="uid://bd64i3dx4elpc" path="res://gui/asset/style/main_menu_button.tres" id="7_is717"]
+[ext_resource type="Texture2D" uid="uid://cbqqa165vieny" path="res://gui/asset/element/main menu/ClickedLoad#3.png" id="8_i0d26"]
+[ext_resource type="Texture2D" uid="uid://c7e25jtqtk7k3" path="res://gui/asset/element/main menu/ClickedContinue#1.png" id="8_xlsnt"]
+[ext_resource type="Texture2D" uid="uid://dcigrte43smgt" path="res://gui/asset/element/main menu/AboutButton#5.png" id="11_7aagr"]
+[ext_resource type="Texture2D" uid="uid://b2bwd3qnj2pa5" path="res://gui/asset/element/main menu/SettingsButton.png" id="11_umxfl"]
+[ext_resource type="Texture2D" uid="uid://bnjnyx4524fop" path="res://gui/asset/element/main menu/ClickedSettings.png" id="12_vuodn"]
+[ext_resource type="Texture2D" uid="uid://w6tjk7htmymv" path="res://gui/asset/element/main menu/QuitButton#6.png" id="13_051ey"]
+[ext_resource type="Theme" uid="uid://bkephla5di8vb" path="res://gui/asset/style/button.tres" id="13_bo7wx"]
+[ext_resource type="Texture2D" uid="uid://s43wcckk4383" path="res://gui/asset/element/main menu/ClickedQuit#6.png" id="14_1q2s6"]
+[ext_resource type="Texture2D" uid="uid://biq15bcg7p7t6" path="res://gui/asset/element/main menu/HelpButton.png" id="15_bqddk"]
+[ext_resource type="Texture2D" uid="uid://8scj2wi345fm" path="res://gui/asset/element/main menu/GoBack Button.png" id="16_uutem"]
+[ext_resource type="Texture2D" uid="uid://dpmxlkyeh4kty" path="res://gui/asset/element/main menu/ClickedHelp.png" id="16_wnybu"]
+[ext_resource type="Texture2D" uid="uid://cydj0vml8k8ru" path="res://gui/asset/element/main menu/Main Logo.png" id="17_gdtfn"]
+[ext_resource type="Script" path="res://gui/tab/script/tab_save.gd" id="18_8qrn0"]
+[ext_resource type="Texture2D" uid="uid://i5guvf2ep5ub" path="res://gui/asset/element/main menu/ClickedAbout#5.png" id="19_lm6il"]
+[ext_resource type="Texture2D" uid="uid://cgxtbv6cgi7re" path="res://gui/asset/element/button/ปุ่มยาว แบบ1.PNG" id="20_8vpsd"]
+[ext_resource type="Texture2D" uid="uid://ppp7pwo5tpde" path="res://gui/asset/element/main menu/Deep in My Mind LOGO.png" id="20_ud66p"]
+[ext_resource type="Texture2D" uid="uid://c17h3l4wf1un6" path="res://gui/asset/element/load/bg.png" id="20_xnnr3"]
+[ext_resource type="ButtonGroup" uid="uid://dk3x3tni7moef" path="res://gui/asset/button_box/display_group.tres" id="21_xhhi4"]
+[ext_resource type="Texture2D" uid="uid://crprdw1q3tnkc" path="res://gui/asset/element/main menu/SaveButton#2.png" id="22_v3qnq"]
+[ext_resource type="Texture2D" uid="uid://blmi14j8smyxu" path="res://gui/asset/element/main menu/ClickedSave#2.png" id="23_qnb52"]
+[ext_resource type="Texture2D" uid="uid://cx1t08oufx8to" path="res://gui/asset/element/save/Plain Save Page.png" id="24_hxa5b"]
+[ext_resource type="Texture2D" uid="uid://cpe76op5kysdd" path="res://gui/asset/element/main menu/PauseButton.png" id="24_up44u"]
+[ext_resource type="Texture2D" uid="uid://b7kngiv85pldv" path="res://gui/asset/element/main menu/ClickedPause.png" id="25_g02rw"]
+[ext_resource type="Texture2D" uid="uid://cqd7fvtl7ko50" path="res://gui/asset/element/history/History.png" id="26_almbv"]
+[ext_resource type="Theme" uid="uid://b53ctboenjvxg" path="res://gui/asset/font/topic_font.tres" id="27_2fl0n"]
+[ext_resource type="FontFile" uid="uid://ch0iyvbb13k5u" path="res://gui/asset/font/ldfcomicsans-font/Ldfcomicsans-jj7l.ttf" id="27_ue7xn"]
+[ext_resource type="Texture2D" uid="uid://cl4ejkfeobeom" path="res://gui/asset/element/main menu/HistoryButton.png" id="27_xhi20"]
+[ext_resource type="Texture2D" uid="uid://doye4phwr5x1m" path="res://gui/asset/element/main menu/ClickedHistory.png" id="28_scycl"]
+[ext_resource type="Texture2D" uid="uid://t660khdicelo" path="res://gui/asset/element/settings/Plain Setting Page.png" id="29_47q67"]
+[ext_resource type="Theme" uid="uid://6yj8cinh2e2a" path="res://gui/asset/style/main_menu.tres" id="30_e7klb"]
+[ext_resource type="Script" path="res://gui/tab/script/tab_quit.gd" id="31_3if2e"]
+[ext_resource type="FontFile" uid="uid://copglktb2iddf" path="res://gui/asset/font/ldfcomicsans-font/Ldfcomicsanslight-6dZo.ttf" id="31_otg55"]
+[ext_resource type="Script" path="res://gui/tab/script/tab_load.gd" id="32_6s7qx"]
+[ext_resource type="Script" path="res://gui/tab/script/tab_options.gd" id="33_4rhgd"]
+[ext_resource type="Script" path="res://gui/tab/script/tab_about.gd" id="33_i8t60"]
+[ext_resource type="Script" path="res://gui/tab/script/tab_history.gd" id="34_2hq4j"]
+[ext_resource type="Texture2D" uid="uid://d18g5lu3fy1ya" path="res://gui/asset/element/about/Attribution with Text Box.png" id="35_dew1r"]
+[ext_resource type="PackedScene" uid="uid://b2nwsk43fiagc" path="res://gui/tab/scene/save_load_interface.tscn" id="37_tlxuu"]
+[ext_resource type="Theme" uid="uid://bbfpxb2bj8co7" path="res://gui/asset/font/credit_font.tres" id="39_4nqcm"]
+[ext_resource type="Script" path="res://gui/tab/script/tab_help.gd" id="40_vjxer"]
+[ext_resource type="PackedScene" uid="uid://bc64cpnyro3vl" path="res://gui/tab/scene/history_message.tscn" id="41_0rfkk"]
+[ext_resource type="Texture2D" uid="uid://cn0gqd0hqcjs2" path="res://gui/asset/element/pop-up/popup.png" id="47_s28ba"]
+[ext_resource type="Script" path="res://gui/main_menu/script/warnings_dialog.gd" id="49_gv1mb"]
+[ext_resource type="PackedScene" uid="uid://dj67hsmvv1p38" path="res://addons/BugReporter/reporters/reporter.tscn" id="51_swxui"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_o4bwe"]
+font = ExtResource("27_ue7xn")
+font_size = 140
+font_color = Color(0.235294, 0.121569, 0.0784314, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_m1rtk"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kc0rq"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_smete"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3vnrt"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gvsby"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_870ib"]
+
+[sub_resource type="ButtonGroup" id="ButtonGroup_47y3e"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fer51"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jei3y"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6lp7t"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_kp53r"]
+font = ExtResource("31_otg55")
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_w0efh"]
+font = ExtResource("31_otg55")
+font_color = Color(0, 0, 0, 1)
+
+[node name="Menus" type="Control"]
+z_as_relative = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_lock_ = true
+
+[node name="MainMenu" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
+layer = 3
+script = ExtResource("1_43egg")
+beginning_timeline = "ev1-1"
+
+[node name="MainMenuBG" type="NinePatchRect" parent="MainMenu"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 2.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_xysoq")
+patch_margin_left = 150
+patch_margin_top = 150
+patch_margin_right = 150
+patch_margin_bottom = 150
+
+[node name="Title_Part1" type="Label" parent="MainMenu"]
+visible = false
+offset_left = 146.0
+offset_top = 133.0
+offset_right = 761.0
+offset_bottom = 580.0
+text = "My Cool"
+label_settings = SubResource("LabelSettings_o4bwe")
+autowrap_mode = 3
+
+[node name="MenuButtonsParalax" type="Control" parent="MainMenu"]
+layout_mode = 3
+anchor_left = 0.614
+anchor_top = 0.008
+anchor_right = 0.999
+anchor_bottom = 1.0
+offset_left = 0.0799561
+offset_top = 0.24
+offset_right = 0.279907
+offset_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+
+[node name="MainMenuButtons" type="VBoxContainer" parent="MainMenu/MenuButtonsParalax"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.128
+anchor_right = 0.82
+anchor_bottom = 1.0
+offset_left = 40.896
+offset_top = -2.0
+offset_right = -48.26
+offset_bottom = 2.0
+grow_vertical = 2
+theme = ExtResource("7_is717")
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="Start" type="TextureButton" parent="MainMenu/MenuButtonsParalax/MainMenuButtons"]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("7_is717")
+texture_normal = ExtResource("5_ijps3")
+texture_pressed = ExtResource("6_ino7g")
+texture_hover = ExtResource("6_ino7g")
+
+[node name="Continue" type="TextureButton" parent="MainMenu/MenuButtonsParalax/MainMenuButtons"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme = ExtResource("7_is717")
+texture_normal = ExtResource("7_14lsr")
+texture_pressed = ExtResource("8_xlsnt")
+texture_hover = ExtResource("8_xlsnt")
+
+[node name="Load" type="TextureButton" parent="MainMenu/MenuButtonsParalax/MainMenuButtons"]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("7_is717")
+texture_normal = ExtResource("7_08psn")
+texture_pressed = ExtResource("8_i0d26")
+texture_hover = ExtResource("8_i0d26")
+
+[node name="Options" type="TextureButton" parent="MainMenu/MenuButtonsParalax/MainMenuButtons"]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("7_is717")
+texture_normal = ExtResource("11_umxfl")
+texture_pressed = ExtResource("12_vuodn")
+texture_hover = ExtResource("12_vuodn")
+
+[node name="About" type="TextureButton" parent="MainMenu/MenuButtonsParalax/MainMenuButtons"]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("7_is717")
+texture_normal = ExtResource("11_7aagr")
+texture_pressed = ExtResource("19_lm6il")
+texture_hover = ExtResource("19_lm6il")
+
+[node name="Help" type="TextureButton" parent="MainMenu/MenuButtonsParalax/MainMenuButtons"]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("7_is717")
+texture_normal = ExtResource("15_bqddk")
+texture_pressed = ExtResource("16_wnybu")
+texture_hover = ExtResource("16_wnybu")
+
+[node name="Quit" type="TextureButton" parent="MainMenu/MenuButtonsParalax/MainMenuButtons"]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("7_is717")
+texture_normal = ExtResource("13_051ey")
+texture_pressed = ExtResource("14_1q2s6")
+texture_hover = ExtResource("14_1q2s6")
+
+[node name="LogoVersion2" type="TextureRect" parent="MainMenu/MenuButtonsParalax"]
+visible = false
+layout_mode = 0
+offset_left = 69.0
+offset_top = 28.0
+offset_right = 481.0
+offset_bottom = 217.0
+texture = ExtResource("20_ud66p")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MainMenu/MenuButtonsParalax"]
+visible = false
+layout_mode = 0
+offset_left = 114.0
+offset_top = 232.0
+offset_right = 439.0
+offset_bottom = 694.0
+theme_override_constants/separation = 30
+alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="MainMenu/MenuButtonsParalax/VBoxContainer"]
+layout_mode = 2
+texture = ExtResource("20_8vpsd")
+expand_mode = 5
+stretch_mode = 5
+
+[node name="TextureRect2" type="TextureRect" parent="MainMenu/MenuButtonsParalax/VBoxContainer"]
+layout_mode = 2
+texture = ExtResource("20_8vpsd")
+expand_mode = 5
+stretch_mode = 5
+
+[node name="TextureRect3" type="TextureRect" parent="MainMenu/MenuButtonsParalax/VBoxContainer"]
+layout_mode = 2
+texture = ExtResource("20_8vpsd")
+expand_mode = 5
+stretch_mode = 5
+
+[node name="TextureRect4" type="TextureRect" parent="MainMenu/MenuButtonsParalax/VBoxContainer"]
+layout_mode = 2
+texture = ExtResource("20_8vpsd")
+expand_mode = 5
+stretch_mode = 5
+
+[node name="LogOut" type="Button" parent="MainMenu"]
+anchors_preset = -1
+anchor_left = 0.916
+anchor_right = 0.987
+anchor_bottom = 0.064
+offset_left = -0.480103
+offset_top = 10.0
+offset_right = 0.639893
+offset_bottom = -0.0800018
+theme_override_colors/font_color = Color(0.490196, 0.262745, 0.611765, 1)
+theme_override_colors/font_pressed_color = Color(0.490196, 0.262745, 0.611765, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(0.490196, 0.262745, 0.611765, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_disabled_color = Color(0.490196, 0.262745, 0.611765, 1)
+theme_override_fonts/font = ExtResource("27_ue7xn")
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxEmpty_m1rtk")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_kc0rq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_smete")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_3vnrt")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_gvsby")
+text = "Log out"
+
+[node name="LogoVersion1" type="TextureRect" parent="MainMenu"]
+offset_left = 91.0
+offset_top = 19.0
+offset_right = 441.0
+offset_bottom = 385.0
+texture = ExtResource("17_gdtfn")
+expand_mode = 1
+
+[node name="GUILayer" type="CanvasLayer" parent="."]
+process_mode = 3
+layer = 3
+
+[node name="OverlayUI" type="Control" parent="GUILayer"]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -36.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("3_cyksu")
+metadata/_edit_lock_ = true
+
+[node name="BG" type="TextureRect" parent="GUILayer/OverlayUI"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -623.0
+offset_top = -360.0
+offset_right = 661.0
+offset_bottom = 360.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("20_xnnr3")
+expand_mode = 2
+
+[node name="Panel" type="Panel" parent="GUILayer/OverlayUI/BG"]
+layout_mode = 0
+offset_left = 37.0
+offset_right = 1277.0
+offset_bottom = 95.0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_870ib")
+
+[node name="CloseButton" type="TextureButton" parent="GUILayer/OverlayUI/BG/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.012
+anchor_top = 0.344
+anchor_right = 0.987
+anchor_bottom = 7.368
+offset_left = 10.88
+offset_top = -13.68
+offset_right = -1169.88
+offset_bottom = -624.96
+grow_vertical = 2
+toggle_mode = true
+button_group = SubResource("ButtonGroup_47y3e")
+texture_normal = ExtResource("16_uutem")
+texture_pressed = ExtResource("16_uutem")
+texture_hover = ExtResource("16_uutem")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="TabButtons" type="Control" parent="GUILayer/OverlayUI"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GUILayer/OverlayUI/TabButtons"]
+layout_mode = 0
+offset_left = -561.0
+offset_top = -321.0
+offset_right = -383.0
+offset_bottom = 357.0
+theme_override_constants/separation = 20
+alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="Pause" type="TextureButton" parent="GUILayer/OverlayUI/TabButtons/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("13_bo7wx")
+toggle_mode = true
+button_group = SubResource("ButtonGroup_47y3e")
+texture_normal = ExtResource("24_up44u")
+texture_pressed = ExtResource("25_g02rw")
+texture_hover = ExtResource("25_g02rw")
+script = ExtResource("6_rv1r2")
+
+[node name="History" type="TextureButton" parent="GUILayer/OverlayUI/TabButtons/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("13_bo7wx")
+toggle_mode = true
+button_group = SubResource("ButtonGroup_47y3e")
+texture_normal = ExtResource("27_xhi20")
+texture_pressed = ExtResource("28_scycl")
+texture_hover = ExtResource("28_scycl")
+script = ExtResource("6_rv1r2")
+
+[node name="LoadGUI" type="TextureButton" parent="GUILayer/OverlayUI/TabButtons/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("13_bo7wx")
+toggle_mode = true
+button_group = SubResource("ButtonGroup_47y3e")
+texture_normal = ExtResource("7_08psn")
+texture_pressed = ExtResource("8_i0d26")
+texture_hover = ExtResource("8_i0d26")
+script = ExtResource("6_rv1r2")
+
+[node name="SaveGUI" type="TextureButton" parent="GUILayer/OverlayUI/TabButtons/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("13_bo7wx")
+toggle_mode = true
+button_group = SubResource("ButtonGroup_47y3e")
+texture_normal = ExtResource("22_v3qnq")
+texture_pressed = ExtResource("23_qnb52")
+texture_hover = ExtResource("23_qnb52")
+script = ExtResource("6_rv1r2")
+
+[node name="Settings" type="TextureButton" parent="GUILayer/OverlayUI/TabButtons/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("13_bo7wx")
+toggle_mode = true
+button_group = SubResource("ButtonGroup_47y3e")
+texture_normal = ExtResource("11_umxfl")
+texture_pressed = ExtResource("12_vuodn")
+texture_hover = ExtResource("12_vuodn")
+script = ExtResource("6_rv1r2")
+
+[node name="About" type="TextureButton" parent="GUILayer/OverlayUI/TabButtons/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("13_bo7wx")
+toggle_mode = true
+button_group = SubResource("ButtonGroup_47y3e")
+texture_normal = ExtResource("11_7aagr")
+texture_pressed = ExtResource("19_lm6il")
+texture_hover = ExtResource("19_lm6il")
+script = ExtResource("6_rv1r2")
+
+[node name="Help" type="TextureButton" parent="GUILayer/OverlayUI/TabButtons/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("13_bo7wx")
+toggle_mode = true
+button_group = SubResource("ButtonGroup_47y3e")
+texture_normal = ExtResource("15_bqddk")
+texture_pressed = ExtResource("16_wnybu")
+texture_hover = ExtResource("16_wnybu")
+script = ExtResource("6_rv1r2")
+
+[node name="Tabs" type="Control" parent="GUILayer/OverlayUI"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 337.0
+offset_top = 130.0
+offset_right = -337.0
+offset_bottom = -130.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="QuitTab" type="Control" parent="GUILayer/OverlayUI/Tabs" node_paths=PackedStringArray("button")]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 0
+offset_left = 7.0
+offset_right = 945.0
+offset_bottom = 486.0
+script = ExtResource("31_3if2e")
+button = NodePath("../../TabButtons/VBoxContainer/Pause")
+
+[node name="TabTitle" type="Label" parent="GUILayer/OverlayUI/Tabs/QuitTab"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.33
+anchor_top = -0.22
+anchor_right = 1.33
+anchor_bottom = -0.22
+offset_left = -1402.54
+offset_top = -15.08
+offset_right = -380.54
+offset_bottom = 77.92
+theme = ExtResource("27_2fl0n")
+theme_type_variation = &"ButtonLabel"
+text = "Pause"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="GUILayer/OverlayUI/Tabs/QuitTab"]
+visible = false
+layout_mode = 0
+offset_left = -335.0
+offset_top = -131.0
+offset_right = 945.0
+offset_bottom = 589.0
+texture = ExtResource("29_47q67")
+metadata/_edit_lock_ = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/QuitTab"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.342
+anchor_right = 1.171
+anchor_bottom = 1.025
+offset_left = -302.796
+offset_top = -4.0
+offset_right = -172.398
+offset_bottom = -4.14999
+theme = ExtResource("7_is717")
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="Main" type="Button" parent="GUILayer/OverlayUI/Tabs/QuitTab/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("7_is717")
+text = "Main Menu"
+
+[node name="Quit" type="Button" parent="GUILayer/OverlayUI/Tabs/QuitTab/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Quit"
+
+[node name="HistoryTab" type="Control" parent="GUILayer/OverlayUI/Tabs" node_paths=PackedStringArray("button")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchor_left = 0.049
+anchor_top = -0.033
+anchor_right = 1.542
+anchor_bottom = 1.143
+offset_left = 13.07
+offset_top = 27.18
+offset_right = -92.94
+offset_bottom = 0.219971
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("34_2hq4j")
+button = NodePath("../../TabButtons/VBoxContainer/History")
+
+[node name="TabTitle" type="Label" parent="GUILayer/OverlayUI/Tabs/HistoryTab"]
+layout_mode = 0
+offset_left = -378.0
+offset_top = -117.0
+offset_right = 839.0
+offset_bottom = -57.0
+theme = ExtResource("27_2fl0n")
+theme_type_variation = &"ButtonLabel"
+text = "History"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="GUILayer/OverlayUI/Tabs/HistoryTab"]
+visible = false
+layout_mode = 0
+offset_left = -29.0
+offset_top = -142.0
+offset_right = 901.0
+offset_bottom = 578.0
+texture = ExtResource("26_almbv")
+expand_mode = 1
+
+[node name="Scroll" type="ScrollContainer" parent="GUILayer/OverlayUI/Tabs/HistoryTab"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.015
+anchor_top = 0.043
+anchor_right = 1.018
+anchor_bottom = 1.041
+offset_left = 67.95
+offset_top = -0.102001
+offset_right = 87.86
+offset_bottom = -0.0739746
+
+[node name="HistoryList" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/HistoryTab/Scroll"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HistoryMessage" parent="GUILayer/OverlayUI/Tabs/HistoryTab/Scroll/HistoryList" instance=ExtResource("41_0rfkk")]
+layout_mode = 2
+
+[node name="HistoryMessage2" parent="GUILayer/OverlayUI/Tabs/HistoryTab/Scroll/HistoryList" instance=ExtResource("41_0rfkk")]
+layout_mode = 2
+
+[node name="HistoryMessage3" parent="GUILayer/OverlayUI/Tabs/HistoryTab/Scroll/HistoryList" instance=ExtResource("41_0rfkk")]
+layout_mode = 2
+
+[node name="HistoryMessage4" parent="GUILayer/OverlayUI/Tabs/HistoryTab/Scroll/HistoryList" instance=ExtResource("41_0rfkk")]
+layout_mode = 2
+
+[node name="HistoryMessage5" parent="GUILayer/OverlayUI/Tabs/HistoryTab/Scroll/HistoryList" instance=ExtResource("41_0rfkk")]
+layout_mode = 2
+
+[node name="HistoryMessage6" parent="GUILayer/OverlayUI/Tabs/HistoryTab/Scroll/HistoryList" instance=ExtResource("41_0rfkk")]
+layout_mode = 2
+
+[node name="HistoryMessage7" parent="GUILayer/OverlayUI/Tabs/HistoryTab/Scroll/HistoryList" instance=ExtResource("41_0rfkk")]
+layout_mode = 2
+
+[node name="LoadTab" type="Control" parent="GUILayer/OverlayUI/Tabs" node_paths=PackedStringArray("button")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchor_right = 1.595
+anchor_bottom = 1.0
+offset_right = 13.85
+offset_bottom = -22.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("32_6s7qx")
+button = NodePath("../../TabButtons/VBoxContainer/LoadGUI")
+
+[node name="TextureRect" type="TextureRect" parent="GUILayer/OverlayUI/Tabs/LoadTab"]
+visible = false
+layout_mode = 0
+offset_left = -338.0
+offset_top = -128.0
+offset_right = 942.0
+offset_bottom = 592.0
+texture = ExtResource("20_xnnr3")
+
+[node name="TabTitle" type="Label" parent="GUILayer/OverlayUI/Tabs/LoadTab"]
+visible = false
+layout_mode = 0
+offset_left = -336.0
+offset_top = -128.0
+offset_right = 881.0
+offset_bottom = -29.0
+theme = ExtResource("27_2fl0n")
+theme_type_variation = &"ButtonLabel"
+text = "Load"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="LoadMenu" parent="GUILayer/OverlayUI/Tabs/LoadTab" node_paths=PackedStringArray("WarningDialog") instance=ExtResource("37_tlxuu")]
+layout_mode = 0
+offset_left = 14.0
+offset_top = -19.0
+offset_right = 942.0
+offset_bottom = 591.0
+mode = 1
+WarningDialog = NodePath("../../../../WarningDialog")
+
+[node name="SaveTab" type="Control" parent="GUILayer/OverlayUI/Tabs" node_paths=PackedStringArray("button")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchor_right = 1.595
+anchor_bottom = 1.0
+offset_right = -13.15
+offset_bottom = -4.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("18_8qrn0")
+button = NodePath("../../TabButtons/VBoxContainer/SaveGUI")
+
+[node name="TextureRect" type="TextureRect" parent="GUILayer/OverlayUI/Tabs/SaveTab"]
+visible = false
+layout_mode = 0
+offset_left = -336.0
+offset_top = -131.0
+offset_right = 944.0
+offset_bottom = 589.0
+texture = ExtResource("24_hxa5b")
+
+[node name="TabTitle" type="Label" parent="GUILayer/OverlayUI/Tabs/SaveTab"]
+layout_mode = 0
+offset_left = 700.0
+offset_top = -117.0
+offset_right = 873.0
+offset_bottom = -37.0
+theme = ExtResource("27_2fl0n")
+theme_type_variation = &"ButtonLabel"
+text = "Save"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="SaveMenu" parent="GUILayer/OverlayUI/Tabs/SaveTab" node_paths=PackedStringArray("WarningDialog") instance=ExtResource("37_tlxuu")]
+layout_mode = 0
+offset_left = 14.0
+offset_top = -19.0
+offset_right = 942.0
+offset_bottom = 591.0
+WarningDialog = NodePath("../../../../WarningDialog")
+
+[node name="OptionsTab" type="Control" parent="GUILayer/OverlayUI/Tabs" node_paths=PackedStringArray("button")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 309.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("33_4rhgd")
+button = NodePath("../../TabButtons/VBoxContainer/Settings")
+
+[node name="TabTitle" type="Label" parent="GUILayer/OverlayUI/Tabs/OptionsTab"]
+layout_mode = 0
+offset_left = -336.0
+offset_top = -122.0
+offset_right = 881.0
+offset_bottom = -29.0
+theme = ExtResource("27_2fl0n")
+theme_type_variation = &"ButtonLabel"
+text = "Settings"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="GUILayer/OverlayUI/Tabs/OptionsTab"]
+visible = false
+layout_mode = 0
+offset_left = -335.0
+offset_top = -130.0
+offset_right = 945.0
+offset_bottom = 590.0
+texture = ExtResource("29_47q67")
+metadata/_edit_lock_ = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/OptionsTab"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.111
+anchor_top = -0.039
+anchor_right = 1.002
+anchor_bottom = 1.196
+offset_left = 0.430992
+offset_top = -11.06
+offset_right = 0.242004
+offset_bottom = -0.160034
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("30_e7klb")
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="VBox" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 31
+
+[node name="DisplayOption" type="HBoxContainer" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox"]
+layout_mode = 2
+
+[node name="SectionTitle" type="Label" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox/DisplayOption"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"SectionLabel"
+text = "Display"
+
+[node name="Setting_Display" type="CheckButton" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox/DisplayOption"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("31_otg55")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_fer51")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_jei3y")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_6lp7t")
+text = "Full Screen"
+alignment = 1
+
+[node name="TextSpeedOption" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox"]
+layout_mode = 2
+theme_override_constants/separation = -5
+
+[node name="SectionTitle" type="Label" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox/TextSpeedOption"]
+layout_mode = 2
+theme_type_variation = &"SectionLabel"
+text = "Text Speed"
+
+[node name="Setting_TextSpeed" type="HSlider" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox/TextSpeedOption"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+max_value = 2.0
+step = 0.05
+value = 1.0
+
+[node name="Label" type="Label" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox/TextSpeedOption/Setting_TextSpeed"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 3.0
+offset_top = -7.0
+offset_right = 70.0
+offset_bottom = 30.0
+grow_vertical = 0
+text = "Instant"
+label_settings = SubResource("LabelSettings_kp53r")
+
+[node name="Label2" type="Label" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox/TextSpeedOption/Setting_TextSpeed"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1.0
+offset_top = -8.0
+offset_right = -1.0
+offset_bottom = 17.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Slow"
+label_settings = SubResource("LabelSettings_w0efh")
+horizontal_alignment = 2
+
+[node name="AutoSpeedOption" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox"]
+layout_mode = 2
+theme_override_constants/separation = -7
+
+[node name="SectionTitle" type="Label" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox/AutoSpeedOption"]
+layout_mode = 2
+theme_type_variation = &"SectionLabel"
+text = "Auto-Forward Speed"
+
+[node name="Setting_AutoSpeed" type="HSlider" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox/AutoSpeedOption"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+max_value = 2.0
+step = 0.05
+value = 1.0
+
+[node name="Label" type="Label" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox/AutoSpeedOption/Setting_AutoSpeed"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 3.0
+offset_top = -7.0
+offset_right = 70.0
+offset_bottom = 30.0
+grow_vertical = 0
+text = "Fast"
+label_settings = SubResource("LabelSettings_w0efh")
+
+[node name="Label2" type="Label" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox/AutoSpeedOption/Setting_AutoSpeed"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1.0
+offset_top = -8.0
+offset_right = -1.0
+offset_bottom = 17.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Slow"
+label_settings = SubResource("LabelSettings_w0efh")
+horizontal_alignment = 2
+
+[node name="VBox2" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 31
+
+[node name="MusicVolume" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox2"]
+layout_mode = 2
+theme_override_constants/separation = -5
+
+[node name="SectionTitle" type="Label" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox2/MusicVolume"]
+layout_mode = 2
+theme_type_variation = &"SectionLabel"
+text = "Music Volume"
+
+[node name="Setting_MusicVolume" type="HSlider" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox2/MusicVolume"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+max_value = 1.0
+step = 0.05
+value = 1.0
+
+[node name="Label" type="Label" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox2/MusicVolume/Setting_MusicVolume"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 3.0
+offset_top = -7.0
+offset_right = 70.0
+offset_bottom = 30.0
+grow_vertical = 0
+text = "Muted"
+label_settings = SubResource("LabelSettings_w0efh")
+
+[node name="Label2" type="Label" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox2/MusicVolume/Setting_MusicVolume"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1.0
+offset_top = -8.0
+offset_right = -1.0
+offset_bottom = 17.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Loud"
+label_settings = SubResource("LabelSettings_w0efh")
+horizontal_alignment = 2
+
+[node name="SoundEffectsVolume" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox2"]
+layout_mode = 2
+theme_override_constants/separation = -7
+
+[node name="SectionTitle" type="Label" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox2/SoundEffectsVolume"]
+layout_mode = 2
+theme_type_variation = &"SectionLabel"
+text = "Sound Effects Volume"
+
+[node name="Setting_SoundsVolume" type="HSlider" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox2/SoundEffectsVolume"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+max_value = 1.0
+step = 0.05
+value = 1.0
+
+[node name="Label" type="Label" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox2/SoundEffectsVolume/Setting_SoundsVolume"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 3.0
+offset_top = -7.0
+offset_right = 70.0
+offset_bottom = 30.0
+grow_vertical = 0
+text = "Muted"
+label_settings = SubResource("LabelSettings_w0efh")
+
+[node name="Label2" type="Label" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox2/SoundEffectsVolume/Setting_SoundsVolume"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1.0
+offset_top = -8.0
+offset_right = -1.0
+offset_bottom = 17.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Loud"
+label_settings = SubResource("LabelSettings_w0efh")
+horizontal_alignment = 2
+
+[node name="VoiceActingVolume" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox2"]
+layout_mode = 2
+theme_override_constants/separation = -7
+
+[node name="SectionTitle" type="Label" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox2/VoiceActingVolume"]
+layout_mode = 2
+theme_type_variation = &"SectionLabel"
+text = "Voice Acting Volume"
+
+[node name="Setting_VoiceActing" type="HSlider" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox2/VoiceActingVolume"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+max_value = 1.0
+step = 0.05
+value = 1.0
+
+[node name="Label" type="Label" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox2/VoiceActingVolume/Setting_VoiceActing"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 3.0
+offset_top = -7.0
+offset_right = 70.0
+offset_bottom = 30.0
+grow_vertical = 0
+text = "Muted"
+label_settings = SubResource("LabelSettings_w0efh")
+
+[node name="Label2" type="Label" parent="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox2/VoiceActingVolume/Setting_VoiceActing"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1.0
+offset_top = -8.0
+offset_right = -1.0
+offset_bottom = 17.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Loud"
+label_settings = SubResource("LabelSettings_w0efh")
+horizontal_alignment = 2
+
+[node name="AboutTab" type="Control" parent="GUILayer/OverlayUI/Tabs" node_paths=PackedStringArray("button")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("33_i8t60")
+button = NodePath("../../TabButtons/VBoxContainer/About")
+
+[node name="TabTitle" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.33
+anchor_top = -0.22
+anchor_right = 1.33
+anchor_bottom = -0.22
+offset_left = -1094.1
+offset_top = -26.8
+offset_right = 122.9
+offset_bottom = 80.2
+theme = ExtResource("27_2fl0n")
+theme_type_variation = &"ButtonLabel"
+text = "About"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.161
+anchor_top = -0.107
+anchor_right = 0.851
+anchor_bottom = 0.035
+offset_left = 17.23
+offset_top = -6.78
+offset_right = -0.0700073
+offset_bottom = -0.1
+theme_override_constants/separation = 30
+
+[node name="Credits_Button" type="Button" parent="GUILayer/OverlayUI/Tabs/AboutTab/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("7_is717")
+toggle_mode = true
+button_pressed = true
+button_group = ExtResource("21_xhhi4")
+text = "Credits"
+
+[node name="Attribution_Button" type="Button" parent="GUILayer/OverlayUI/Tabs/AboutTab/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("7_is717")
+toggle_mode = true
+button_group = ExtResource("21_xhhi4")
+text = "Attribution"
+
+[node name="TextureRect" type="TextureRect" parent="GUILayer/OverlayUI/Tabs/AboutTab"]
+layout_mode = 0
+offset_left = 89.0
+offset_top = -1.0
+offset_right = 872.0
+offset_bottom = 552.0
+texture = ExtResource("35_dew1r")
+expand_mode = 1
+
+[node name="Credits" type="ScrollContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect"]
+unique_name_in_owner = true
+layout_mode = 2
+anchor_left = 0.053
+anchor_top = 0.082
+anchor_right = 0.962
+anchor_bottom = 0.923
+offset_left = -9.499
+offset_top = 20.654
+offset_right = -3.24603
+offset_bottom = -7.41898
+theme = ExtResource("7_is717")
+follow_focus = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits"]
+layout_mode = 2
+theme_override_constants/separation = 100
+
+[node name="Role" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 76
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Role"]
+layout_mode = 2
+theme_override_constants/separation = 40
+
+[node name="Advisor" type="HBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Role/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 345
+
+[node name="Role" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Role/VBoxContainer/Advisor"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Advisor"
+
+[node name="Artist" type="HBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Role/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 365
+
+[node name="Role" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Role/VBoxContainer/Artist"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Artist"
+
+[node name="Developers" type="HBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Role/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 305
+
+[node name="Role" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Role/VBoxContainer/Developers"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Developers"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Role"]
+layout_mode = 2
+theme_override_constants/separation = 185
+
+[node name="VoiceActors" type="HBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Role/VBoxContainer2"]
+layout_mode = 2
+theme_override_constants/separation = 290
+
+[node name="Role" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Role/VBoxContainer2/VoiceActors"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Voice Actors"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Role/VBoxContainer2"]
+layout_mode = 2
+
+[node name="Designers" type="HBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Role/VBoxContainer2/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 340
+
+[node name="Role" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Role/VBoxContainer2/VBoxContainer/Designers"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+theme_override_fonts/font = ExtResource("27_ue7xn")
+text = "Writers"
+
+[node name="Name" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 40
+alignment = 1
+
+[node name="Advisor" type="HBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name"]
+layout_mode = 2
+theme_override_constants/separation = 345
+
+[node name="Label" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/Advisor"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "DR. Pisit Praiwattana"
+
+[node name="Artist" type="HBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name"]
+layout_mode = 2
+theme_override_constants/separation = 365
+
+[node name="Label2" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/Artist"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Busayawadee Suphap
+"
+
+[node name="Developers" type="HBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name"]
+layout_mode = 2
+theme_override_constants/separation = 305
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/Developers"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/Developers/HBoxContainer"]
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/Developers/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Jidapa 
+"
+
+[node name="Label" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/Developers/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Nattarat 
+"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/Developers/HBoxContainer"]
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/Developers/HBoxContainer/VBoxContainer2"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Punrod
+"
+
+[node name="Label" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/Developers/HBoxContainer/VBoxContainer2"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Panjachaipornpol
+"
+
+[node name="VoiceActors" type="HBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name"]
+layout_mode = 2
+theme_override_constants/separation = 290
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Name" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+
+[node name="Manami" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/Name"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Busayawadee"
+
+[node name="Kazumi" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/Name"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Chaninart
+"
+
+[node name="Miss Ami" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/Name"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Kittiya"
+
+[node name="Kokoro" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/Name"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Nattarat
+"
+
+[node name="Akane" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/Name"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Phawida
+"
+
+[node name="Man" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/Name"]
+layout_mode = 2
+text = "Poomsit"
+
+[node name="Name2" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="Manami" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/Name2"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Suphap"
+
+[node name="Kazumi" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/Name2"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Ponyiam
+"
+
+[node name="Miss Ami" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/Name2"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Ponyiam"
+
+[node name="Kokoro" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/Name2"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Panjachaipornpol
+"
+
+[node name="Akane" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/Name2"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Phugchuen"
+
+[node name="Man" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/Name2"]
+layout_mode = 2
+text = "Promtha"
+
+[node name="as" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/as"]
+layout_mode = 2
+text = "as"
+
+[node name="Label2" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/as"]
+layout_mode = 2
+text = "as"
+
+[node name="Label3" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/as"]
+layout_mode = 2
+text = "as"
+
+[node name="Label4" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/as"]
+layout_mode = 2
+text = "as"
+
+[node name="Label5" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/as"]
+layout_mode = 2
+text = "as"
+
+[node name="Label6" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/as"]
+layout_mode = 2
+text = "as"
+
+[node name="Character" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="Akane" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/Character"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Akane"
+
+[node name="Kazumi" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/Character"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Kazumi
+"
+
+[node name="Kokoro" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/Character"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Kokoro
+"
+
+[node name="Manami" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/Character"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Manami"
+
+[node name="MissAmi" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/Character"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Miss Ami
+"
+
+[node name="Man" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/VoiceActors/VBoxContainer/HBoxContainer/Character"]
+layout_mode = 2
+text = "Delivery man, Stalker, 
+and Moderator"
+
+[node name="Designers" type="HBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name"]
+layout_mode = 2
+theme_override_constants/separation = 340
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/Designers"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/Designers/HBoxContainer"]
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/Designers/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Busayawadee
+"
+
+[node name="Label" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/Designers/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Nattarat
+"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/Designers/HBoxContainer"]
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/Designers/HBoxContainer/VBoxContainer2"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Suphap
+"
+
+[node name="Label" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Credits/HBoxContainer/Name/Designers/HBoxContainer/VBoxContainer2"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Panjachaipornpol
+"
+
+[node name="Attribution" type="ScrollContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect"]
+unique_name_in_owner = true
+layout_mode = 2
+anchor_left = 0.053
+anchor_top = 0.082
+anchor_right = 0.948
+anchor_bottom = 0.923
+offset_left = 0.505001
+offset_top = 7.982
+offset_right = 7.57996
+offset_bottom = 1.27298
+theme = ExtResource("7_is717")
+follow_focus = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Attribution"]
+layout_mode = 2
+
+[node name="Godot" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Attribution/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Made with Godot 4.2.2 and Dialogic 2.0 alpha 14."
+
+[node name="Rhythm" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Attribution/VBoxContainer"]
+visible = false
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+theme_override_fonts/font = ExtResource("27_ue7xn")
+theme_override_font_sizes/font_size = 18
+text = "Rhythm Game"
+
+[node name="Git" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Attribution/VBoxContainer"]
+visible = false
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+theme_override_font_sizes/font_size = 15
+text = "https://github.com/LegionGames/Conductor-Example/"
+
+[node name="Music" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Attribution/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Music Sourced via Pixabay.com"
+
+[node name="Source1" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Attribution/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+theme_override_font_sizes/font_size = 15
+text = "Ambient Mystic Realm of Minecraft – https://pixabay.com/music/ambient-mystic-realm-of-minecraft-235545/
+Lofi Chill Melancholic – https://pixabay.com/music/beats-lofi-chill-melancholic-259764/
+Sad Piano & Strings (Rain/Cry) – https://pixabay.com/music/nostalgia-190505-sad-piano-strings-song-rain-cry-sorrow-155511/
+Dramatic Nostalgic Piano & Cello – https://pixabay.com/music/nostalgia-dramatic-nostalgic-sad-piano-and-cello-132706/
+Abandoned Industry (Pop) – https://pixabay.com/music/pop-abandoned-industry-171879/
+Soft Background Piano – https://pixabay.com/music/modern-classical-soft-background-piano-285589/
+Daylight Piano – https://pixabay.com/music/modern-classical-daylight-piano-music-292993/
+Alone (Piano) – https://pixabay.com/music/modern-classical-alone-238544/
+Mystery Music Box – https://pixabay.com/music/mystery-tension-music-box-208294/
+Relaxed Walk (Piano) – https://pixabay.com/music/modern-classical-relaxed-walk-free-113607/
+Sweet Memories (Piano) – https://pixabay.com/music/modern-classical-sweet-memories-282290/
+Sweet Dreams (Piano) – https://pixabay.com/music/modern-classical-sweet-dreams-piano-222990/
+Ominous Tension – https://pixabay.com/music/drama-scene-ominous-tension-157906/
+Dramatic Piano & Strings – https://pixabay.com/music/drama-scene-dramatic-piano-and-strings-177000/
+Emotional Solo Piano – https://pixabay.com/music/modern-classical-emotional-solo-piano-166032/
+Creepy Piano – https://pixabay.com/music/mystery-horror-creepy-piano-255685/
+Spooky Piano – https://pixabay.com/music/mystery-horror-spooky-piano-254402/
+Dark Piano – https://pixabay.com/music/mystery-horror-dark-piano-262611/
+Broken Sonata (Sad Piano) – https://pixabay.com/music/modern-classical-broken-sonata-sad-piano-201839/
+Dramatic Piano & Violin – https://pixabay.com/music/mystery-dramatic-atmosphere-with-piano-and-violin-143149/
+Sad Dramatic Piano – https://pixabay.com/music/modern-classical-sad-dramatic-piano-sad-alone-drama-262415/
+Sad Piano Background – https://pixabay.com/music/solo-piano-sad-piano-background-music-for-videos-7573/
+Happy Morning Piano – https://pixabay.com/music/modern-classical-happy-good-morning-piano-music-272718/
+Emotional Piano – https://pixabay.com/music/modern-classical-emotional-piano-music-256262/
+Evening Glow (Piano) – https://pixabay.com/music/modern-classical-evening-glow-soft-piano-music-243818/
+Aurora Piano – https://pixabay.com/music/modern-classical-aurora-piano-music-292992/
+Horror Piano – https://pixabay.com/music/solo-piano-horror-dark-spooky-piano-251474/
+Gothic Piano – https://pixabay.com/music/modern-classical-halloween-bgmtarantelladark-amp-gothic-piano-248346/
+Dark Ambient Piano – https://pixabay.com/music/ambient-dark-piano-ambient-background-music-together-alone-216674/
+Drama (Piano) – https://pixabay.com/music/modern-classical-drama-99134/
+Calm Before Storm – https://pixabay.com/music/video-games-calm-before-a-storm-247781/
+Happy Birthday (Music Box) – https://pixabay.com/music/special-occasions-happy-birthday-music-box-version-117317/
+Lo-Fi Chill Hop – https://pixabay.com/music/beats-the-lo-fi-chill-hop-276524/
+Slow Suspense – https://pixabay.com/music/build-up-scenes-slow-suspense-118551/"
+
+[node name="SFX" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Attribution/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+text = "Sound Effects Sourced via Pixabay.com"
+
+[node name="Source2" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/TextureRect/Attribution/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("39_4nqcm")
+theme_override_font_sizes/font_size = 15
+text = "Mobile Phone Ringtone – https://pixabay.com/sound-effects/mobile-phone-ringtone-6769/
+Hard Object Drop – https://pixabay.com/sound-effects/hard-object-drop-98768/
+Woman Sobbing – https://pixabay.com/sound-effects/a-woman-sobbing-type-3-265497/
+Applause – https://pixabay.com/sound-effects/applause-2-31567/
+Camera Shutter – https://pixabay.com/sound-effects/camera-shutter-104486/
+Crowd Murmuring – https://pixabay.com/sound-effects/crowd-murmuring-60721/
+Phone Hang-Up – https://pixabay.com/sound-effects/cell-phone-hang-up-100514/
+Notification – https://pixabay.com/sound-effects/notification-2-269292/
+Bubble Sound – https://pixabay.com/sound-effects/bubble-sound-43207/
+Door Open/Close – https://pixabay.com/sound-effects/open-and-closed-door-156814/
+Unlock Door – https://pixabay.com/sound-effects/unlock-the-door-1-46012/
+Door Open – https://pixabay.com/sound-effects/door-open-90218/
+Heartbeat – https://pixabay.com/sound-effects/heart-beat-137135/
+Suspense Piano Theme – https://pixabay.com/sound-effects/suspense-piano-theme-131357/
+Door Reverb – https://pixabay.com/sound-effects/open-and-closed-door-reverb-206833/
+Blip – https://pixabay.com/sound-effects/blip-131856/
+Level Up – https://pixabay.com/sound-effects/level-up-191997/
+Female Sigh – https://pixabay.com/sound-effects/female-sigh-edit-97234/
+Tense Violins – https://pixabay.com/sound-effects/violins-tense-uncertainty-247692/
+Door Knock – https://pixabay.com/sound-effects/sound-effect-door-knock-single-200531/
+Door Sound – https://pixabay.com/sound-effects/door-sound-44970/
+Door Close – https://pixabay.com/sound-effects/door-close-79921/
+Intruder Trying Door – https://pixabay.com/sound-effects/intruder-trying-to-enter-door-266506/
+Hit Flesh – https://pixabay.com/sound-effects/hit-flesh-02-266309/
+Girl Scream – https://pixabay.com/sound-effects/girl-scream-45657/
+Female Scream – https://pixabay.com/sound-effects/080167-female-scream-02-89290/
+Crying & Sobbing – https://pixabay.com/sound-effects/crying-and-sobbing-240726/
+Dropped Stuff – https://pixabay.com/sound-effects/dropped-stuff-88036/
+Crowd Talking – https://pixabay.com/sound-effects/crowd-talking-6762/
+Footsteps Leaving – https://pixabay.com/sound-effects/leaving-walk-91375/
+Knife Stab – https://pixabay.com/sound-effects/knife-stab-pull-260276/
+Live Chat – https://pixabay.com/sound-effects/livechat-129007/
+Notification – https://pixabay.com/sound-effects/notification-18-270129/
+Marimba Ringtone – https://pixabay.com/sound-effects/marimba-ringtone-2-278833/
+Pencil Writing – https://pixabay.com/sound-effects/pencil-writing-32447/
+Page Flip – https://pixabay.com/sound-effects/pageflip-01-81244/
+Paper Rustle – https://pixabay.com/sound-effects/paper-245786/
+UI Click – https://pixabay.com/sound-effects/ui-click-43196/
+Walking Up Stairs – https://pixabay.com/sound-effects/walking-up-the-stairs-268464/
+Interface Select – https://pixabay.com/sound-effects/clicking-interface-select-201946/
+Bubble Pop – https://pixabay.com/sound-effects/bubble-pop-283674/
+Main Door Open/Close – https://pixabay.com/sound-effects/main-door-opening-closing-38280/
+Box Open – https://pixabay.com/sound-effects/box-open-90674/
+Woman Gasp – https://pixabay.com/sound-effects/woman-gasp-for-air-269717/
+Camera Shutter – https://pixabay.com/sound-effects/film-camera-shutter-11000th-272602/
+Polaroid Sound – https://pixabay.com/sound-effects/polaroid-taking-picture-6280/
+Metal Clang – https://pixabay.com/sound-effects/metal-clang-sound-81634/
+Drawer Open – https://pixabay.com/sound-effects/drawer-open-mid-84663/
+Typing Phone – https://pixabay.com/sound-effects/typingphone-101683/
+Page Flip – https://pixabay.com/sound-effects/page-flip2-178323/
+Error Sound – https://pixabay.com/sound-effects/error-8-206492/
+Finger Snap – https://pixabay.com/sound-effects/finger-snap-43482/
+Alert Sound – https://pixabay.com/sound-effects/alert-sound-230091/
+Body Fall – https://pixabay.com/th/sound-effects/body-fall-195147/
+Gag Reflex – https://pixabay.com/th/sound-effects/gag-reflex-41207/
+Opening a Jar – https://pixabay.com/th/sound-effects/opening-a-jar-80749/
+Phone Sound – https://pixabay.com/th/sound-effects/phonesound-65797/
+Body Fall – https://pixabay.com/th/sound-effects/body-fall-195147/
+Gag Reflex – https://pixabay.com/th/sound-effects/gag-reflex-41207/
+Opening a Jar – https://pixabay.com/th/sound-effects/opening-a-jar-80749/
+Phone Sound – https://pixabay.com/th/sound-effects/phonesound-65797/"
+
+[node name="HelpTab" type="Control" parent="GUILayer/OverlayUI/Tabs" node_paths=PackedStringArray("button")]
+unique_name_in_owner = true
+anchors_preset = 0
+offset_left = -4.0
+offset_right = 946.0
+offset_bottom = 586.0
+script = ExtResource("40_vjxer")
+button = NodePath("../../TabButtons/VBoxContainer/Help")
+metadata/_edit_lock_ = true
+
+[node name="TabTitle" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.33
+anchor_top = -0.22
+anchor_right = 1.33
+anchor_bottom = -0.22
+offset_left = -1094.5
+offset_top = 19.92
+offset_right = -386.5
+offset_bottom = 90.92
+theme = ExtResource("27_2fl0n")
+theme_type_variation = &"ButtonLabel"
+text = "Help"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="GUILayer/OverlayUI/Tabs/HelpTab"]
+layout_mode = 0
+offset_left = 135.0
+offset_top = -16.0
+offset_right = 809.0
+offset_bottom = 464.0
+texture = ExtResource("35_dew1r")
+expand_mode = 1
+
+[node name="Info" type="HBoxContainer" parent="GUILayer/OverlayUI/Tabs/HelpTab"]
+unique_name_in_owner = true
+layout_mode = 2
+offset_left = 182.0
+offset_top = 8.0
+offset_right = 763.0
+offset_bottom = 447.0
+theme = ExtResource("30_e7klb")
+theme_override_constants/separation = 15
+alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info"]
+layout_mode = 2
+theme_override_constants/separation = 7
+alignment = 1
+
+[node name="Label" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer"]
+layout_mode = 2
+text = "Dialogue"
+
+[node name="LeftMouse" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("31_otg55")
+text = "Left Mouse Button - Advance dialogue and select the choice"
+
+[node name="ESC" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("31_otg55")
+text = "ESC - Navigate to pause menu"
+
+[node name="Gameplay" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer"]
+layout_mode = 2
+text = "Parallax Gameplay"
+
+[node name="A" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("31_otg55")
+text = "A - Walk left"
+
+[node name="D" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("31_otg55")
+text = "D - Walk right"
+
+[node name="LeftMouse4" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("31_otg55")
+text = "Left Mouse Button - Interact with the object"
+
+[node name="Gameplay2" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer"]
+layout_mode = 2
+text = "Drag & Drop"
+
+[node name="LeftMouse2" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("31_otg55")
+text = "Left Mouse Button - Drag and drop the paper"
+
+[node name="Gameplay3" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer"]
+layout_mode = 2
+text = "Passcode Gameplay"
+
+[node name="LeftMouse3" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("31_otg55")
+text = "Left Mouse Button - Select the number"
+
+[node name="Rhythm Game" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer"]
+layout_mode = 2
+text = "Rhythm Game"
+
+[node name="Rhythm Game2" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("31_otg55")
+text = "Arrow Key - Press the arrow when the beat matches"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info"]
+visible = false
+layout_mode = 2
+alignment = 1
+
+[node name="LeftMouse" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("31_otg55")
+text = "Advances dialogue"
+
+[node name="ESC" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("31_otg55")
+text = "Navigates to pause menu"
+
+[node name="Blank" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("31_otg55")
+
+[node name="A" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("31_otg55")
+text = "Walk left"
+
+[node name="D" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("31_otg55")
+text = "Walk right"
+
+[node name="Blank-2" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("31_otg55")
+
+[node name="LeftMouse2" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("31_otg55")
+text = "Selects the object"
+
+[node name="Arrow Control" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/Info/VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("31_otg55")
+text = "Play the rhythm game"
+
+[node name="Report" type="Button" parent="GUILayer/OverlayUI/Tabs/HelpTab"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 398.0
+offset_top = 494.0
+offset_right = 535.0
+offset_bottom = 544.0
+tooltip_text = "Press F2 to screenshot the screen"
+theme = ExtResource("7_is717")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.332881, 0.332881, 0.332881, 1)
+theme_override_colors/font_hover_color = Color(0.333333, 0.333333, 0.333333, 1)
+theme_override_colors/font_focus_color = Color(0.333333, 0.333333, 0.333333, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.333333, 0.333333, 0.333333, 1)
+theme_override_colors/font_disabled_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "Report Bug"
+
+[node name="Return" type="Button" parent="GUILayer/OverlayUI/Tabs/HelpTab"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 0
+offset_left = 398.0
+offset_top = 494.0
+offset_right = 535.0
+offset_bottom = 544.0
+theme = ExtResource("7_is717")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.332881, 0.332881, 0.332881, 1)
+theme_override_colors/font_hover_color = Color(0.333333, 0.333333, 0.333333, 1)
+theme_override_colors/font_focus_color = Color(0.333333, 0.333333, 0.333333, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.333333, 0.333333, 0.333333, 1)
+theme_override_colors/font_disabled_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "Return"
+
+[node name="BugReport" type="CanvasLayer" parent="GUILayer/OverlayUI/Tabs/HelpTab"]
+unique_name_in_owner = true
+layer = 3
+visible = false
+
+[node name="Reporter" parent="GUILayer/OverlayUI/Tabs/HelpTab/BugReport" instance=ExtResource("51_swxui")]
+offset_left = 504.0
+offset_top = 147.0
+offset_right = 1114.0
+offset_bottom = 562.0
+
+[node name="Label" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/BugReport"]
+unique_name_in_owner = true
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="WarningDialog" type="Control" parent="GUILayer"]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -162.0
+offset_top = -94.0
+offset_right = 162.0
+offset_bottom = 94.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("49_gv1mb")
+metadata/_edit_lock_ = true
+
+[node name="PanelContainer" type="TextureRect" parent="GUILayer/WarningDialog"]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -355.0
+offset_top = -144.0
+offset_right = 355.0
+offset_bottom = 100.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("47_s28ba")
+expand_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GUILayer/WarningDialog/PanelContainer"]
+layout_mode = 2
+offset_left = 11.0
+offset_top = 92.0
+offset_right = 701.0
+offset_bottom = 153.0
+size_flags_vertical = 4
+theme = ExtResource("7_is717")
+theme_override_constants/separation = 20
+
+[node name="Message" type="Label" parent="GUILayer/WarningDialog/PanelContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 23
+text = "You have unsaved progress. Sure you want to load?"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[connection signal="pressed" from="MainMenu/MenuButtonsParalax/MainMenuButtons/Start" to="MainMenu" method="_on_start_pressed"]
+[connection signal="pressed" from="MainMenu/MenuButtonsParalax/MainMenuButtons/Continue" to="MainMenu" method="_on_load_pressed"]
+[connection signal="pressed" from="MainMenu/MenuButtonsParalax/MainMenuButtons/Load" to="MainMenu" method="_on_load_pressed"]
+[connection signal="pressed" from="MainMenu/MenuButtonsParalax/MainMenuButtons/Options" to="MainMenu" method="_on_options_pressed"]
+[connection signal="pressed" from="MainMenu/MenuButtonsParalax/MainMenuButtons/About" to="MainMenu" method="_on_about_pressed"]
+[connection signal="pressed" from="MainMenu/MenuButtonsParalax/MainMenuButtons/Help" to="MainMenu" method="_on_help_pressed"]
+[connection signal="pressed" from="MainMenu/MenuButtonsParalax/MainMenuButtons/Quit" to="MainMenu" method="_on_quit_pressed"]
+[connection signal="pressed" from="MainMenu/LogOut" to="MainMenu" method="_on_log_out_pressed"]
+[connection signal="pressed" from="GUILayer/OverlayUI/BG/Panel/CloseButton" to="GUILayer/OverlayUI" method="_on_close_button_pressed"]
+[connection signal="pressed" from="GUILayer/OverlayUI/Tabs/QuitTab/VBoxContainer/Main" to="GUILayer/OverlayUI/Tabs/QuitTab" method="_on_main_menu_pressed"]
+[connection signal="pressed" from="GUILayer/OverlayUI/Tabs/QuitTab/VBoxContainer/Quit" to="GUILayer/OverlayUI/Tabs/QuitTab" method="_on_quit_pressed"]
+[connection signal="loaded" from="GUILayer/OverlayUI/Tabs/LoadTab/LoadMenu" to="GUILayer/OverlayUI/Tabs/LoadTab" method="_on_load_menu_loaded"]
+[connection signal="page_changed" from="GUILayer/OverlayUI/Tabs/LoadTab/LoadMenu" to="GUILayer/OverlayUI/Tabs/SaveTab/SaveMenu" method="load_page"]
+[connection signal="page_changed" from="GUILayer/OverlayUI/Tabs/SaveTab/SaveMenu" to="GUILayer/OverlayUI/Tabs/LoadTab/LoadMenu" method="load_page"]
+[connection signal="saved" from="GUILayer/OverlayUI/Tabs/SaveTab/SaveMenu" to="GUILayer/OverlayUI/Tabs/SaveTab" method="_on_save_menu_saved"]
+[connection signal="toggled" from="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox/DisplayOption/Setting_Display" to="GUILayer/OverlayUI/Tabs/OptionsTab" method="_on_display_setting_toggled"]
+[connection signal="value_changed" from="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox/TextSpeedOption/Setting_TextSpeed" to="GUILayer/OverlayUI/Tabs/OptionsTab" method="_on_setting_text_speed_value_changed"]
+[connection signal="value_changed" from="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox/AutoSpeedOption/Setting_AutoSpeed" to="GUILayer/OverlayUI/Tabs/OptionsTab" method="_on_setting_auto_speed_value_changed"]
+[connection signal="value_changed" from="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox2/MusicVolume/Setting_MusicVolume" to="GUILayer/OverlayUI/Tabs/OptionsTab" method="_on_setting_music_volume_value_changed"]
+[connection signal="value_changed" from="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox2/SoundEffectsVolume/Setting_SoundsVolume" to="GUILayer/OverlayUI/Tabs/OptionsTab" method="_on_setting_sounds_volume_value_changed"]
+[connection signal="value_changed" from="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/VBox2/VoiceActingVolume/Setting_VoiceActing" to="GUILayer/OverlayUI/Tabs/OptionsTab" method="_on_setting_ui_volume_value_changed"]
+[connection signal="pressed" from="GUILayer/OverlayUI/Tabs/AboutTab/HBoxContainer/Credits_Button" to="GUILayer/OverlayUI/Tabs/AboutTab" method="_on_credits_pressed"]
+[connection signal="pressed" from="GUILayer/OverlayUI/Tabs/AboutTab/HBoxContainer/Attribution_Button" to="GUILayer/OverlayUI/Tabs/AboutTab" method="_on_attribution_pressed"]
+[connection signal="pressed" from="GUILayer/OverlayUI/Tabs/HelpTab/Report" to="GUILayer/OverlayUI/Tabs/HelpTab" method="_on_report_pressed"]
+[connection signal="pressed" from="GUILayer/OverlayUI/Tabs/HelpTab/Return" to="GUILayer/OverlayUI/Tabs/HelpTab" method="_on_return_pressed"]

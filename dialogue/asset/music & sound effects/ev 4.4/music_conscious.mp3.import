@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cre6h62dnr51p"
+path="res://.godot/imported/music_conscious.mp3-2d86e23d73d90c999ea5a94755c56bae.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 4.4/music_conscious.mp3"
+dest_files=["res://.godot/imported/music_conscious.mp3-2d86e23d73d90c999ea5a94755c56bae.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,104 @@
+[music fade="0.0" volume="0.0"]
+[background scene="res://dialogue/scene/pov.tscn" fade="3.0"]
+[clear time="0.1" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[music path="res://dialogue/asset/music & sound effects/ev 2.4/music_kazumi_reads_comments.mp3" fade="0.0" volume="0.0"]
+[wait time="3.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="3.0"]
+[wait time="3.0"]
+[background arg="res://dialogue/asset/background/timeline/ev2/ev2.4/ev2.4(1).png" fade="2.0"]
+[wait time="2.0"]
+The movie Kazumi starred in was finally completed and released shortly afterward.
+join kazumi (happy1.2) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_110.mp3" volume="0.0"]
+kazumi: The response to my first movie has been better than I expected.
+update kazumi (blank) 4
+update kazumi (blank) 4
+join kazumi (happy1.2) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_111.mp3" volume="0.0"]
+kazumi: I’m so happy!
+update kazumi (blank) 4
+update kazumi (blank) 4
+join kazumi (happy1.2) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_112.mp3" volume="0.0"]
+kazumi: I think accepting this gig was the right choice.
+update kazumi (blank) 4
+update kazumi (blank) 4
+join kazumi (happy1.2) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_113.mp3" volume="0.0"]
+kazumi: I hope this can boost both Kokoro’s and my popularity.
+update kazumi (blank) 4
+update kazumi (blank) 4
+[background arg="res://dialogue/asset/background/timeline/ev2/ev2.4/ev2.4(2).png" fade="2.0"]
+[wait time="2.0"]
+[music fade="0.0" volume="0.0"]
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[music path="res://dialogue/asset/music & sound effects/ev 2.4/music_negative_comments.mp3" fade="0.0" volume="0.0"]
+join kazumi (scared1.6) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_115.mp3" volume="0.0"]
+kazumi: Why are there so many hateful messages about Kokoro and me?
+update kazumi (blank)
+update kazumi (blank)
+[background arg="res://dialogue/asset/background/timeline/ev2/ev2.4/ev2.4(3).png" fade="2.0"]
+[wait time="1.0"]
+join kazumi (scared1.6) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_117.mp3" volume="0.0"]
+kazumi: Why do people make up stories to trash others, especially someone I know as a good friend, like Kokoro?
+update kazumi (blank) 4
+update kazumi (blank) 4
+update kazumi (sad1.4) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_118.mp3" volume="0.0"]
+kazumi: I’ve never had any bad thoughts about Kokoro. She’s just my best friend, nothing more
+update kazumi (blank) 4
+update kazumi (blank) 4
+join kazumi (sad1.4) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_119.mp3" volume="0.0"]
+kazumi: Whenever I need advice or encouragement, she's always by my side.
+update kazumi (blank)
+update kazumi (blank)
+join kazumi (sad1.4) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_120.mp3" volume="0.0"]
+kazumi: I’m worried these messages might affect her mentally. She’s already been through so much in her childhood.
+update kazumi (blank) 4
+update kazumi (blank) 4
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[music fade="0.0" volume="0.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 2.4/music_kazumi_to_kokoro.mp3" fade="0.0" volume="0.0"]
+join kazumi (sad1.4) 4
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_121.mp3" volume="0.0"]
+kazumi: I should help her the way she helped me when we were trainees together.
+update kazumi (blank)
+update kazumi (blank)
+[background arg="res://dialogue/asset/background/timeline/ev2/ev2.4/ev2.4(4).png" fade="2.0"]
+[wait time="2.0"]
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_122.mp3" volume="0.0"]
+Once, there was an incident that deeply upset and terrified me.
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_123.mp3" volume="0.0"]
+It made me seriously consider giving up my childhood dream of becoming an idol.
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_124.mp3" volume="0.0"]
+That’s when I almost got physically harassed by a trainee supervisor.
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_125.mp3" volume="0.0"]
+I was so scared about what happened that I didn’t want to practice anymore.
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_126.mp3" volume="0.0"]
+I was way too scared and couldn’t bring myself to tell anyone about it. Eventually, I just decided to quit being a trainee.
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_127.mp3" volume="0.0"]
+But thanks to Kokoro's encouragement, I decided to share it with her.
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_128.mp3" volume="0.0"]
+On that day, we opened up and talked about the experiences  we’d been through.
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_129.mp3" volume="0.0"]
+That’s when I learned about the traumatic incident from Kokoro’s childhood.
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_130.mp3" volume="0.0"]
+Kokoro’s story really shook me because I never imagined something like that could happen to such an innocent child.
+[background arg="res://dialogue/asset/background/timeline/ev2/ev2.4/ev2.4(5).png" fade="2.0"]
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_131.mp3" volume="0.0"]
+For this reason, I decided not to give up on my dream of being an idol and told Kokoro about what I was facing.
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 2.4/Kazumi_Row_132.mp3" volume="0.0"]
+I’ve been grateful to her ever since. I was able to achieve my dream because she helped me deal with the situation by stepping in and informing the head of talent management.
+update kazumi (blank) 0
+[music fade="0.0" volume="0.0"]
+leave --All--
+[background arg="res://dialogue/asset/background/timeline/ev2/ev2.4/ev2.4(5).png" fade="2.0"]
+[clear time="0.5" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[wait time="2.0"]
+jump ev3/ev3-1/

@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="DialogicStyle" load_steps=9 format=3 uid="uid://bof6apttbso6x"]
+
+[ext_resource type="PackedScene" uid="uid://c1k5m0w3r40xf" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn" id="1_g6g3e"]
+[ext_resource type="Script" path="res://addons/dialogic/Resources/dialogic_style_layer.gd" id="2_7tanu"]
+[ext_resource type="PackedScene" uid="uid://cn674foxwedqu" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn" id="4_bruyh"]
+[ext_resource type="PackedScene" uid="uid://igjadxahdxrs" path="res://dialogue/asset/style/diary/textbox_diary.tscn" id="9_bqocf"]
+[ext_resource type="Script" path="res://addons/dialogic/Resources/dialogic_style.gd" id="10_nqy4j"]
+
+[sub_resource type="Resource" id="Resource_l6n5h"]
+script = ExtResource("2_7tanu")
+scene = ExtResource("1_g6g3e")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_hgx2j"]
+script = ExtResource("2_7tanu")
+scene = ExtResource("4_bruyh")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_1atam"]
+script = ExtResource("2_7tanu")
+scene = ExtResource("9_bqocf")
+overrides = {}
+
+[resource]
+script = ExtResource("10_nqy4j")
+name = "diary"
+base_overrides = {}
+layers = Array[ExtResource("2_7tanu")]([SubResource("Resource_l6n5h"), SubResource("Resource_hgx2j"), SubResource("Resource_1atam")])
+metadata/_latest_layer = 2

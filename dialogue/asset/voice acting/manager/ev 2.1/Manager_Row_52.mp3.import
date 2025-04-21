@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d4bvqs1xo52bw"
+path="res://.godot/imported/Manager_Row_52.mp3-bf515f878bec63e5f8d9f676a8168999.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/voice acting/manager/ev 2.1/Manager_Row_52.mp3"
+dest_files=["res://.godot/imported/Manager_Row_52.mp3-bf515f878bec63e5f8d9f676a8168999.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

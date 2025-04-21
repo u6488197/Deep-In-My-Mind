@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://6kwu76jxjxdr"
+path="res://.godot/imported/music_charging_to_before_past.mp3-c6359d3bbbd24df48dab1057b0fe1c55.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 4.1/music_charging_to_before_past.mp3"
+dest_files=["res://.godot/imported/music_charging_to_before_past.mp3-c6359d3bbbd24df48dab1057b0fe1c55.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

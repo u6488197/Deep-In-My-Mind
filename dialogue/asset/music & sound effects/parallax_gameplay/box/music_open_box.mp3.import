@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bmoeuxdgfr5tq"
+path="res://.godot/imported/music_open_box.mp3-3923f0f6fbcc3fd9f3552dad6c03657a.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/parallax_gameplay/box/music_open_box.mp3"
+dest_files=["res://.godot/imported/music_open_box.mp3-3923f0f6fbcc3fd9f3552dad6c03657a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

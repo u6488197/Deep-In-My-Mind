@@ -1,0 +1,190 @@
+[gd_scene load_steps=16 format=3 uid="uid://cj0o8gxhkhdfm"]
+
+[ext_resource type="Script" path="res://find_a_password/script/control.gd" id="1_egb34"]
+[ext_resource type="PackedScene" uid="uid://q1isa0plmpx0" path="res://find_a_password/scene/pin.tscn" id="2_1eyfc"]
+[ext_resource type="Texture2D" uid="uid://db1xbmfwayg0d" path="res://find_a_password/asset/phone_background.png" id="2_eduwr"]
+[ext_resource type="Texture2D" uid="uid://cdgqmma37m4nx" path="res://find_a_password/asset/phone_screen.png" id="3_dyidl"]
+[ext_resource type="Theme" uid="uid://bd64i3dx4elpc" path="res://gui/asset/style/main_menu_button.tres" id="3_wvldb"]
+[ext_resource type="Texture2D" uid="uid://o8leyy8fmvnj" path="res://parallax_gameplay/asset/interaction_icon/goBack.png" id="4_2xemh"]
+[ext_resource type="Texture2D" uid="uid://bhnkyyihgs4f1" path="res://parallax_gameplay/asset/interaction_icon/Clicked_goBack.png" id="5_cf2vo"]
+[ext_resource type="FontFile" uid="uid://cdjs3xxyrqxfy" path="res://asset/font/HinaMincho-Regular.ttf" id="7_3gji7"]
+[ext_resource type="Texture2D" uid="uid://dm04bkwlwx5kd" path="res://find_a_password/asset/planner_fixed.png" id="9_n4cy5"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0o5cy"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hw6am"]
+bg_color = Color(0, 0, 0, 0.466667)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qr8kl"]
+bg_color = Color(0, 0, 0, 0.466667)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f5wu2"]
+bg_color = Color(0, 0, 0, 0.466667)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qnjk0"]
+bg_color = Color(0, 0, 0, 0.466667)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pwr3o"]
+bg_color = Color(0, 0, 0, 0.466667)
+
+[node name="passcode" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_egb34")
+
+[node name="BG" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_eduwr")
+metadata/_edit_lock_ = true
+
+[node name="phone_screen" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_0o5cy")
+metadata/_edit_lock_ = true
+
+[node name="TextureRect" type="TextureRect" parent="phone_screen"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -160.0
+offset_top = -296.0
+offset_right = 175.0
+offset_bottom = 327.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_dyidl")
+
+[node name="Main" parent="phone_screen" instance=ExtResource("2_1eyfc")]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.394
+anchor_top = 0.389
+anchor_right = 0.625
+anchor_bottom = 0.911
+offset_left = -0.320038
+offset_top = -0.0800171
+offset_bottom = 0.0799561
+
+[node name="goBack" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.019125
+anchor_top = 0.0113889
+anchor_right = 0.069125
+anchor_bottom = 0.090389
+offset_left = 0.52
+offset_top = 16.8
+offset_right = 1984.52
+offset_bottom = 2127.92
+scale = Vector2(0.0313196, 0.0262728)
+texture_normal = ExtResource("4_2xemh")
+texture_pressed = ExtResource("5_cf2vo")
+texture_hover = ExtResource("5_cf2vo")
+metadata/_edit_use_anchors_ = true
+
+[node name="calendar" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.891
+anchor_top = 0.069
+anchor_right = 0.97
+anchor_bottom = 0.069
+offset_left = 0.52002
+offset_top = -18.68
+offset_right = -0.600098
+offset_bottom = 18.32
+grow_horizontal = 0
+size_flags_horizontal = 8
+size_flags_vertical = 0
+theme = ExtResource("3_wvldb")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(0.419813, 0.419813, 0.419813, 1)
+theme_override_colors/font_hover_color = Color(0.419608, 0.419608, 0.419608, 1)
+theme_override_colors/font_focus_color = Color(0.419608, 0.419608, 0.419608, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_hw6am")
+theme_override_styles/hover = SubResource("StyleBoxFlat_qr8kl")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_f5wu2")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_qnjk0")
+theme_override_styles/focus = SubResource("StyleBoxFlat_pwr3o")
+text = "Show"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 544.0
+offset_top = 152.0
+offset_right = 768.0
+offset_bottom = 232.0
+alignment = 1
+
+[node name="Time" type="RichTextLabel" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("7_3gji7")
+theme_override_font_sizes/normal_font_size = 50
+bbcode_enabled = true
+text = "[center]"
+fit_content = true
+autowrap_mode = 0
+
+[node name="Date" type="RichTextLabel" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("7_3gji7")
+theme_override_font_sizes/normal_font_size = 20
+bbcode_enabled = true
+text = "[center] 
+"
+fit_content = true
+autowrap_mode = 0
+
+[node name="planner2" type="Control" parent="."]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 0
+offset_right = 1282.0
+offset_bottom = 718.0
+
+[node name="planner" type="TextureRect" parent="planner2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("9_n4cy5")
+expand_mode = 1
+
+[node name="return" type="TextureButton" parent="planner2"]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 25.0
+offset_right = 85.0
+offset_bottom = 81.0
+texture_normal = ExtResource("4_2xemh")
+texture_pressed = ExtResource("5_cf2vo")
+texture_hover = ExtResource("5_cf2vo")
+ignore_texture_size = true
+stretch_mode = 0
+
+[connection signal="pressed" from="goBack" to="." method="_on_go_back_pressed"]
+[connection signal="pressed" from="calendar" to="." method="_on_calendar_pressed"]
+[connection signal="pressed" from="planner2/return" to="." method="_on_return_pressed"]

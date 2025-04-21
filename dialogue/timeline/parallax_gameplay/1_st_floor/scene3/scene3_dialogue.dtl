@@ -1,0 +1,79 @@
+if {paper_1_st_floor_scene3} == 1:
+	[background arg="res://dialogue/asset/background/parallax_gameplay/collect_a_paper/paper1.png" fade="2.0"]
+	[wait time="2.0"]
+	join kokoro (normal2.6) 0
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/Parallax part/1st Floor/Kokoro_Row_152_1st Paper/Kokoro_Row_152_1.mp3" volume="0.0"]
+	kokoro: What is this piece of paper?
+	update kokoro (blank)
+	join kokoro (normal2.6) 0
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/Parallax part/1st Floor/Kokoro_Row_152_1st Paper/Kokoro_Row_152_2.mp3" volume="0.0"]
+	kokoro: Oh, it looks like it was written as a word.
+	update kokoro (blank)
+	update kokoro (blank)
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/Parallax part/1st Floor/Kokoro_Row_152_1st Paper/Kokoro_Row_152_3.mp3" volume="0.0"]
+	kokoro: Um...I should keep it for now.
+	join kokoro (normal2.6) 0
+	join kokoro (normal2.6) 0
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/Parallax part/1st Floor/Kokoro_Row_152_1st Paper/Kokoro_Row_152_4.mp3" volume="0.0"]
+	kokoro: There should be more, I should try to find other pieces.
+	join kokoro (normal2.6) 0
+	leave --All--
+	[wait time="1.0"]
+	- Keep
+		[signal arg="p1_scene3_end"]
+	[end_timeline]
+elif {paper_1_st_floor_scene3} == 2:
+	[background arg="res://dialogue/asset/background/parallax_gameplay/collect_a_paper/paper2.png" fade="2.0"]
+	[wait time="2.0"]
+	join kokoro (normal2.6) 0
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/Parallax part/1st Floor/Kokoro_Row_155_2nd Paper 2.mp3" volume="0.0"]
+	kokoro: All right. Another one is here.
+	leave --All--
+	[wait time="1.0"]
+	- Keep
+		[signal arg="p2_scene3_end"]
+	[end_timeline]
+elif {paper_1_st_floor_scene3} == 3:
+	[background arg="res://dialogue/asset/background/parallax_gameplay/collect_a_paper/paper3.png" fade="2.0"]
+	[wait time="2.0"]
+	join kokoro (normal2.6) 0
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_246_Paper in Box 2.mp3" volume="0.0"]
+	kokoro: Found another one.
+	update kokoro (blank) 0
+	join kokoro (normal2.6) 0
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/Parallax part/1st Floor/Kokoro_Row_163-165_3rd Paper/Kokoro_Row_163.mp3" volume="0.0"]
+	kokoro: There's no more piece of paper around here.
+	join kokoro (normal2.6) 0
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/Parallax part/1st Floor/Kokoro_Row_163-165_3rd Paper/Kokoro_Row_164.mp3" volume="0.0"]
+	kokoro: I think I've collected all pieces of paper downstairs.
+	update kokoro (blank) 0
+	join kokoro (normal2.6) 0
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/Parallax part/1st Floor/Kokoro_Row_163-165_3rd Paper/Kokoro_Row_165.mp3" volume="0.0"]
+	kokoro: Maybe I should continue up the stairs?
+	update kokoro (blank) 0
+	leave --All--
+	[wait time="1.0"]
+	- Keep
+		[signal arg="p3_scene3_end"]
+	[end_timeline]
+elif {paper_1_st_floor_scene3} == 4:
+	[background arg="res://dialogue/asset/background/parallax_gameplay/collect_a_paper/paper4.png" fade="2.0"]
+	[wait time="2.0"]
+	join kokoro (normal2.6) 0
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_246_Paper in Box 2.mp3" volume="0.0"]
+	kokoro: Found another one.
+	leave --All--
+	- Keep
+		[signal arg="p4_scene3_end"]
+	[end_timeline]
+elif {paper_1_st_floor_scene3} == 5:
+	[background arg="res://dialogue/asset/background/parallax_gameplay/collect_a_paper/paper5.png" fade="2.0"]
+	[wait time="2.0"]
+	join kokoro (normal2.6) 0
+	[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_248_Paper on Locker 2.mp3" volume="0.0"]
+	kokoro: Another one is found.
+	leave --All--
+	- Keep
+		[sound path="res://dialogue/asset/music & sound effects/parallax_gameplay/collect_a_paper/sfx_5.mp3" volume="0.0"]
+		[signal arg="p5_scene3_end"]
+	[end_timeline]

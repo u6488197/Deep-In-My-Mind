@@ -1,0 +1,26 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://6ghs1xjieu53"]
+
+[ext_resource type="Texture2D" uid="uid://c3ou2rwtr840a" path="res://rhythm_game/asset/sprite/color_left.png" id="1_tqx8u"]
+[ext_resource type="Texture2D" uid="uid://beud6mogmbuvc" path="res://rhythm_game/asset/sprite/color_up.png" id="2_4ic2i"]
+[ext_resource type="Texture2D" uid="uid://bvmwty250oao5" path="res://rhythm_game/asset/sprite/color_right.png" id="3_kd2nc"]
+[ext_resource type="Texture2D" uid="uid://wd1c2erqqkli" path="res://rhythm_game/asset/sprite/color_down.png" id="4_w8bll"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_tqx8u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_4ic2i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_kd2nc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_w8bll")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

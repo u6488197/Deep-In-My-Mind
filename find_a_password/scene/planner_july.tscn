@@ -1,0 +1,48 @@
+[gd_scene load_steps=6 format=3 uid="uid://bk3nn0ja0bl3k"]
+
+[ext_resource type="Script" path="res://find_a_password/script/planner_july.gd" id="1_fkfj3"]
+[ext_resource type="Texture2D" uid="uid://dm04bkwlwx5kd" path="res://find_a_password/asset/planner_fixed.png" id="2_xa8rj"]
+[ext_resource type="Texture2D" uid="uid://o8leyy8fmvnj" path="res://parallax_gameplay/asset/interaction_icon/goBack.png" id="3_5rdym"]
+[ext_resource type="Texture2D" uid="uid://bhnkyyihgs4f1" path="res://parallax_gameplay/asset/interaction_icon/Clicked_goBack.png" id="4_f6wsl"]
+[ext_resource type="AudioStream" uid="uid://cjtr774r2pea3" path="res://find_a_password/asset/sound_effects/sfx_planner.mp3" id="5_joto3"]
+
+[node name="Planner" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_fkfj3")
+
+[node name="planner" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1280.0
+offset_bottom = 720.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_xa8rj")
+
+[node name="planner_click" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_joto3")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 2
+
+[node name="goBack" type="TextureButton" parent="CanvasLayer"]
+unique_name_in_owner = true
+anchors_preset = -1
+anchor_left = 0.012875
+anchor_top = 0.0252778
+anchor_right = 0.062875
+anchor_bottom = 0.104278
+offset_left = 8.52
+offset_top = 6.79998
+offset_right = 2054.52
+offset_bottom = 2171.64
+scale = Vector2(0.0313196, 0.0262728)
+texture_normal = ExtResource("3_5rdym")
+texture_pressed = ExtResource("4_f6wsl")
+texture_hover = ExtResource("4_f6wsl")
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="CanvasLayer/goBack" to="." method="_on_go_back_pressed"]

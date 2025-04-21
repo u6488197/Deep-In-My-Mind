@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://daqfsa7j7vgfb"]
+
+[ext_resource type="PackedScene" uid="uid://bp43is23kj1p" path="res://find_a_password/scene/drawer.tscn" id="1_jfh68"]
+
+[node name="DrawerScene" type="CanvasLayer"]
+layer = 0
+
+[node name="Drawer" parent="." instance=ExtResource("1_jfh68")]

@@ -1,0 +1,17 @@
+join kokoro (happy2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/Parallax part/2nd Floor/Kokoro_Row_167_169_Hanging Sign/Kokoro_Row_167.mp3" volume="0.0"]
+kokoro: Time flies very fast..
+update kokoro (blank) 0
+join kokoro (happy2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/Parallax part/2nd Floor/Kokoro_Row_167_169_Hanging Sign/Kokoro_Row_168.mp3" volume="0.0"]
+kokoro: I still remember the day that she asked me to help her decorate her house.
+update kokoro (blank) 0
+join kokoro (happy2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/Parallax part/2nd Floor/Kokoro_Row_167_169_Hanging Sign/Kokoro_Row_169-1.mp3" volume="0.0"]
+kokoro: This hanging sign…
+update kokoro (blank) 0
+join kokoro (happy2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/Parallax part/2nd Floor/Kokoro_Row_167_169_Hanging Sign/Kokoro_Row_169-2.mp3" volume="0.0"]
+kokoro: I’m the person who hung it for her.
+leave --All--
+[end_timeline]

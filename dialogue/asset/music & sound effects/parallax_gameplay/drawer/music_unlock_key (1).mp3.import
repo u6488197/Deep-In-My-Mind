@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bdyijd6ksekpm"
+path="res://.godot/imported/music_unlock_key (1).mp3-042f03ff420eb05acc0fca7c821fc374.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/parallax_gameplay/drawer/music_unlock_key (1).mp3"
+dest_files=["res://.godot/imported/music_unlock_key (1).mp3-042f03ff420eb05acc0fca7c821fc374.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

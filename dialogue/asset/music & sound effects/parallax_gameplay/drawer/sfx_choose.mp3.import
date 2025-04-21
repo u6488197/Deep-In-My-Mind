@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bbhxrxn346nfb"
+path="res://.godot/imported/sfx_choose.mp3-b63cc90dfee02c3f6ca1230dd470939f.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/parallax_gameplay/drawer/sfx_choose.mp3"
+dest_files=["res://.godot/imported/sfx_choose.mp3-b63cc90dfee02c3f6ca1230dd470939f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

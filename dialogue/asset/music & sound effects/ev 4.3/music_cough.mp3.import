@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bj8njcd6tyk3t"
+path="res://.godot/imported/music_cough.mp3-04064c131bd27949676de23c2f9d1640.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 4.3/music_cough.mp3"
+dest_files=["res://.godot/imported/music_cough.mp3-04064c131bd27949676de23c2f9d1640.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

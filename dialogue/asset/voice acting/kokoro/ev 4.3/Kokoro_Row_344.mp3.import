@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dv4i0ki16vikf"
+path="res://.godot/imported/Kokoro_Row_344.mp3-1aa43b620fa5103d154b214425b79082.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_344.mp3"
+dest_files=["res://.godot/imported/Kokoro_Row_344.mp3-1aa43b620fa5103d154b214425b79082.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

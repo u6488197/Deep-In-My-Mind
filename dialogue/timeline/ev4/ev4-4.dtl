@@ -1,0 +1,200 @@
+[music fade="0.0" volume="0.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 4.4/music_not_yet_dreamed.mp3" fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.4/ev4.4(1).png" fade="2.0"]
+[wait time="2.0"]
+Ever since Kokoro learned about the cruel experiences Kazumi went through while they lost contact, she often wonders what led to Kazumi's untimely departure.
+join kokoro (sad1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_390.mp3" volume="0.0"]
+kokoro: Who’s that person who took her from me? And why did that person have to murder Kazumi? I don’t get it at all.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_391.mp3" volume="0.0"]
+kokoro: Those scary dolls, the messages sent on social media, and threatening letters…
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_392.mp3" volume="0.0"]
+kokoro: Which group could be cruel enough to do this to you? How truly heartless!
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_393.mp3" volume="0.0"]
+kokoro: But now that I think about it, could those letters have come from a group of overly obsessed idol fans, causing her so much stress that she decided to end her own life?
+update kokoro (blank)
+update kokoro (blank)
+After that, Kokoro breaks down as grief washes over her, blaming herself once again.
+She believes that Kazumi’s fate was a result of her losing touch when Kazumi was facing those cruel experiences.
+join kokoro (sad1.6) 0
+join kokoro (sad1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_396.mp3" volume="0.0"]
+kokoro: It’s already late now; it’s time for me to hit the hay.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_397.mp3" volume="0.0"]
+kokoro: I’ll wake up early and continue investigating Kazumi’s case tomorrow.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_398.mp3" volume="0.0"]
+kokoro: Sigh, I have to take a sleeping pill again tonight…
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_399.mp3" volume="0.0"]
+kokoro: How long have I been using it?
+update kokoro (blank)
+update kokoro (blank)
+Kokoro has to take a sleeping pill to sleep well because every time she closes her eyes, she still thinks about what happened to Kazumi.
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[music fade="0.0" volume="0.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 4.4/music_akane_dream.mp3" fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.4/ev4.4(2).png" fade="2.0"]
+[wait time="2.0"]
+[voice path="res://dialogue/asset/voice acting/akane/ev 4.4/Akane_Row_401.mp3" volume="0.0"]
+I…
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_402.mp3" volume="0.0"]
+kokoro: Where am I?
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_403.mp3" volume="0.0"]
+kokoro: Am I dreaming again?
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_404.mp3" volume="0.0"]
+kokoro: Dream about Kazumi’s death…
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.4/ev4.4(3).png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.4/ev4.4(2) 1.png" fade="1.0"]
+[wait time="1.0"]
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 4.4/Kazumi_Row_405.mp3" volume="0.0"]
+kazumi: Goodbye, Kokoro.
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_406.mp3" volume="0.0"]
+kokoro: No! don’t leave me, Kazumi.
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.4/ev4.4(2).png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.4/ev4.4(2) 1.png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.4/ev4.4(2) 2.png" fade="2.0"]
+[wait time="2.0"]
+[voice path="res://dialogue/asset/voice acting/akane/ev 4.4/Akane_Row_407.mp3" volume="0.0"]
+I should…
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.4/ev4.4(2) 3.png" fade="2.0"]
+[wait time="2.0"]
+[voice path="res://dialogue/asset/voice acting/akane/ev 4.4/Akane_Row_408.mp3" volume="0.0"]
+How should I deal with Kazumi?
+[voice path="res://dialogue/asset/voice acting/akane/ev 4.4/Akane_Row_409.mp3" volume="0.0"]
+If it’s like this, would it be good?
+[sound path="res://dialogue/asset/music & sound effects/ev 4.4/sfx_stab_2.mp3" volume="6.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.4/ev4.4(2).png" fade="2.0"]
+[wait time="2.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 4.4/sfx_kazumi_was_stabbed.mp3" volume="-15.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.4/ev4.4(2) 4.png" fade="1.0"]
+[wait time="1.0"]
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 4.4/Kazumi_Row_410.mp3" volume="0.0"]
+kazumi: Kokoro…please…help me….
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.4/ev4.4(2) 5.png" fade="1.0"]
+[wait time="1.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.4/ev4.4(2) 6.png" fade="1.0"]
+[wait time="1.0"]
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_411.mp3" volume="0.0"]
+kokoro: Kazumi, I’m so sorry…
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_412.mp3" volume="0.0"]
+kokoro: I’m sorry for not being by your side that day.
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 4.4/sfx_scream_dream.mp3" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.4/ev4.4(1).png" fade="2.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 1.1/woman-crying-291098.mp3" volume="6.0"]
+[wait time="2.0"]
+join kokoro (shock1.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_413.mp3" volume="0.0"]
+kokoro: When will I stop having dreams like this?
+update kokoro (blank)
+update kokoro (blank)
+Kokoro's been dreaming the same thing, day in and day out,  with each passing day, it becomes more terrifying.
+It's gradually making her mental state worse as time goes on.
+Every time she closes her eyes, it feels like she never really sleeps, even after taking sleeping pills.
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.4/ev4.4(4).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (sad1.7) 0
+join kokoro (crying) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_418.mp3" volume="0.0"]
+kokoro: I’ve gathered a lot of evidence, but I still don’t know the exact cause or any clues about the culprit at all.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (crying) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_419.mp3" volume="0.0"]
+kokoro: Moreover, I’ve continued to dream about Kazumi’s death every night.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (crying) 0
+update kokoro (scared2.2)
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_420.mp3" volume="0.0"]
+kokoro: It’s so painful. I can hardly bear it anymore.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (crying) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_421.mp3" volume="0.0"]
+kokoro: I’m going to go crazy!
+update kokoro (blank)
+update kokoro (blank)
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.4/ev4.4(5).png" fade="2.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 4.4/sfx_scatter.mp3" volume="0.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.4/ev4.4(6).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (crying2.2) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_422.mp3" volume="0.0"]
+kokoro: Kazumi, I really miss you.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (crying2.2) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_423.mp3" volume="0.0"]
+kokoro: We haven’t said goodbye yet.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (crying2.2) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_424.mp3" volume="0.0"]
+kokoro: Even that day, I didn’t speak kindly to you.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (crying2.2) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_425.mp3" volume="0.0"]
+kokoro: If I could turn back time, I would hold you tightly and never let you go.
+update kokoro (blank)
+update kokoro (blank)
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (scared2.1) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_426.mp3" volume="0.0"]
+kokoro: I can’t continue to sit here feeling sad like this anymore.
+update kokoro (blank)
+update kokoro (blank)
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.4/ev4.4(7).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (sad1.9-close) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_427.mp3" volume="0.0"]
+kokoro: You must see me coming down from heaven, right?
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (crying) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_428.mp3" volume="0.0"]
+kokoro: I must keep going for Kazumi.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad1.9-open) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_429.mp3" volume="0.0"]
+kokoro: Alright, stop crying. I should look at the evidence in front of me again.
+update kokoro (blank)
+update kokoro (blank)
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.4/ev4.4(7).png" fade="1.0"]
+[wait time="1.0"]
+join kokoro (sad1.9-open) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.4/Kokoro_Row_430.mp3" volume="0.0"]
+kokoro: Sigh, I feel deeply ashamed of myself. Even that day, when I should have preserved our good relationship, I ended up speaking unkindly to you.
+leave --All--
+[background scene="res://dialogue/scene/several_months.tscn" fade="3.0"]
+[wait time="3.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[wait time="2.0"]
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+jump ev4-5/

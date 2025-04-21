@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://beh2udhhm6gkf"
+path="res://.godot/imported/sfx_close_door.mp3-ccb666fcff32ca5e8e80d3c88aa006b6.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/parallax_gameplay/box/sfx_close_door.mp3"
+dest_files=["res://.godot/imported/sfx_close_door.mp3-ccb666fcff32ca5e8e80d3c88aa006b6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

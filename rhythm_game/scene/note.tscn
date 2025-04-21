@@ -1,0 +1,37 @@
+[gd_scene load_steps=5 format=3 uid="uid://b83ganku5x1c7"]
+
+[ext_resource type="Script" path="res://rhythm_game/script/note.gd" id="1_i115w"]
+[ext_resource type="SpriteFrames" path="res://rhythm_game/asset/frame/note_frames.tres" id="2_ipo13"]
+[ext_resource type="FontFile" uid="uid://c17wfd7aul8gd" path="res://dialogue/asset/font/Ethan.ttf" id="3_1fa50"]
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(63, 9)
+
+[node name="Note" type="Area2D" groups=["note"]]
+script = ExtResource("1_i115w")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("2_ipo13")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(4.5, 0.5)
+shape = SubResource("1")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.3
+one_shot = true
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Label" type="Label" parent="Node2D"]
+anchors_preset = -1
+anchor_right = 0.046
+offset_left = -20.0
+offset_top = -8.0
+offset_right = 20.0
+offset_bottom = 6.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_1fa50")
+theme_override_font_sizes/font_size = 20
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

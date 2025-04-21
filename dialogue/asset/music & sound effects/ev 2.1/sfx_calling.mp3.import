@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://erllitluxs8l"
+path="res://.godot/imported/sfx_calling.mp3-0686adcd903758ef0bbb68ddc46454ae.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 2.1/sfx_calling.mp3"
+dest_files=["res://.godot/imported/sfx_calling.mp3-0686adcd903758ef0bbb68ddc46454ae.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://or1kr28uv2w6"]
+
+[ext_resource type="PackedScene" uid="uid://707ba81q8xng" path="res://rhythm_game/song#2/scene/song#2_game.tscn" id="1_tl65v"]
+
+[node name="Game#2" type="ParallaxBackground"]
+layer = 2
+
+[node name="Song#2Game" parent="." instance=ExtResource("1_tl65v")]

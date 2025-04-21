@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://blowklyrjkrlc"
+path="res://.godot/imported/sfx_interview.mp3-b1e3c4450219900011a351e428f96658.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 4.6/sfx_interview.mp3"
+dest_files=["res://.godot/imported/sfx_interview.mp3-b1e3c4450219900011a351e428f96658.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://vo7ehh58bg3u"
+path="res://.godot/imported/crowd-cheering-314920.mp3-add9c841478ce4843ff14eb487d5011c.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 4.5/crowd-cheering-314920.mp3"
+dest_files=["res://.godot/imported/crowd-cheering-314920.mp3-add9c841478ce4843ff14eb487d5011c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

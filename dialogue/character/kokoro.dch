@@ -1,0 +1,326 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+"_translation_id": "",
+"color": Color(1, 1, 1, 1),
+"custom_info": {
+"sound_mood_default": "",
+"sound_moods": {},
+"style": "textbox_style"
+},
+"default_portrait": "normal2.6",
+"description": "",
+"display_name": "Kokoro",
+"mirror": false,
+"nicknames": [""],
+"offset": Vector2(0, 0),
+"portraits": {
+"akn-2": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/KKR(AKN2).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"angry": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Angry & Hate_Angry/AKN(angry2.8).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"blank": {
+"export_overrides": {
+"image": ""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"crying": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Crying/KKR(crying).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"crying1.8": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Crying/KKR(crying1.8).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"crying2.2": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Crying/KKR(crying2.2).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"happy-full": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/full_body/KKR(happy1.1).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"happy1.1": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Happy/KKR(happy1.1).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"happy1.2": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Happy/KKR(happy1.2).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"happy1.3": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Happy/KKR(happy1.3).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"happy2.6": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Happy/KKR(happy2.6).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"happy2.8": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Happy/KKR(happy2.8).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"happy2.9": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Happy/KKR(happy2.9).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"hate": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Angry & Hate_Angry/AKN(hate_angry2.8).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"mam": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/MNM(ev7).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"normal1.4": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Normal/KKR(normal1.4).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"normal1.5": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Normal/KKR(normal1.5).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"normal1.9": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Normal/KKR(normal1.9).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"normal2.6": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Normal/KKR(normal2.6).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"normal3.1": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Normal/KKR(normal3.1).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad1.6": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Sad/KKR(sad1.6).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad1.7": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Sad/KKR(sad1.7).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad1.9-close": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Sad/KKR(sad1.9)-close.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad1.9-open": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Sad/KKR(sad1.9)-open.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad2.6": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Sad/KKR(sad2.6).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad3.2": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Sad/KKR(sad3.2).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"scared1.6": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Scared/KKR(scared1.6).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"scared2.1": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Scared/KKR(scared2.1).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"scared2.2": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Scared/KKR(scared2.2).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"scared2.7": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Scared/KKR(scared2.7).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"shock1.6": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Shock/KKR(shock1.6).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"shock2.3": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Shock/KKR(shock2.3).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"shock2.4": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Shock/KKR(shock2.4).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"shock2.5": {
+"export_overrides": {
+"image": "\"res://dialogue/asset/character/kokoro/half_body/Shock/KKR(shock2.5).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+"scale": 0.75
+}

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c2v363wv40w3v"
+path="res://.godot/imported/sfx_kazumi_was_stabbed.mp3-86f4782dbe5ffaff194341d30f7ce1cd.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 4.4/sfx_kazumi_was_stabbed.mp3"
+dest_files=["res://.godot/imported/sfx_kazumi_was_stabbed.mp3-86f4782dbe5ffaff194341d30f7ce1cd.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

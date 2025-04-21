@@ -1,0 +1,248 @@
+[gd_scene load_steps=27 format=3 uid="uid://can4i0na0c6j4"]
+
+[ext_resource type="Script" path="res://parallax_gameplay/2nd_floor/script/2nd_floor.gd" id="1_7y3el"]
+[ext_resource type="Texture2D" uid="uid://d0gkcjq1o1gld" path="res://parallax_gameplay/2nd_floor/asset/background/scene.png" id="2_qk78v"]
+[ext_resource type="PackedScene" uid="uid://b6ncs351p81my" path="res://parallax_gameplay/paper_counter/paper_counter.tscn" id="4_e7obf"]
+[ext_resource type="PackedScene" uid="uid://dohmbwjlbirsv" path="res://parallax_gameplay/player/player.tscn" id="5_64rk0"]
+[ext_resource type="Texture2D" uid="uid://b048ax8qyth27" path="res://parallax_gameplay/asset/interaction_icon/PaperCount.png" id="6_f1kup"]
+[ext_resource type="Texture2D" uid="uid://t1yc1bljnk4l" path="res://parallax_gameplay/asset/interaction_icon/Clicked_PaperCount.png" id="7_8wwut"]
+[ext_resource type="Script" path="res://parallax_gameplay/paper_counter/paper_button.gd" id="7_leg6l"]
+[ext_resource type="Texture2D" uid="uid://dpx02tc5y0nfb" path="res://parallax_gameplay/2nd_floor/asset/foreground/scene1_table.png" id="8_3f1gd"]
+[ext_resource type="Script" path="res://parallax_gameplay/2nd_floor/script/nametag.gd" id="8_hi4y1"]
+[ext_resource type="Texture2D" uid="uid://bigt7mlm7wwvd" path="res://parallax_gameplay/asset/interaction_icon/interactObject.png" id="8_p8kr3"]
+[ext_resource type="Texture2D" uid="uid://4qmr2np6wdas" path="res://parallax_gameplay/asset/interaction_icon/Clicked_interactObject .png" id="9_oil66"]
+[ext_resource type="Texture2D" uid="uid://p2ov84ohbb51" path="res://parallax_gameplay/2nd_floor/asset/foreground/scene3.png" id="10_i5g5a"]
+[ext_resource type="Script" path="res://parallax_gameplay/2nd_floor/script/picture_frame.gd" id="11_y448x"]
+[ext_resource type="Texture2D" uid="uid://cnw6h56xan81y" path="res://parallax_gameplay/2nd_floor/asset/object/nametag.png" id="12_efcl8"]
+[ext_resource type="Script" path="res://parallax_gameplay/2nd_floor/script/paper_scene3.gd" id="14_2ohaj"]
+[ext_resource type="AudioStream" uid="uid://bw4lve7nduqpv" path="res://parallax_gameplay/asset/sound effects/sfx_click.mp3" id="16_14pmo"]
+[ext_resource type="Texture2D" uid="uid://xp1reh8rvgtq" path="res://parallax_gameplay/2nd_floor/asset/object/Picfriend.png" id="16_57cp3"]
+[ext_resource type="Script" path="res://parallax_gameplay/2nd_floor/script/box.gd" id="16_u4vhl"]
+[ext_resource type="Texture2D" uid="uid://bo7knr77qh1it" path="res://parallax_gameplay/2nd_floor/asset/object/Paper#4.png" id="18_iq2hj"]
+[ext_resource type="Script" path="res://parallax_gameplay/2nd_floor/script/drawer.gd" id="18_r3er5"]
+[ext_resource type="AudioStream" uid="uid://spuc722enbam" path="res://parallax_gameplay/asset/music/music_background.mp3" id="23_aedhp"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_vr3sg"]
+radius = 196.229
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2r0eb"]
+size = Vector2(106, 203.25)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3jm58"]
+size = Vector2(74, 298.25)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7nl03"]
+size = Vector2(149, 159)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ocdbt"]
+size = Vector2(65, 269)
+
+[node name="2nd_Floor" type="Node2D"]
+script = ExtResource("1_7y3el")
+
+[node name="scene1" type="Sprite2D" parent="."]
+position = Vector2(1922, 358)
+texture = ExtResource("2_qk78v")
+
+[node name="Player" parent="." instance=ExtResource("5_64rk0")]
+position = Vector2(55, 24)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 2
+script = ExtResource("7_leg6l")
+
+[node name="paper" type="TextureButton" parent="CanvasLayer"]
+unique_name_in_owner = true
+anchors_preset = -1
+anchor_left = 0.937
+anchor_top = 0.049
+anchor_right = 0.937
+anchor_bottom = 0.049
+offset_left = -0.424072
+offset_top = 0.247997
+offset_right = 27.5759
+offset_bottom = 28.248
+texture_normal = ExtResource("6_f1kup")
+texture_pressed = ExtResource("7_8wwut")
+texture_hover = ExtResource("7_8wwut")
+stretch_mode = 0
+
+[node name="paperCounter_canvas" parent="." instance=ExtResource("4_e7obf")]
+unique_name_in_owner = true
+counter = 2
+
+[node name="scene1_fg" type="Sprite2D" parent="."]
+position = Vector2(641, 363)
+texture = ExtResource("8_3f1gd")
+metadata/_edit_lock_ = true
+
+[node name="scene3_fg" type="Sprite2D" parent="."]
+position = Vector2(3202, 362)
+texture = ExtResource("10_i5g5a")
+metadata/_edit_lock_ = true
+
+[node name="nametag" type="ParallaxBackground" parent="."]
+layer = 1
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="nametag"]
+position = Vector2(894, 59)
+
+[node name="nametag" type="Area2D" parent="nametag/ParallaxLayer"]
+position = Vector2(911, 131)
+script = ExtResource("8_hi4y1")
+
+[node name="nametag_i8" type="TextureRect" parent="nametag/ParallaxLayer/nametag"]
+offset_left = -970.0
+offset_top = -166.0
+offset_right = -819.0
+offset_bottom = -99.0
+texture = ExtResource("12_efcl8")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="interactObject" type="TextureButton" parent="nametag/ParallaxLayer/nametag"]
+offset_left = -936.0
+offset_top = -157.0
+offset_right = 1112.0
+offset_bottom = 2011.0
+scale = Vector2(0.0644588, 0.0633992)
+texture_normal = ExtResource("8_p8kr3")
+texture_pressed = ExtResource("9_oil66")
+texture_hover = ExtResource("9_oil66")
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="nametag/ParallaxLayer/nametag"]
+position = Vector2(-894, 109)
+shape = SubResource("CircleShape2D_vr3sg")
+
+[node name="picture_frame" type="Area2D" parent="."]
+position = Vector2(1788, 207)
+script = ExtResource("11_y448x")
+metadata/_edit_lock_ = true
+
+[node name="i9" type="TextureButton" parent="picture_frame"]
+offset_left = -27.0
+offset_top = -55.0
+offset_right = 32.0
+offset_bottom = 24.0
+texture_normal = ExtResource("16_57cp3")
+ignore_texture_size = true
+stretch_mode = 0
+metadata/_edit_lock_ = true
+
+[node name="interactObject" type="TextureButton" parent="picture_frame"]
+offset_left = -49.0
+offset_top = -31.0
+offset_right = 1999.0
+offset_bottom = 2137.0
+scale = Vector2(0.0644588, 0.0633992)
+texture_normal = ExtResource("8_p8kr3")
+texture_pressed = ExtResource("9_oil66")
+texture_hover = ExtResource("9_oil66")
+metadata/_edit_use_anchors_ = true
+metadata/_edit_lock_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="picture_frame"]
+position = Vector2(11, 19.375)
+shape = SubResource("RectangleShape2D_2r0eb")
+metadata/_edit_lock_ = true
+
+[node name="paper_scene3" type="Area2D" parent="."]
+position = Vector2(3084, 202)
+script = ExtResource("14_2ohaj")
+
+[node name="Paper" type="TextureRect" parent="paper_scene3"]
+offset_left = -278.0
+offset_top = -19.0
+offset_right = -258.0
+offset_bottom = 12.0
+scale = Vector2(1.40625, 1.0625)
+texture = ExtResource("18_iq2hj")
+
+[node name="interactObject" type="TextureButton" parent="paper_scene3"]
+offset_left = -322.0
+offset_top = -32.0
+offset_right = 1726.0
+offset_bottom = 2136.0
+scale = Vector2(0.0644588, 0.0633992)
+texture_normal = ExtResource("8_p8kr3")
+texture_pressed = ExtResource("9_oil66")
+texture_hover = ExtResource("9_oil66")
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="paper_scene3"]
+position = Vector2(-264, 62)
+shape = SubResource("RectangleShape2D_3jm58")
+
+[node name="box" type="Area2D" parent="."]
+position = Vector2(3205, 301)
+script = ExtResource("16_u4vhl")
+
+[node name="interactObject" type="TextureButton" parent="box"]
+offset_left = -36.0
+offset_top = 9.0
+offset_right = 2012.0
+offset_bottom = 2177.0
+scale = Vector2(0.0644588, 0.0633992)
+texture_normal = ExtResource("8_p8kr3")
+texture_pressed = ExtResource("9_oil66")
+texture_hover = ExtResource("9_oil66")
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="box"]
+position = Vector2(32, 20)
+shape = SubResource("RectangleShape2D_7nl03")
+
+[node name="drawer" type="Area2D" parent="."]
+position = Vector2(3225, 216)
+script = ExtResource("18_r3er5")
+
+[node name="interactObject" type="TextureButton" parent="drawer"]
+unique_name_in_owner = true
+offset_left = -180.0
+offset_top = -45.0
+offset_right = 1868.0
+offset_bottom = 2123.0
+scale = Vector2(0.0644588, 0.0633992)
+texture_normal = ExtResource("8_p8kr3")
+texture_pressed = ExtResource("9_oil66")
+texture_hover = ExtResource("9_oil66")
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="drawer"]
+position = Vector2(-123, 88)
+shape = SubResource("RectangleShape2D_ocdbt")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+metadata/_edit_lock_ = true
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(-17, -3, 3848, -2, 3832, 286, 3656, 286, 3568, 582, 3568, 710, -8, 726, 1, 96, -368, 142, -352, 910, 3952, 902, 3923, -109, 178, -189)
+
+[node name="background" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
+stream = ExtResource("23_aedhp")
+autoplay = true
+bus = &"Music"
+
+[node name="click" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
+stream = ExtResource("16_14pmo")
+volume_db = 10.0
+
+[connection signal="pressed" from="CanvasLayer/paper" to="." method="_on_paper_pressed"]
+[connection signal="body_entered" from="nametag/ParallaxLayer/nametag" to="nametag/ParallaxLayer/nametag" method="_on_body_entered"]
+[connection signal="body_exited" from="nametag/ParallaxLayer/nametag" to="nametag/ParallaxLayer/nametag" method="_on_body_exited"]
+[connection signal="pressed" from="nametag/ParallaxLayer/nametag/interactObject" to="nametag/ParallaxLayer/nametag" method="_on_interact_object_pressed"]
+[connection signal="body_entered" from="picture_frame" to="picture_frame" method="_on_body_entered"]
+[connection signal="body_exited" from="picture_frame" to="picture_frame" method="_on_body_exited"]
+[connection signal="pressed" from="picture_frame/interactObject" to="picture_frame" method="_on_interact_object_pressed"]
+[connection signal="body_entered" from="paper_scene3" to="paper_scene3" method="_on_body_entered"]
+[connection signal="body_exited" from="paper_scene3" to="paper_scene3" method="_on_body_exited"]
+[connection signal="pressed" from="paper_scene3/interactObject" to="paper_scene3" method="_on_interact_object_pressed"]
+[connection signal="body_entered" from="box" to="box" method="_on_body_entered"]
+[connection signal="body_exited" from="box" to="box" method="_on_body_exited"]
+[connection signal="pressed" from="box/interactObject" to="box" method="_on_interact_object_pressed"]
+[connection signal="body_entered" from="drawer" to="drawer" method="_on_body_entered"]
+[connection signal="body_exited" from="drawer" to="drawer" method="_on_body_exited"]
+[connection signal="pressed" from="drawer/interactObject" to="drawer" method="_on_interact_object_pressed"]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bhgqrsf5q3am0"
+path="res://.godot/imported/sfx_print.mp3-6e4cf4589da03d4df44a67271a0f5323.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/parallax_gameplay/box/sfx_print.mp3"
+dest_files=["res://.godot/imported/sfx_print.mp3-6e4cf4589da03d4df44a67271a0f5323.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

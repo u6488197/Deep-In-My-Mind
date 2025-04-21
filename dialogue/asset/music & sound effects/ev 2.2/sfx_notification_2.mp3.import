@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://7uigi76iwba2"
+path="res://.godot/imported/sfx_notification_2.mp3-a99f1c276aa9fa994a0f0a204fc282ea.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 2.2/sfx_notification_2.mp3"
+dest_files=["res://.godot/imported/sfx_notification_2.mp3-a99f1c276aa9fa994a0f0a204fc282ea.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

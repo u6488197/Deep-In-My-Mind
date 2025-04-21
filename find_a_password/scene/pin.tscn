@@ -1,0 +1,268 @@
+[gd_scene load_steps=8 format=3 uid="uid://q1isa0plmpx0"]
+
+[ext_resource type="Script" path="res://find_a_password/script/main.gd" id="1_3prh8"]
+[ext_resource type="FontFile" uid="uid://cdjs3xxyrqxfy" path="res://asset/font/HinaMincho-Regular.ttf" id="2_ag8tt"]
+[ext_resource type="AudioStream" uid="uid://ctmfokrbu3fpf" path="res://find_a_password/asset/sound_effects/sfx_typing_clipper.mp3" id="2_iavvw"]
+[ext_resource type="AudioStream" uid="uid://bcg74b8fvvvxe" path="res://find_a_password/asset/sound_effects/sfx_wrong_passcode.mp3" id="3_mq4qx"]
+[ext_resource type="AudioStream" uid="uid://5cfe1f62gsfe" path="res://find_a_password/asset/music/music_passcode.mp3" id="4_57ydo"]
+
+[sub_resource type="Theme" id="Theme_4rtfa"]
+Label/fonts/font = ExtResource("2_ag8tt")
+
+[sub_resource type="Theme" id="Theme_cyhiu"]
+Button/font_sizes/font_size = 30
+Button/fonts/font = ExtResource("2_ag8tt")
+
+[node name="Pin" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_3prh8")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -60.5
+offset_right = 60.5
+offset_bottom = 42.0
+grow_horizontal = 2
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+visible = false
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "Attempt#"
+
+[node name="Label2" type="Label" parent="HBoxContainer"]
+visible = false
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_4rtfa")
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 0
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = 0
+theme_override_constants/margin_bottom = 0
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/MarginContainer"]
+visible = false
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/MarginContainer"]
+visible = false
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+text = "ASDF"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = -60
+
+[node name="Label1" type="Label" parent="VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+
+[node name="_#1" type="Label" parent="VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "_"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = -60
+
+[node name="Label2" type="Label" parent="VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer/VBoxContainer2"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+
+[node name="_#2" type="Label" parent="VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer/VBoxContainer2"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "_"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = -60
+
+[node name="Label3" type="Label" parent="VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer/VBoxContainer3"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+
+[node name="_#3" type="Label" parent="VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer/VBoxContainer3"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "_"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer4" type="VBoxContainer" parent="VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = -60
+
+[node name="Label4" type="Label" parent="VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer/VBoxContainer4"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+
+[node name="_#4" type="Label" parent="VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer/VBoxContainer4"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "_"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Indication" type="HBoxContainer" parent="VBoxContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/MarginContainer/VBoxContainer/Indication"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 15
+
+[node name="GridContainer" type="GridContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = SubResource("Theme_cyhiu")
+columns = 3
+
+[node name="1" type="Button" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "1"
+
+[node name="2" type="Button" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "2"
+
+[node name="3" type="Button" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "3"
+
+[node name="4" type="Button" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "4"
+
+[node name="5" type="Button" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "5"
+
+[node name="6" type="Button" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "6"
+
+[node name="7" type="Button" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "7
+"
+
+[node name="8" type="Button" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "8"
+
+[node name="9" type="Button" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "9"
+
+[node name="Blank" type="Button" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+
+[node name="0" type="Button" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "0"
+
+[node name="Delete" type="Button" parent="VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Delete"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_iavvw")
+
+[node name="wrong_passcode" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_mq4qx")
+
+[node name="music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_57ydo")
+bus = &"Music"
+
+[connection signal="pressed" from="VBoxContainer/GridContainer/1" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/GridContainer/2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="VBoxContainer/GridContainer/3" to="." method="_on_button_3_pressed"]
+[connection signal="pressed" from="VBoxContainer/GridContainer/4" to="." method="_on_button_4_pressed"]
+[connection signal="pressed" from="VBoxContainer/GridContainer/5" to="." method="_on_button_5_pressed"]
+[connection signal="pressed" from="VBoxContainer/GridContainer/6" to="." method="_on_button_6_pressed"]
+[connection signal="pressed" from="VBoxContainer/GridContainer/7" to="." method="_on_button_7_pressed"]
+[connection signal="pressed" from="VBoxContainer/GridContainer/8" to="." method="_on_button_8_pressed"]
+[connection signal="pressed" from="VBoxContainer/GridContainer/9" to="." method="_on_button_9_pressed"]
+[connection signal="pressed" from="VBoxContainer/GridContainer/0" to="." method="_on_button_11_pressed"]
+[connection signal="pressed" from="VBoxContainer/GridContainer/Delete" to="." method="_on_button_12_pressed"]

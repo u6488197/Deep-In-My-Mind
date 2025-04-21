@@ -1,0 +1,82 @@
+[gd_resource type="Theme" load_steps=14 format=3 uid="uid://bkephla5di8vb"]
+
+[ext_resource type="FontFile" uid="uid://ch0iyvbb13k5u" path="res://gui/asset/font/ldfcomicsans-font/Ldfcomicsans-jj7l.ttf" id="1_atuut"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rkhbc"]
+texture_margin_left = 20.0
+texture_margin_top = 15.0
+texture_margin_right = 20.0
+texture_margin_bottom = 15.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dd6oe"]
+texture_margin_left = 20.0
+texture_margin_top = 15.0
+texture_margin_right = 20.0
+texture_margin_bottom = 15.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_s66jp"]
+texture_margin_left = 20.0
+texture_margin_top = 15.0
+texture_margin_right = 20.0
+texture_margin_bottom = 15.0
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qwvrc"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6gto0"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_h8aa6"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yvsmj"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vgxdt"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_w6rxy"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e0d6h"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g2sxk"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6exu0"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[resource]
+Button/colors/font_color = Color(0, 0, 0, 1)
+Button/colors/font_hover_color = Color(0, 0, 0, 1)
+Button/colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+Button/colors/font_pressed_color = Color(0, 0, 0, 1)
+Button/font_sizes/font_size = 25
+Button/fonts/font = ExtResource("1_atuut")
+Button/styles/hover = SubResource("StyleBoxTexture_rkhbc")
+Button/styles/normal = SubResource("StyleBoxTexture_dd6oe")
+Button/styles/pressed = SubResource("StyleBoxTexture_s66jp")
+CheckBox/styles/disabled = SubResource("StyleBoxEmpty_qwvrc")
+CheckBox/styles/focus = SubResource("StyleBoxEmpty_6gto0")
+CheckBox/styles/hover = SubResource("StyleBoxEmpty_h8aa6")
+CheckBox/styles/hover_pressed = SubResource("StyleBoxEmpty_yvsmj")
+CheckBox/styles/normal = SubResource("StyleBoxEmpty_vgxdt")
+CheckBox/styles/pressed = SubResource("StyleBoxEmpty_w6rxy")
+LineEdit/colors/caret_color = Color(0, 0, 0, 1)
+LineEdit/colors/clear_button_color = Color(0, 0, 0, 1)
+LineEdit/colors/clear_button_color_pressed = Color(0, 0, 0, 1)
+LineEdit/colors/font_color = Color(0, 0, 0, 1)
+LineEdit/colors/font_outline_color = Color(0, 0, 0, 1)
+LineEdit/colors/font_placeholder_color = Color(0, 0, 0, 0.6)
+LineEdit/font_sizes/font_size = 25
+LineEdit/fonts/font = ExtResource("1_atuut")
+LineEdit/styles/focus = SubResource("StyleBoxFlat_e0d6h")
+LineEdit/styles/normal = SubResource("StyleBoxFlat_g2sxk")
+LineEdit/styles/read_only = SubResource("StyleBoxFlat_6exu0")

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c4sdjsbc1dtfp"
+path="res://.godot/imported/music_open_parcel.mp3-f4035a8c236f9fc65101d756dc3344ea.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev3.3/music_open_parcel.mp3"
+dest_files=["res://.godot/imported/music_open_parcel.mp3-f4035a8c236f9fc65101d756dc3344ea.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

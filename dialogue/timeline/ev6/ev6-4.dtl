@@ -1,0 +1,238 @@
+[music fade="0.0" volume="0.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 6.4/music_kazumi_pov.mp3" fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.4/ev6.4(1).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.4/Akane_Row_655.mp3" volume="0.0"]
+akane (happy2.8): Me too. So, how about we buy something to drink and celebrate tonight?
+update kokoro (blank)
+update kokoro (blank)
+join kazumi (happy1.2) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.4/Kazumi_Row_656.mp3" volume="0.0"]
+kazumi (happy1.2): Sounds great!
+update kazumi (blank)
+update kazumi (blank)
+After that, they bought some alcohol and headed back to Kazumi’s condo in the evening.
+They then sat down comfortably on the sofa and enjoyed their drinks for a good while.
+join kazumi (happy1.2) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.4/Kazumi_Row_659.mp3" volume="0.0"]
+kazumi: You‘ve become really good at drinking, Kokoro. I’m gonna be just like you.
+update kazumi (blank)
+update kazumi (blank)
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.4/Akane_Row_660.mp3" volume="0.0"]
+akane (happy2.8): You should stop drinking, Kazumi. I think you’re really drunk now.
+update kokoro (blank) 0
+update kokoro (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 6.4/sfx_put_on_bad_volume_up.mp3" volume="6.0"]
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.4/ev6.4(4).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.4/Akane_Row_661.mp3" volume="0.0"]
+akane (happy2.8): I’ll take you to the bed.
+update kokoro (blank) 0
+update kokoro (blank) 0
+Kokoro slowly supported Kazumi toward her bedroom and laid her down on the bed.
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.4/ev6.4(2).png" fade="2.0"]
+[wait time="2.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 6.4/sfx_open_jar.mp3" volume="6.0"]
+After that, Kokoro started doing something.
+She quickly grabbed the medical gloves she had in her bag and slipped them on.
+Then, she picked up the collagen jar filled with white powder capsules that she'd prepared. It's a potentially life-threatening substance.
+Next, she swapped it with Kazumi’s collagen jar.
+She knew about this because of an earlier incident.
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.4/ev6.4(5).png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 6.4/Kokoro_Row_668.mp3" volume="0.0"]
+kokoro (happy2.8): What pills are you taking?
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kazumi (happy1.2) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.4/Kazumi_Row_669.mp3" volume="0.0"]
+kazumi (happy1.2): It’s collagen. This one works well, and you don’t have to take it every day.
+update kazumi (blank)
+update kazumi (blank)
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 6.4/Kokoro_Row_670.mp3" volume="0.0"]
+kokoro (happy2.8): Don’t have to take it every day?
+update kokoro (blank)
+update kokoro (blank)
+join kazumi (happy1.2) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.4/Kazumi_Row_671.mp3" volume="0.0"]
+kazumi (happy1.2): Yeah, just once a week. So, I take it every Friday.
+update kazumi (blank)
+update kazumi (blank)
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 6.4/Kokoro_Row_672.mp3" volume="0.0"]
+kokoro (happy2.8): I see.
+update kokoro (blank)
+update kokoro (blank)
+Since Kazumi took it every Friday morning, Kokoro planned to visit her today, which was Tuesday, and she would leave Kazumi’s condo on Thursday.
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.4/ev6.4(1).png" fade="0.0"]
+After that night, Kazumi and Kokoro spent a joyful time together.
+[music fade="0.0" volume="0.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 6.4/music_present_akane.mp3" fade="0.0" volume="0.0"]
+update kokoro (happy2.8) 0
+update kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.4/Akane_Row_675.mp3" volume="0.0"]
+akane (happy2.8): You often smile these days.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kazumi (happy1.2) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.4/Kazumi_Row_676.mp3" volume="0.0"]
+kazumi (happy1.2): That’s because I’m so happy, I wish the world would just stop spinning.
+update kazumi (blank)
+update kazumi (blank)
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.4/Akane_Row_677.mp3" volume="0.0"]
+akane (happy2.8): I’m so glad to see you feel this happy.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (happy2.8) 0
+Unfortunately, time never stops, and the time to say goodbye had come.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.4/Akane_Row_679.mp3" volume="0.0"]
+akane (happy2.8): I need to go now.
+update kokoro (blank) 1
+update kokoro (blank) 1
+join kazumi (sad1.4) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.4/Kazumi_Row_680.mp3" volume="0.0"]
+kazumi (sad1.4): Can’t you stay a little longer?
+update kazumi (blank) 0
+update kazumi (blank) 0
+join kokoro (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.4/Akane_Row_681.mp3" volume="0.0"]
+akane (happy2.8): I want to stay longer, but I have errands to run. I’ll come to see you again later.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kazumi (sad1.4) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.4/Kazumi_Row_682.mp3" volume="0.0"]
+kazumi (sad1.4): Okay, I’ll be waiting for you.
+update kazumi (blank)
+update kazumi (blank)
+After they said their goodbyes, Kokoro walked out of Kazumi’s condo.
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.4/ev6.4(3).png" fade="2.0"]
+[wait time="2.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 4.3/sfx_close_door.mp3" volume="0.0"]
+[music fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[wait time="2.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 6.4/music_morning.mp3" fade="0.0" volume="0.0"]
+[background scene="res://dialogue/scene/next_morning.tscn" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="1.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev 6.4/sfx_open_jar.mp3" volume="0.0"]
+[wait time="1.0"]
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.4/ev6.4(5).png" fade="2.0"]
+[wait time="2.0"]
+join kazumi (happy2.3) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.4/Kazumi_Row_685.mp3" volume="0.0"]
+kazumi (happy2.3): I almost forget that it’s Friday. I have to take my collagen pill today.
+update kazumi (blank) 0
+update kazumi (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 6.4/sfx_drink.mp3" volume="6.0"]
+join kazumi (happy2.3) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.4/Kazumi_Row_686.mp3" volume="0.0"]
+kazumi (happy2.3): I've already taken it.  Umm, What should I do next?
+update kazumi (blank) 0
+update kazumi (blank) 0
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.4/ev6.4(6).png" fade="0.0"]
+join kazumi (normal2.5) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.4/Kazumi_Row_687.mp3" volume="0.0"]
+kazumi (normal2.5): I should delete all the bad messages those people sent me.
+update kazumi (blank) 0
+update kazumi (blank) 0
+join kazumi (normal2.5) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.4/Kazumi_Row_688.mp3" volume="0.0"]
+kazumi: Otherwise, my phone will definitely run out of storage.
+update kazumi (blank) 0
+update kazumi (blank) 0
+While Kazumi was deleting the bad messages on her phone, she suddenly felt an intense pressure in her chest and her body started to convulse uncontrollably.
+[sound path="res://dialogue/asset/music & sound effects/ev 1.1/sfx_phone_dropped.mp3" volume="0.0"]
+update kazumi (blank) 0
+update kazumi (blank) 0
+join kazumi (shock2.7) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.4/Kazumi_Row_690.mp3" volume="0.0"]
+kazumi (shock2.7): Wha-- what’s happening to me?
+update kazumi (blank) 0
+update kazumi (blank) 0
+join kazumi (shock2.7) 0
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.4/Kazumi_Row_691.mp3" volume="0.0"]
+kazumi (shock2.7): In-- Inside.. I feel like my insides are burning.
+update kazumi (blank) 0
+update kazumi (blank) 0
+join kazumi (shock2.9) 0
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.4/ev6.4(1).png" fade="0.0"]
+Kazumi tried to call out for help, but she couldn’t make a sound.
+update kazumi (blank) 0
+update kazumi (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 6.5/sfx_reflex.mp3" volume="6.0"]
+join kazumi (shock2.8) 0
+[wait time="0.5"]
+join kazumi (shock3.1) 0
+She writhed in agony as the liquid in her mouth turned into white foam, spilling onto the floor.
+update kazumi (blank) 0
+update kazumi (blank) 0
+join kazumi (shock3.1) 0
+In the end, she took her final breath.
+update kazumi (blank) 0
+update kazumi (blank) 0
+[sound path="res://dialogue/asset/music & sound effects/ev 6.4/body-fall-195147.mp3" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.4/ev6.4(8)-1.png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.4/ev6.4(7)-1.png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (shock2.3) 0
+join akane (happy2.8) 2
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.4/Akane_Row_695.mp3" volume="0.0"]
+akane (happy2.8): All of these are what we’ve dealt with together.
+update akane (blank)
+update akane (blank)
+join kokoro (shock2.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 6.4/Kokoro_Row_696.mp3" volume="0.0"]
+kokoro (shock2.4): That’s not true. I didn’t do that. I’ve never had any negative thoughts about Kazumi!
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (shock2.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 6.4/Kokoro_Row_697.mp3" volume="0.0"]
+kokoro (shock2.4): You are the only one who planned all of these.
+update kokoro (blank) 0
+update kokoro (blank) 0
+update akane (blank) 0
+join akane (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.4/Akane_Row_698.mp3" volume="0.0"]
+akane (happy2.8): Since you were young, you have been very weak. So, I have existed to protect you, Kokoro.
+update akane (blank) 0
+update akane (blank) 0
+join kokoro (shock2.5) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 6.4/Kokoro_Row_699.mp3" volume="0.0"]
+kokoro (shock2.5): I don’t understand what you’re talking about.
+update kokoro (blank) 0
+update kokoro (blank) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.4/Akane_Row_700.mp3" volume="0.0"]
+akane (happy2.8): This is because I’ve been with you all along. So, you were able to overcome those bad incidents that occurred to you when you were young.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join akane (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.4/Akane_Row_701.mp3" volume="0.0"]
+akane (happy2.8): Well, since your mom passed away, you couldn’t remember us or your childhood stories, huh?
+update akane (blank) 0
+update akane (blank) 0
+join akane (happy2.8) 0
+[voice path="res://dialogue/asset/voice acting/akane/ev 6.4/Akane_Row_702.mp3" volume="0.0"]
+akane (happy2.8): Then, let me restore your painful childhood memories.
+leave --All--
+[clear time="1.0" step="false" text="false" music="false" background="false"]
+[music fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[wait time="2.0"]
+jump ev6-5/

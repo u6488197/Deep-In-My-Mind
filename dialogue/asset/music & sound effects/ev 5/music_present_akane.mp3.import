@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b3sy8xl22pjok"
+path="res://.godot/imported/music_present_akane.mp3-41b50afe9d93e6fd2a08f4ac7682cfdf.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 5/music_present_akane.mp3"
+dest_files=["res://.godot/imported/music_present_akane.mp3-41b50afe9d93e6fd2a08f4ac7682cfdf.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

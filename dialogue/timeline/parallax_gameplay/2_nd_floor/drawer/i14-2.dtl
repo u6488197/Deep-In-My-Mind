@@ -1,0 +1,27 @@
+[music path="res://dialogue/asset/music & sound effects/parallax_gameplay/find_a_password/music_complete.mp3" fade="0.0" volume="0.0"]
+[background scene="res://find_a_password/scene/unlock_phone.tscn" fade="0.0"]
+join kokoro (normal2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_273-285_Phone in Locker/Kokoro_Row_282.mp3" volume="0.0"]
+kokoro: It's unlocked now.
+update kokoro (blank)
+update kokoro (blank)
+[sound path="res://dialogue/asset/music & sound effects/parallax_gameplay/find_a_password/sfx_battery_run_out.mp3" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev3.3/puzzle6.png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev3.3/puzzle7.png" fade="0.0"]
+join kokoro (normal2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_273-285_Phone in Locker/Kokoro_Row_283.mp3" volume="0.0"]
+kokoro: Oh no... the battery ran out...
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (normal2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_273-285_Phone in Locker/Kokoro_Row_284.mp3" volume="0.0"]
+kokoro: Ah, she used the same phone model as mine.
+update kokoro (blank)
+update kokoro (blank)
+join kokoro (normal2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_273-285_Phone in Locker/Kokoro_Row_285.mp3" volume="0.0"]
+kokoro: I should take it to charge at my condo.
+leave --All--
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+jump ev4-1/

@@ -1,0 +1,29 @@
+[music fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/parallax_gameplay/2nd_floor/puzzle3.png" fade="0.0"]
+join kokoro (normal2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_273-285_Phone in Locker/Kokoro_Row_273.mp3" volume="0.0"]
+kokoro: This is Kazumi's old phone.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (normal2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_273-285_Phone in Locker/Kokoro_Row_274.mp3" volume="0.0"]
+kokoro: I should try opening it.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (normal2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_273-285_Phone in Locker/Kokoro_Row_275.mp3" volume="0.0"]
+kokoro: Does it need a passcode?
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (normal2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_273-285_Phone in Locker/Kokoro_Row_276.mp3" volume="0.0"]
+kokoro: What is the passcode then?
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (normal2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_273-285_Phone in Locker/Kokoro_Row_277.mp3" volume="0.0"]
+kokoro: I hope there might be some clues to the passcode around here because Kazumi often tends to forget things.
+leave --All--
+[clear time="1.0" step="false"]
+[signal arg="clues"]
+[end_timeline]

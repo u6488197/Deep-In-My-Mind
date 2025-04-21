@@ -1,0 +1,27 @@
+[music fade="0.0" volume="0.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 4.5/music_on_the_stage.mp3" fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev4/ev4.5/ev4.5(4).png" fade="2.0"]
+[wait time="2.0"]
+[update_position action="set_absolute" position="1" vector="Vector2(300, 45)" time="0.0"]
+[update_position action="set_absolute" position="3" vector="Vector2(460, 60)" time="0.0"]
+join kazumi (happy-full) 3
+join kokoro (happy-full) 1
+After that, they gave it their all, dancing and singing all the way to the end of the concert.
+update kokoro (blank)
+update kazumi (blank)
+join kokoro (happy-full) 1
+join kazumi (happy-full) 3
+Once the concert ended, they were breathing heavily, their eyes brimming with tears of gratitude.
+update kokoro (blank)
+update kazumi (blank)
+join kokoro (happy-full) 1
+join kazumi (happy-full) 3
+Kazumi couldn't hold back her tears, so Kokoro pulled her into a tight hug.
+leave --All--
+[background scene="res://dialogue/scene/concert_ends.tscn" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[wait time="2.0"]
+[update_position action="reset_all" time="0.0"]
+[clear time="1.0" step="false" text="false" background="false" style="false"]
+jump ev4/ev4-6/

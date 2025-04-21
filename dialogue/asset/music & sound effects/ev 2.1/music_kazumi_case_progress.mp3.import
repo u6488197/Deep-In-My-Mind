@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://1liwptdo17nt"
+path="res://.godot/imported/music_kazumi_case_progress.mp3-490ce4edaf9d3b4aa07de6f7a8beb715.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 2.1/music_kazumi_case_progress.mp3"
+dest_files=["res://.godot/imported/music_kazumi_case_progress.mp3-490ce4edaf9d3b4aa07de6f7a8beb715.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

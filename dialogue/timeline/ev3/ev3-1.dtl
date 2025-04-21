@@ -1,0 +1,51 @@
+[background scene="res://dialogue/scene/kokoro_pov.tscn" fade="3.0"]
+[music fade="0.0" volume="0.0"]
+[clear time="0.1" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[music path="res://dialogue/asset/music & sound effects/ev3.1/music_home.mp3" fade="0.0" volume="0.0"]
+[wait time="3.0"]
+[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+[wait time="2.0"]
+[background arg="res://dialogue/asset/background/timeline/ev3.1/1.png" fade="2.0"]
+[wait time="2.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev3.1/sfx_open_door.mp3" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev3.1/2.png" fade="2.0"]
+[wait time="2.0"]
+join kokoro (normal2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/visual novel part/Kokoro_Row_136.mp3" volume="0.0"]
+kokoro: I haven’t been to Kazumi’s home for a long time.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/visual novel part/Kokoro_Row_137.mp3" volume="0.0"]
+kokoro: I’ve never thought that I would come back here again without her.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/visual novel part/Kokoro_Row_138.mp3" volume="0.0"]
+kokoro: I still remember when I came here with Kazumi.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (sad2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/visual novel part/Kokoro_Row_139.mp3" volume="0.0"]
+kokoro: Even though I feel heartbroken that she’s no longer here during this visit to her home, I still have to go inside.
+update kokoro (blank) 0
+update kokoro (blank) 0
+join kokoro (normal2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/visual novel part/Kokoro_Row_140.mp3" volume="0.0"]
+kokoro: There may be some important evidence inside her home.
+update kokoro (blank) 0
+update kokoro (blank) 0
+[background arg="res://dialogue/asset/background/timeline/ev3.1/3 (1).png" fade="0.0"]
+This is a spare key to Kazumi’s home, which Kazumi gave to Kokoro out of trust and belief in her.
+join kokoro (normal2.6) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.1 (1st Floor & 2nd Floor)/visual novel part/Kokoro_Row_142.mp3" volume="0.0"]
+kokoro: I must stay focused and start searching for anything that may be related to Kazumi’s case.
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[music fade="0.0" volume="0.0"]
+[sound path="res://dialogue/asset/music & sound effects/ev3.1/sfx_key.mp3" volume="0.0"]
+leave --All--
+[music fade="0.0" volume="0.0"]
+[background arg="res://dialogue/asset/background/timeline/ev3.1/3 (1).png" fade="2.0"]
+[wait time="2.0"]
+do SceneManager.add_node("res://parallax_gameplay/1st_floor/scene/1st_floor.tscn")
+[end_timeline]

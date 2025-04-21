@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dm5862qyrx4qy"
+path="res://.godot/imported/sfx_crowd.mp3-53dae982df6a69ea8f3cffbef4ffea9e.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev3.2/sfx_crowd.mp3"
+dest_files=["res://.godot/imported/sfx_crowd.mp3-53dae982df6a69ea8f3cffbef4ffea9e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

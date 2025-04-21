@@ -1,0 +1,56 @@
+[music path="res://dialogue/asset/music & sound effects/ev 4.6/music_interview.mp3" fade="0.0" volume="0.0"]
+At the end of the concert, Kokoro and Kazumi had to do an interview with various well-known media platforms.
+During the interview, journalists were having a blast interviewing them.
+Until…
+[sound path="res://dialogue/asset/music & sound effects/ev 4.6/sfx_interview.mp3" volume="0.0"]
+[voice path="res://dialogue/asset/voice acting/nameless/ev 4.6/ReporterChannelA_Row_470.mp3" volume="0.0"]
+Miss Kazumi, will you have more acting projects?
+[sound path="res://dialogue/asset/music & sound effects/ev 4.6/sfx_interview.mp3" volume="0.0"]
+[voice path="res://dialogue/asset/voice acting/nameless/ev 4.6/ReporterChannelB_Row_471.mp3" volume="0.0"]
+Is the rumor true that the company will have a solo project by Miss Kazumi?
+Most of the journalists were all about Kazumi's work.
+[sound path="res://dialogue/asset/music & sound effects/ev 4.6/sfx_walk_out.mp3" volume="0.0"]
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_473.mp3" volume="0.0"]
+kokoro: Excuse me, I need a moment.
+kazumi: Kokoro, are you alright?  Let’s get back to the interview.
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_475.mp3" volume="0.0"]
+kokoro: I’m alright.
+kazumi: Are you sure?
+Kokoro thought over Kazumi’s question.
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_478.mp3" volume="0.0"]
+kokoro: How do I feel?  I’m just tired from work and stressed about the negative responses on social media.
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_479.mp3" volume="0.0"]
+kokoro: Or, I’m actually afraid Kazumi will leave me alone.
+Kokoro nodded in response.
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_481.mp3" volume="0.0"]
+kokoro: I’m sorry for running out like this.
+kazumi: No worries. Are you feel better now?
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_483.mp3" volume="0.0"]
+kokoro: Yep, I am.
+kazumi: Well, let’s go back to the interview together.
+Kazumi took Kokoro’s hand and led her back to resume the interview.
+As they returned to the interview, Kokoro and Kazumi quickly apologized to the journalists for the disruption.
+kazumi: We’re ready to continue the interview.
+The interview went smoothly until the end.
+kazumi: The event is over. Are you going back to your condo now?
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_490.mp3" volume="0.0"]
+kokoro: Yeah. I’m very tired.
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_491.mp3" volume="0.0"]
+kokoro: How about you, Kazumi?
+kazumi: So do I.
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_493.mp3" volume="0.0"]
+kokoro: Okay, see you…
+[voice path="res://dialogue/asset/music & sound effects/ev 4.6/sfx_interview.mp3" volume="0.0"]
+[voice path="res://dialogue/asset/voice acting/nameless/ev 4.6/ReporterChannelC_Row_494.mp3" volume="0.0"]
+Miss Kazumi, can we continue the interview?
+[voice path="res://dialogue/asset/voice acting/nameless/ev 4.6/ReporterChannelD_Row_495.mp3" volume="0.0"]
+We also would like to interview you.
+kazumi: Of course!
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.6/Kokoro_Row_497.mp3" volume="0.0"]
+kokoro: I have to go now. See you later.
+[sound path="res://dialogue/asset/music & sound effects/ev 4.6/sfx_walk_out.mp3" volume="0.0"]
+kazumi: Wait! Kokoro!
+Kazumi’s POV
+One week later…
+[clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+jump ev4-7/

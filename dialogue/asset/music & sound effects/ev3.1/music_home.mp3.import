@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b7i5u2b21h0lk"
+path="res://.godot/imported/music_home.mp3-23576d3d1b8b5502dbff51445c58239b.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev3.1/music_home.mp3"
+dest_files=["res://.godot/imported/music_home.mp3-23576d3d1b8b5502dbff51445c58239b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

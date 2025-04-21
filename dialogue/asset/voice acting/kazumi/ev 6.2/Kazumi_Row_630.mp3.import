@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://q00c3s858mos"
+path="res://.godot/imported/Kazumi_Row_630.mp3-65518747b3386551321bbaddfe85ca90.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/voice acting/kazumi/ev 6.2/Kazumi_Row_630.mp3"
+dest_files=["res://.godot/imported/Kazumi_Row_630.mp3-65518747b3386551321bbaddfe85ca90.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

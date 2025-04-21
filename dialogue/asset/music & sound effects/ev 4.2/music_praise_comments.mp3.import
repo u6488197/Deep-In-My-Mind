@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c3abp58kbwuw6"
+path="res://.godot/imported/music_praise_comments.mp3-fb2f777344b10f9c5beff3ccbf4d2d63.mp3str"
+
+[deps]
+
+source_file="res://dialogue/asset/music & sound effects/ev 4.2/music_praise_comments.mp3"
+dest_files=["res://.godot/imported/music_praise_comments.mp3-fb2f777344b10f9c5beff3ccbf4d2d63.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
