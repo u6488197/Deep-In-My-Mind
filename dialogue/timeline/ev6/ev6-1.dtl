@@ -207,8 +207,8 @@ kazumi: I'm so sorry this happened to you.
 update kazumi (blank) 0
 update kazumi (blank) 0
 join kazumi (sad1.4) 0
-[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_611.mp3" volume="0.0"]
 update akane (blank)
+[voice path="res://dialogue/asset/voice acting/kazumi/ev 6.1/Kazumi_Row_611.mp3" volume="0.0"]
 kazumi: As for me…
 [update_position action="reset_all" time="0.0"]
 leave --All--
