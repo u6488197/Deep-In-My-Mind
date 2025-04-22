@@ -45,20 +45,14 @@ join kokoro (happy2.9) 0
 [voice path="res://dialogue/asset/voice acting/manager/ev 2.2/Manager_Row_66.mp3" volume="0.0"]
 ami: Oh, you two came together!
 update kokoro (blank) 0
-update kokoro (blank) 0
 update kazumi (blank) 2
-update kazumi (blank) 2
-update ami (blank) 4
 update ami (blank) 4
 join ami (normal) 4
 join kazumi (happy1.2) 2
 join kokoro (happy2.9) 0
 Kokoro and Kazumi exchanged a small smile with Miss Ami.
 update kokoro (blank) 0
-update kokoro (blank) 0
 update kazumi (blank) 2
-update kazumi (blank) 2
-update ami (blank) 4
 update ami (blank) 4
 join ami (normal) 4
 join kazumi (happy1.2) 2
@@ -66,10 +60,7 @@ join kokoro (happy2.9) 0
 [voice path="res://dialogue/asset/voice acting/kazumi/ev 2.2/Kazumi_Row_68.mp3" volume="0.0"]
 kazumi: Is there something you would like to discuss with us, Miss Ami?
 update kokoro (blank) 0
-update kokoro (blank) 0
 update kazumi (blank) 2
-update kazumi (blank) 2
-update ami (blank) 4
 update ami (blank) 4
 join ami (normal) 4
 join kazumi (happy1.2) 2
@@ -77,10 +68,7 @@ join kokoro (happy2.9) 0
 [voice path="res://dialogue/asset/voice acting/manager/ev 2.2/Manager_Row_69.mp3" volume="0.0"]
 ami: First of all, I’m sorry for calling you in on your day off, but this is really important.
 update kokoro (blank) 0
-update kokoro (blank) 0
 update kazumi (blank) 2
-update kazumi (blank) 2
-update ami (blank) 4
 update ami (blank) 4
 join kokoro (normal3.1) 0
 join kazumi (normal1.5) 2
@@ -88,10 +76,7 @@ join ami (normal) 4
 [voice path="res://dialogue/asset/voice acting/kokoro/ev 2.2/Kokoro_Row_70.mp3" volume="0.0"]
 kokoro: What’s it about?
 update kokoro (blank) 0
-update kokoro (blank) 0
 update kazumi (blank) 2
-update kazumi (blank) 2
-update ami (blank) 4
 update ami (blank) 4
 join kokoro (normal3.1) 0
 join kazumi (normal1.5) 2
@@ -99,20 +84,14 @@ join ami (normal) 4
 [voice path="res://dialogue/asset/voice acting/manager/ev 2.2/Manager_Row_71.mp3" volume="0.0"]
 ami: YK Flims, one of the most renowned movie studios in our country, has reached out to our company. They’re looking for idols from our company to star in their new movie project.
 update kokoro (blank) 0
-update kokoro (blank) 0
 update kazumi (blank) 2
-update kazumi (blank) 2
-update ami (blank) 4
 update ami (blank) 4
 join kokoro (normal3.1) 0
 join kazumi (normal1.5) 2
 join ami (normal) 4
 Kokoro and Kazumi were both thrilled by what Miss Ami was saying, their eyes glimmering with anticipation.
 update kokoro (blank) 0
-update kokoro (blank) 0
 update kazumi (blank) 2
-update kazumi (blank) 2
-update ami (blank) 4
 update ami (blank) 4
 join kokoro (normal3.1) 0
 join kazumi (normal1.5) 2
@@ -120,10 +99,7 @@ join ami (normal) 4
 [voice path="res://dialogue/asset/voice acting/manager/ev 2.2/Manager_Row_73.mp3" volume="0.0"]
 ami: But unfortunately, they’re only looking for one person. So, the company has decided to assign Kazumi for the role.
 update kokoro (blank) 0
-update kokoro (blank) 0
 update kazumi (blank) 2
-update kazumi (blank) 2
-update ami (blank) 4
 update ami (blank) 4
 join kokoro (normal3.1) 0
 join kazumi (normal1.5) 2
@@ -131,10 +107,7 @@ join ami (normal) 4
 [voice path="res://dialogue/asset/voice acting/manager/ev 2.2/Manager_Row_74.mp3" volume="0.0"]
 ami: Since you two usually take on projects together, I’d like you to talk it over first.
 update kokoro (blank) 0
-update kokoro (blank) 0
 update kazumi (blank) 2
-update kazumi (blank) 2
-update ami (blank) 4
 update ami (blank) 4
 join kokoro (normal3.1) 0
 join kazumi (normal1.5) 2
@@ -142,10 +115,7 @@ join ami (normal) 4
 [voice path="res://dialogue/asset/voice acting/manager/ev 2.2/Manager_Row_75.mp3" volume="0.0"]
 ami: I’ll come back to you shortly. I need to take care of some other matters first.
 update kokoro (blank) 0
-update kokoro (blank) 0
 update kazumi (blank) 2
-update kazumi (blank) 2
-update ami (blank) 4
 update ami (blank) 4
 join ami (blank) 0
 join kokoro (normal3.1) 0
@@ -153,10 +123,7 @@ join kazumi (sad1.4) 2
 [sound path="res://dialogue/asset/music & sound effects/ev 2.2/sfx_close_door.mp3" volume="0.0"]
 Kokoro was about to turn around to congratulate Kazumi. But, suddenly...
 update kokoro (blank) 0
-update kokoro (blank) 0
 update kazumi (blank) 2
-update kazumi (blank) 2
-update ami (blank) 4
 update ami (blank) 4
 join kokoro (normal3.1) 0
 join ami (blank) 0
@@ -164,18 +131,13 @@ join kazumi (sad1.4) 2
 [voice path="res://dialogue/asset/voice acting/kazumi/ev 2.2/Kazumi_Row_77.mp3" volume="0.0"]
 kazumi: Kokoro, are you upset that I’ll be working solo?
 update kokoro (blank) 0
-update kokoro (blank) 0
 update kazumi (blank) 2
-update kazumi (blank) 2
-update ami (blank) 4
 update ami (blank) 4
 join kazumi (sad1.4) 2
 join kokoro (happy2.9) 0
 [voice path="res://dialogue/asset/voice acting/kokoro/ev 2.2/Kokoro_Row_78.mp3" volume="0.0"]
 kokoro: Kazumi, what are you thinking about? Why would I be upset with you?
 update kazumi (blank) 0
-update kazumi (blank) 0
-update kokoro (blank) 0
 update kokoro (blank) 0
 [background arg="res://dialogue/asset/background/timeline/ev2/ev2.2/ev2.2(6).png" fade="2.0"]
 [wait time="2.0"]
@@ -208,7 +170,6 @@ join kokoro (happy2.9) 0
 [voice path="res://dialogue/asset/voice acting/kokoro/ev 2.2/Kokoro_Row_84.mp3" volume="0.0"]
 kokoro: I believe you can do it, and I’m sure you will do it well.
 update kokoro (blank) 0
-update kazumi (blank) 2
 update kazumi (blank) 2
 Miss Ami came back to them again.
 [background arg="res://dialogue/asset/background/timeline/ev2/ev2.2/ev2.2(5).png" fade="2.0"]

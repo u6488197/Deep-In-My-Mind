@@ -6,6 +6,8 @@
 [wait time="1.0"]
 [clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
 [music fade="0.0" volume="0.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 2.1/music_gravestone.mp3" fade="0.0" volume="0.0"]
+update ami (blank) 0
 join ami (normal) 0
 [voice path="res://dialogue/asset/voice acting/manager/ev 2.1/Manager_Row_28.mp3" volume="0.0"]
 ami: Kokoro, how are you doing?
@@ -22,7 +24,9 @@ join ami (sad) 0
 ami: I understand. I'm also deeply saddened by her loss.
 update kokoro (blank) 0
 update kokoro (blank) 0
+[music fade="0.0" volume="0.0"]
 [clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+[music path="res://dialogue/asset/music & sound effects/ev 2.1/music_kazumi_case_progress.mp3" fade="0.0" volume="0.0"]
 join ami (sad) 0
 [voice path="res://dialogue/asset/voice acting/manager/ev 2.1/Manager_Row_31.mp3" volume="0.0"]
 ami: Anyway, I have some updates on Kazumi’s case to share with you today.
@@ -146,7 +150,6 @@ kokoro: I remember there were both praises and criticisms about us back then. Ho
 leave --All--
 update kokoro (blank) 0
 update kokoro (blank) 0
-update ami (blank) 0
 update ami (blank) 0
 [background scene="res://dialogue/scene/previous_year.tscn" fade="3.0"]
 [wait time="3.0"]

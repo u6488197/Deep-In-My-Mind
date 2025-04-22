@@ -11,9 +11,9 @@ var text_speed:float = 1
 ## Set the settings
 func _ready() -> void:
 	super()
-	print(default_music_volume)
-	print(default_sound_effects_volume)
-	print(default_voice_acting_volume)
+	#print(default_music_volume)
+	#print(default_sound_effects_volume)
+	#print(default_voice_acting_volume)
 	_on_display_setting_toggled(Dialogic.Save.get_global_info("display_mode", display))
 	Dialogic.Inputs.auto_advance.delay_modifier = Dialogic.Save.get_global_info("auto_advance_modifier", 1)
 	Dialogic.Audio.base_music_player.bus = "Music"
@@ -28,9 +28,9 @@ func _ready() -> void:
 
 ## Loads the settings values into the settings controls
 func _open() -> void:
-	print(default_music_volume)
-	print(default_sound_effects_volume)
-	print(default_voice_acting_volume)
+	#print(default_music_volume)
+	#print(default_sound_effects_volume)
+	#print(default_voice_acting_volume)
 	## Display Setting
 	if get_viewport().get_window().mode == Window.MODE_FULLSCREEN:
 		_on_display_setting_toggled(true)

@@ -1,7 +1,7 @@
 [music fade="0.0" volume="0.0"]
 [background arg="res://dialogue/asset/background/timeline/ev2/ev2.3/two_characters.png" fade="0.0"]
 [clear time="0.1" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
-[music path="res://dialogue/asset/music & sound effects/ev 2.3/music_start_separation.mp3" fade="0.0" volume="0.0"]
+[music path="res://dialogue/asset/music & sound effects/ev 2.3/music_start_separation.mp3" fade="3.0" volume="0.0"]
 join kazumi (sad1.4) 1
 join kokoro (sad3.2) 3
 However, they haven’t seen each other much lately since their company kicked off a new music project.

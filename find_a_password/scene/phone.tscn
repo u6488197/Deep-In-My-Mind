@@ -4,16 +4,16 @@
 script/source = "extends Control
 
 
-# Called when the node enters the scene tree for the first time.
 func _ready():
 	SceneManager.remove_node()
-	Dialogic.start(\"i14-2\")
+	self.queue_free()
 	GlobalDialogueState.reset_dialogue()
 	GlobalDirection.reset_direction()
 	GlobalDragAndDrop.reset()
 	GlobalGameState.reset()
 	GlobalPaperCounter.reset()
 	GlobalRhythmGame.reset()
+	Dialogic.start(\"i14-2\")
 
 
 
