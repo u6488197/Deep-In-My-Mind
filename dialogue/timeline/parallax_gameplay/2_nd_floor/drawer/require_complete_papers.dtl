@@ -8,7 +8,7 @@ join kokoro (normal2.6) 0
 kokoro: Maybe there might be some pieces of paper that might contain a message that could unlock it.
 update kokoro (blank) 0
 join kokoro (normal2.6) 0
-[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_250-271_Paper Assembling - Unlock Locker/Kokoro_Row_255_Paper-Collection-is-incompleted.mp3" volume="0.0"]
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_250-271_Paper Assembling - Unlock Locker/Kokoro_Row_255.mp3" volume="0.0"]
 kokoro: But I think there might be more. I should try looking for them again.
 leave --All--
 [clear time="1.0" step="false"]

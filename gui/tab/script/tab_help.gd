@@ -1,14 +1,27 @@
 extends  OverlayUI_Tab
 
-## When first enter, hide reporter.
+const ORGANIZATION = "u6488197" 
+const REPOSITORY = "Deep-In-My-Mind" 
+var title = ""
+var description = ""
+
+
 func _ready():
-	%Reporter.hide()
 	%TextureRect.show()
 
-## When click on report bug, show reporter.
+## Navigate to create the issue page in GitHub
+## https://forum.godotengine.org/t/how-to-send-report-bug-from-in-game-form-to-github-issues/108061
 func _on_report_pressed():
-	%Report.hide()
-	%Reporter.show()
+	var url = "https://github.com/{organization}/{repository}/issues/new?title={title}&body={description}".format({
+		organization = ORGANIZATION,
+		repository = REPOSITORY,
+		title = title.uri_encode(),
+		description = description.uri_encode()
+	})
+	
+	OS.shell_open(url)
+	
+	
 
 	
 	

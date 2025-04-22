@@ -75,6 +75,7 @@ offset_bottom = 721.0
 texture = ExtResource("1_gmkef")
 
 [node name="Panel" type="Panel" parent="Panel"]
+layout_mode = 0
 offset_left = 297.0
 offset_top = 127.0
 offset_right = 986.0

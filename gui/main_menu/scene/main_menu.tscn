@@ -1,4 +1,4 @@
-[gd_scene load_steps=62 format=3 uid="uid://bh6bho0uxfrwf"]
+[gd_scene load_steps=61 format=3 uid="uid://bh6bho0uxfrwf"]
 
 [ext_resource type="Script" path="res://gui/main_menu/script/main_menu.gd" id="1_43egg"]
 [ext_resource type="Texture2D" uid="uid://bd0hy3d6iq1u1" path="res://asset/background/main_bg.png" id="2_wedxc"]
@@ -50,7 +50,6 @@
 [ext_resource type="Texture2D" uid="uid://cxlucw88qh4go" path="res://asset/main_menu_button/att2.png" id="49_q571y"]
 [ext_resource type="Texture2D" uid="uid://d3wcyde1w0o4g" path="res://asset/main_menu_button/att1.png" id="50_6p15f"]
 [ext_resource type="Theme" uid="uid://bbfpxb2bj8co7" path="res://gui/asset/font/credit_font.tres" id="50_8yk3o"]
-[ext_resource type="PackedScene" uid="uid://dj67hsmvv1p38" path="res://addons/BugReporter/reporters/reporter.tscn" id="51_swxui"]
 [ext_resource type="Texture2D" uid="uid://bhgtmuqaaiwa7" path="res://asset/pop-up/box1.png" id="56_twtqn"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_eic1m"]
@@ -1416,12 +1415,6 @@ theme = ExtResource("30_e7klb")
 theme_override_font_sizes/font_size = 18
 text = "Left Mouse Button/ Enter/ Space - Advance dialogue"
 
-[node name="ESC" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/TextureRect/Info/VBoxContainer"]
-visible = false
-layout_mode = 2
-theme_override_font_sizes/font_size = 18
-text = "ESC - Navigate to pause menu "
-
 [node name="Gameplay" type="Label" parent="GUILayer/OverlayUI/Tabs/HelpTab/TextureRect/Info/VBoxContainer"]
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
@@ -1483,18 +1476,6 @@ tooltip_text = "Press F2 to screenshot the screen"
 theme = ExtResource("7_is717")
 theme_override_font_sizes/font_size = 20
 text = "Report Bug"
-
-[node name="Reporter" parent="GUILayer/OverlayUI/Tabs/HelpTab/TextureRect" instance=ExtResource("51_swxui")]
-unique_name_in_owner = true
-visible = false
-layout_mode = 0
-anchors_preset = 0
-anchor_right = 0.0
-anchor_bottom = 0.0
-offset_left = -6.0
-offset_top = 0.0
-offset_right = 783.0
-offset_bottom = 537.0
 
 [node name="WarningDialog" type="Control" parent="GUILayer"]
 unique_name_in_owner = true

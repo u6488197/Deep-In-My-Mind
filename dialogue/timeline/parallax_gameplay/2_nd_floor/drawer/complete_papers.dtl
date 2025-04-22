@@ -4,7 +4,7 @@ kokoro (normal2.6): Maybe these gathered pieces of paper might contain a message
 update kokoro (blank) 0
 update kokoro (blank) 0
 join kokoro (normal2.6) 0
-[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_250-271_Paper Assembling - Unlock Locker/Kokoro_Row_253_All-5-Collected-Papers.mp3" volume="0.0"]
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 3.1 - 3.3 Parallax/ev 3.3 (2nd Floor - Box&Letters, Doll)/Kokoro_Row_250-271_Paper Assembling - Unlock Locker/Kokoro_Row_253.mp3" volume="0.0"]
 kokoro (normal2.6): I should try assembling them.
 leave --All--
 [signal arg="assemble_papers"]

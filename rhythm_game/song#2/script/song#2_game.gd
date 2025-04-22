@@ -32,8 +32,8 @@ var instance
 
 func _ready():
 	randomize()
-	## Spawn 10 beats before the song starts
-	$Conductor.play_with_beat_offset(10)
+	## Spawn 4 beats before the song starts
+	$Conductor.play_with_beat_offset(4)
 	GlobalRhythmGame.beat.connect(_on_Conductor_beat)
 	GlobalRhythmGame.measure.connect(_on_Conductor_measure)
 

@@ -33,7 +33,6 @@ GlobalPaperCounter="*res://globals/script/global_paper_counter.gd"
 SceneManager="*res://globals/script/scene_manager.gd"
 GlobalRhythmGame="*res://globals/script/global_rhythm_game.gd"
 gd="*res://addons/godot-action/utils_gd_action.tscn"
-Firebase="*res://addons/godot-firebase/firebase/firebase.tscn"
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
 [dialogic]
@@ -152,7 +151,7 @@ window/stretch/mode="canvas_items"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/BugReporter/plugin.cfg", "res://addons/dialogic/plugin.cfg", "res://addons/godot-action/plugin.cfg", "res://addons/godot-firebase/plugin.cfg", "res://addons/http-sse-client/plugin.cfg")
+enabled=PackedStringArray("res://addons/BugReporter/plugin.cfg", "res://addons/dialogic/plugin.cfg", "res://addons/godot-action/plugin.cfg")
 
 [input]
 
