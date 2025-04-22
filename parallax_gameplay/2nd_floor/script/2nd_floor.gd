@@ -16,7 +16,7 @@ func _ready():
 	
 		
 func _process(_delta):
-	GlobalPaperCounter.counter = 5
+	#GlobalPaperCounter.counter = 5
 	GlobalDirection.update_scene("2nd_floor")
 	
 	## Hide paper counter during drag and drop game

@@ -50,6 +50,7 @@ update kokoro (blank) 0
 		leave --All--
 		jump Continue
 - SMS
+	update kokoro (blank) 4
 	join kokoro (scared2.7) 4
 	[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.1/Kokoro_Row_295.mp3" volume="0.0" bus="Master"]
 	kokoro: I’ll start with this application.

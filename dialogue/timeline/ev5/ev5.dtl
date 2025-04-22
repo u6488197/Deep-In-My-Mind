@@ -172,8 +172,8 @@ update kokoro (blank)
 	leave --All--
 	[background arg="res://dialogue/asset/background/timeline/ev6/end1/End1/ev6(end1)(2).png" fade="2.0"]
 	[wait time="2.0"]
-	[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
-	[wait time="2.0"]
 	[clear time="1.0" step="false" text="false" background="false" style="false"]
 	[music fade="0.0" volume="0.0"]
+	[background arg="res://dialogue/asset/background/timeline/black.png" fade="2.0"]
+	[wait time="2.0"]
 	jump ev6-1/

@@ -1,4 +1,5 @@
 [music fade="0.0" volume="0.0"]
+[clear time="0.1" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
 [music path="res://dialogue/asset/music & sound effects/ev 6.2/music_kazumi_pov.mp3" fade="0.0" volume="0.0"]
 [background arg="res://dialogue/asset/background/timeline/ev6/end1/ev6.2/Updated_ev6.2(1).png" fade="2.0"]
 [wait time="2.0"]

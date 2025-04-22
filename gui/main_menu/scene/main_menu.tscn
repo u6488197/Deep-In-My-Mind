@@ -1472,7 +1472,6 @@ offset_left = 492.0
 offset_top = 236.0
 offset_right = 630.0
 offset_bottom = 286.0
-tooltip_text = "Press F2 to screenshot the screen"
 theme = ExtResource("7_is717")
 theme_override_font_sizes/font_size = 20
 text = "Report Bug"
@@ -1556,7 +1555,7 @@ alignment = 1
 [connection signal="value_changed" from="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/Setting_AutoSpeed" to="GUILayer/OverlayUI/Tabs/OptionsTab" method="_on_setting_auto_speed_value_changed"]
 [connection signal="value_changed" from="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/Setting_MusicVolume" to="GUILayer/OverlayUI/Tabs/OptionsTab" method="_on_setting_music_volume_value_changed"]
 [connection signal="value_changed" from="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/Setting_SoundsVolume" to="GUILayer/OverlayUI/Tabs/OptionsTab" method="_on_setting_sounds_volume_value_changed"]
-[connection signal="value_changed" from="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/Setting_VoiceActing" to="GUILayer/OverlayUI/Tabs/OptionsTab" method="_on_setting_ui_volume_value_changed"]
+[connection signal="value_changed" from="GUILayer/OverlayUI/Tabs/OptionsTab/VBoxContainer/Setting_VoiceActing" to="GUILayer/OverlayUI/Tabs/OptionsTab" method="_on_setting_voice_acting_value_changed"]
 [connection signal="pressed" from="GUILayer/OverlayUI/Tabs/AboutTab/HBoxContainer/Credits_Button" to="GUILayer/OverlayUI/Tabs/AboutTab" method="_on_credits_pressed"]
 [connection signal="pressed" from="GUILayer/OverlayUI/Tabs/AboutTab/HBoxContainer/Attribution_Button" to="GUILayer/OverlayUI/Tabs/AboutTab" method="_on_attribution_pressed"]
 [connection signal="pressed" from="GUILayer/OverlayUI/Tabs/HelpTab/TextureRect/Report" to="GUILayer/OverlayUI/Tabs/HelpTab" method="_on_report_pressed"]

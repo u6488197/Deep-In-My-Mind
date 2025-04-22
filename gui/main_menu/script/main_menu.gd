@@ -39,6 +39,7 @@ func open() -> void:
 ## Open this page when the game is over
 func _on_dialogic_signal_event(arg: Variant) -> void:
 	if arg == "GAME_END":
+		$Music.play()
 		GlobalGameState.first_page = false	
 		Dialogic.clear()
 		Dialogic.end_timeline()
@@ -61,26 +62,31 @@ func _on_start_pressed() -> void:
 
 ## Load the current slot 
 func _on_continue_pressed() -> void:
+	$Music.stop()
 	first_page = true
 	Dialogic.Save.load(Dialogic.Save.get_latest_slot())
 	hide()
 
 
 func _on_load_pressed() -> void:
+	$Music.stop()
 	first_page = true
 	%OverlayUI.open_load_menu()
 
 
 func _on_options_pressed() -> void:
+	$Music.stop()
 	first_page = true
 	%OverlayUI.open_options_menu()
 
 
 func _on_about_pressed() -> void:
+	$Music.stop()
 	first_page = true
 	%OverlayUI.open_about_menu()
 
 func _on_help_pressed() -> void:
+	$Music.stop()
 	first_page = true
 	%OverlayUI.open_help_menu()
 

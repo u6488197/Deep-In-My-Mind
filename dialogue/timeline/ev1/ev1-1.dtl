@@ -72,7 +72,6 @@ update ami (blank) 0
 join ami (sad) 0
 [voice path="res://dialogue/asset/voice acting/manager/ev 1.1/Manager_Row_15.mp3" volume="0.0"]
 ami (sad): Kazumi was found as the body in her condo room.
-update ami (blank) 0
 leave --All--
 [music fade="0.0" volume="0.0"]
 [clear time="1.0" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
@@ -98,7 +97,6 @@ update kokoro (blank)
 join kokoro (shock1.6) 0
 [voice path="res://dialogue/asset/voice acting/kokoro/ev 1.1/Kokoro_Row_19.mp3" volume="0.0"]
 kokoro (shock1.6): What am I dreaming?
-update kokoro (blank)
 leave --All--
 [music fade="0.0" volume="0.0"]
 [clear time="1.0" step="false" text="false" background="false" style="false"]
