@@ -1,7 +1,7 @@
 extends  OverlayUI_Tab
 
-const ORGANIZATION = "u6488197" 
-const REPOSITORY = "Deep-In-My-Mind" 
+const ORGANIZATION = "" ## Your username
+const REPOSITORY = "" ## Your repository name
 var title = ""
 var description = ""
 
