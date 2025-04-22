@@ -3,20 +3,19 @@
 [wait time="0.5"]
 [sound path="res://dialogue/asset/music & sound effects/ev 1.1/sfx_crowd.mp3" volume="-3.0"]
 join kazumi (happy2.1) 2
-update kazumi (blank)
-join kazumi (happy2.1) 2
 [voice path="res://dialogue/asset/voice acting/kokoro/ev 1.1/Kokoro_Row_4.mp3" volume="0.0"]
 kokoro (blank): Oh, that’s girl! In the end, we study in the same class.
-join kazumi (happy2.1) 2
-update kazumi (blank) 2
+update kazumi (blank)
+update kazumi (blank)
 join kazumi (happy2.1) 2
 [voice path="res://dialogue/asset/voice acting/kokoro/ev 1.1/Kokoro_Row_5.mp3" volume="0.0"]
 kokoro (blank): I really want to be friends with her.
-join kazumi (happy2.1) 2
+update kazumi (blank) 2
 update kazumi (blank) 2
 join kazumi (happy2.1) 2
 [voice path="res://dialogue/asset/voice acting/kazumi/ev 1.1/Kazumi_Row_6.mp3" volume="0.0"]
 kazumi (happy2.1): Hi, what’s your name?
+update kazumi (blank) 2
 update kazumi (blank) 2
 join kazumi (happy2.1) 2
 [voice path="res://dialogue/asset/voice acting/kazumi/ev 1.1/Kazumi_Row_7.mp3" volume="0.0"]

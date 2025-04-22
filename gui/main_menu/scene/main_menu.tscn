@@ -1210,7 +1210,7 @@ layout_mode = 2
 layout_mode = 2
 theme = ExtResource("50_8yk3o")
 theme_override_font_sizes/font_size = 20
-text = "Made with Godot 4.2.2 , Dialogic 2.0 alpha 14, UniversalFade, and BugReporter."
+text = "Made with Godot 4.2.2 , Dialogic 2.0 alpha 14, and UniversalFade."
 
 [node name="Rhythm" type="Label" parent="GUILayer/OverlayUI/Tabs/AboutTab/Attribution/VBoxContainer"]
 visible = false

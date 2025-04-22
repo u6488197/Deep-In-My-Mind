@@ -55,7 +55,7 @@ func _on_Conductor_measure(position):
 ## If the game ends, show the score and the label, and then start the dialogue.
 func _on_Conductor_beat(position):
 	song_position_in_beats = position
-	# print(position)
+	print(position)
 	## To track a number of arrows that will spawn on every measure
 	## E.g. 11 - 30
 	## 0 note will spawn on fitst measure
@@ -97,13 +97,13 @@ func _on_Conductor_beat(position):
 		spawn_2_beat = 0
 		spawn_3_beat = 1
 		spawn_4_beat = 2
-	elif song_position_in_beats > 150:
+	elif song_position_in_beats > 145:
 		spawn_1_beat = 2
 		spawn_2_beat = 1
 		spawn_3_beat = 2
 		spawn_4_beat = 1
 		
-	if song_position_in_beats >= 159:
+	if song_position_in_beats >= 153:
 		GlobalRhythmGame.combo = max_combo
 		await get_tree().create_timer(4).timeout
 		GlobalRhythmGame.set_score(score)

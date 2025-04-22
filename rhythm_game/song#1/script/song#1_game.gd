@@ -87,12 +87,12 @@ func _on_Conductor_beat(position):
 		spawn_2_beat = 2
 		spawn_3_beat = 1
 		spawn_4_beat = 2
-	elif song_position_in_beats > 150:
+	elif song_position_in_beats > 145:
 		spawn_1_beat = 1
 		spawn_2_beat = 2
 		spawn_3_beat = 1
 		spawn_4_beat = 2
-	if song_position_in_beats >= 159:
+	if song_position_in_beats >= 153:
 		GlobalRhythmGame.combo = max_combo
 		await get_tree().create_timer(4).timeout
 		GlobalRhythmGame.set_score(score)

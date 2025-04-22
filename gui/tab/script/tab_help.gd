@@ -10,6 +10,7 @@ func _ready():
 	%TextureRect.show()
 
 ## Navigate to create the issue page in GitHub
+## This method requires public reporitory, but for the private repository, only the attributors will be allowed to create the issue.
 ## https://forum.godotengine.org/t/how-to-send-report-bug-from-in-game-form-to-github-issues/108061
 func _on_report_pressed():
 	var url = "https://github.com/{organization}/{repository}/issues/new?title={title}&body={description}".format({
