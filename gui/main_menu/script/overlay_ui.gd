@@ -35,11 +35,16 @@ func open() -> void:
 		%Music.stop()
 	
 	## If the gameplay is running, save tab and load tab will be disable.
-	if get_tree().root.has_node("SceneManager/1st_Floor") or get_tree().root.has_node("SceneManager/2nd_Floor") or get_tree().root.has_node("SceneManager/PlannerScene") or get_tree().root.has_node("SceneManager/PhonePasscodeScene") or get_tree().root.has_node("SceneManager/ClickFullPassword") or get_tree().root.has_node("SceneManager/Main") or get_tree().root.has_node("SceneManager/DrawerScene")  or get_tree().root.has_node("SceneManager/1st_Floor/DragandDropMain")  or get_tree().root.has_node("SceneManager/2nd_Floor/DragandDropMain") or get_tree().root.has_node("SceneManager/PhoneFirstClickMain"):
+	if get_tree().root.has_node("SceneManager/1st_Floor") or get_tree().root.has_node("SceneManager/2nd_Floor") or get_tree().root.has_node("SceneManager/PlannerScene") or get_tree().root.has_node("SceneManager/PhonePasscodeScene") or get_tree().root.has_node("SceneManager/ClickFullPassword") or get_tree().root.has_node("SceneManager/Main") or get_tree().root.has_node("SceneManager/DrawerScene")  or get_tree().root.has_node("SceneManager/1st_Floor/DragandDropMain")  or get_tree().root.has_node("SceneManager/2nd_Floor/DragandDropMain") or get_tree().root.has_node("SceneManager/PhoneScene"):
+		print("have")
 		%SaveGUI.hide()
 		%LoadGUI.hide()
 		%SaveTab.disable()
 		%LoadTab.disable()
+	else :
+		%SaveGUI.show()
+		%LoadGUI.show()
+		enable_all_tabs()
 
 ## Close the OverlayUI using animation	
 func close() -> void:

@@ -1,6 +1,6 @@
 extends OverlayUI_Tab
 
-##https://github.com/Jowan-Spooner/Dialogic2FantasyTemplate.git
+## https://github.com/Jowan-Spooner/Dialogic2FantasyTemplate.git
 func _ready() -> void:
 	super()
 

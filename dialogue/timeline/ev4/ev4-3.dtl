@@ -83,8 +83,8 @@ kokoro: Thank you.
 update kokoro (blank) 0
 update kokoro (blank) 0
 [sound path="res://dialogue/asset/music & sound effects/ev 4.3/sfx_close_door.mp3" volume="0.0"]
-[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_345.mp3" volume="0.0"]
 join kokoro (normal1.4) 0
+[voice path="res://dialogue/asset/voice acting/kokoro/ev 4.3/Kokoro_Row_345.mp3" volume="0.0"]
 kokoro: Maybe it was sent from Miss Ami. But I’d better not open it right now, just in case.
 update kokoro (blank) 0
 update kokoro (blank) 0

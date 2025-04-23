@@ -88,7 +88,7 @@ func save_to_slot(slot_name:String) -> void:
 	})
 		
 	var saveData = Dialogic.get_full_state()
-	print(saveData)
+	#print(saveData)
 	saveData["name"] = slot_name.capitalize()
 	saveData["date"] = Time.get_datetime_dict_from_system()
 	saveData["image"] = "user://dialogic/saves/"+ slot_name + "/thumbnail.png"

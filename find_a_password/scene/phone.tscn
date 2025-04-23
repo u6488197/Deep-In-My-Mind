@@ -5,15 +5,16 @@ script/source = "extends Control
 
 
 func _ready():
-	SceneManager.remove_node()
 	self.queue_free()
+	SceneManager.remove_node()
+	Dialogic.start(\"i14-2\")
 	GlobalDialogueState.reset_dialogue()
 	GlobalDirection.reset_direction()
 	GlobalDragAndDrop.reset()
 	GlobalGameState.reset()
 	GlobalPaperCounter.reset()
 	GlobalRhythmGame.reset()
-	Dialogic.start(\"i14-2\")
+
 
 
 

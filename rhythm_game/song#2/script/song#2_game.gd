@@ -55,7 +55,7 @@ func _on_Conductor_measure(position):
 ## If the game ends, show the score and the label, and then start the dialogue.
 func _on_Conductor_beat(position):
 	song_position_in_beats = position
-	print(position)
+	#print(position)
 	## To track a number of arrows that will spawn on every measure
 	## E.g. 11 - 30
 	## 0 note will spawn on fitst measure

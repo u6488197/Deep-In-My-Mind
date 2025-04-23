@@ -23,6 +23,7 @@ func _process(_delta):
 	## If the player successfully unlocks the phone, start the dialogue.
 	if GlobalGameState.password == true :
 		SceneManager.remove_node()
+		self.queue_free()
 		SceneManager.add_node_no_transition("res://find_a_password/scene/canvaslayer_scene/phone_scene.tscn")
 
 ## Set date format: Monday, 22 February (example format)
